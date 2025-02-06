@@ -1,0 +1,49 @@
+.el-divider {
+    margin: 10px 0;
+}
+
+.v-database {
+    padding: 20px 40px;
+
+    .m-empty {
+        color: #aaa;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .m-more {
+        .mb(16px);
+        width: 100%;
+    }
+
+    .m-pager {
+        display: flex;
+        justify-content: center;
+    }
+
+    .u-newest-tip {
+        margin: 5px 0 10px 0;
+        padding: 4px 0 10px 0;
+        border-bottom: 1px solid @border-hr;
+    }
+}
+@media screen and (max-width:@phone){
+    .v-database {
+        padding: 15px;
+    }
+}
+
+.w-card-title {
+    padding: 10px;
+    .fz(14px, 16px);
+    .bold;
+    border-bottom: 1px solid #eee;
+}
+
+@media screen and (max-width: @phone) {
+    .c-sidebar-right {
+        .none;
+    }
+}

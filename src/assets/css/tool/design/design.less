@@ -1,0 +1,281 @@
+.c-main {
+    min-height: calc(100vh - 64px - 48px - 100px);
+}
+
+.m-icons {
+    padding: 20px 30px;
+    max-width: 1200px;
+    .auto(x);
+}
+@media screen and (max-width: @phone) {
+    .m-icons {
+        padding: 0;
+    }
+}
+.m-icons-title {
+    font-size: 24px;
+    font-weight: 500;
+    .x;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+@media screen and (max-width: @phone) {
+    .m-icons-title {
+        .none;
+    }
+}
+.el-tabs__nav {
+    user-select: none;
+}
+.el-tabs__item {
+    background-color: @bg-light;
+    border-bottom: 1px solid #e4e7ed !important;
+
+    &.is-active {
+        background-color: #fff;
+        .bold;
+        border-bottom: none !important;
+    }
+}
+
+.m-icon-search-tip {
+    margin-top: 10px;
+    background-color: #f9fafc;
+    border: 1px dashed #eee;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 2;
+}
+.m-icon-search-tip ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.m-icons-tips {
+    flex: 1 1 100%;
+    .mt(20px);
+}
+
+ul,
+ul li {
+    margin: 0;
+    padding: 0;
+}
+.el-tabs--top {
+    .mt(10px);
+}
+.searchbar-wrapper {
+    .el-alert--info {
+        margin: 10px auto;
+    }
+}
+.loading-placeholder {
+    height: 48px;
+}
+.m-icons-matrix {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    overflow: auto;
+    .mt(20px);
+    padding-top: 10px;
+    // width: 1220px;
+
+    .auto(x);
+    .u-icons-item {
+        .x;
+        margin: 0px 5px 10px 5px;
+
+        .u-pic,
+        .u-img,
+        .u-love,
+        .u-mark {
+            .size(48px);
+            .r(6px);
+            .pointer;
+            user-select: none;
+        }
+        .u-copy {
+            .pointer;
+        }
+        .u-mark {
+            .pa;
+            .lt(0, 0);
+            .z(1);
+        }
+        .u-pic {
+            .pr;
+            border: 1px solid #eee;
+            .u-error {
+                .db;
+                color: #bcbcbc;
+                line-height: 50px;
+                background-color: #f9fafc;
+                .x;
+            }
+            .u-remove {
+                .pa;
+                .rt(-4px);
+                .u-icon;
+                .u-icon-close;
+                .size(16px);
+                .pointer;
+            }
+        }
+        .u-love {
+            .tm(0);
+            .pa;
+            .lt(0, 0);
+            background-color: rgba(255, 255, 255, 0.8);
+            i {
+                .db;
+            }
+        }
+        &:hover {
+            .u-love {
+                .tm(1);
+            }
+        }
+
+        .el-image__inner {
+            .pa;
+            .lt(-1px);
+            .full;
+        }
+
+        .on {
+            position: absolute;
+            right: -6px;
+            top: -8px;
+            color: #fba524;
+            font-size: 18px;
+            z-index: 2;
+        }
+    }
+}
+
+// 收藏
+.m-icons-sync {
+    .mb(10px);
+}
+
+// 分割线
+// 公共
+.el-link {
+    font-size: 12px;
+    vertical-align: top;
+}
+.el-button--text {
+    padding: 0;
+    font-size: 12px;
+}
+.u-icon {
+    .dbi;
+    .y;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.u-icon-close {
+    background-image: url("../../../img/tool/design/close.svg");
+}
+/* 爆炸心心-------------------------- */
+.w-heart {
+    background: url("../../../img/tool/design/web_heart_animation.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    .size(50px);
+    background-size: 1450px; //实际背景图片尺寸2900px
+}
+.w-heart:hover {
+    background-position: left; //显示最后一个红心帧
+}
+
+@-webkit-keyframes heartBlast {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+@keyframes heartBlast {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+.w-heart-animation {
+    -webkit-animation-name: heartBlast; //webkit内核浏览器
+    animation-name: heartBlast;
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: steps(28); //共28个背景图片帧
+    animation-timing-function: steps(28);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background-position: right;
+}
+
+//  分割线
+.m-icons::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:@phone){
+    .m-emotion-nav{
+        display:block;
+        white-space: nowrap;
+        overflow-x: auto;
+        .u-btn{
+            .dbi;
+        }
+    }
+}
+
+
+// 设计作者
+.m-design-author {
+    .flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+
+    b {
+        margin-right: 20px;
+        font-weight: normal;
+    }
+
+    .fz(13px);
+
+    .u-authors {
+        .flex;
+        align-items: center;
+    }
+    .u-author {
+        img {
+            .size(24px);
+            .r(2px);
+            .mr(5px);
+            .y;
+        }
+
+        .fz(13px, 24px);
+        .mr(20px);
+        .mb(5px);
+        padding: 5px 10px 5px 10px;
+        .db;
+        .fl;
+        background-color: @bg-gray;
+        &:hover {
+            color: @pink;
+            // .bold;
+        }
+    }
+}

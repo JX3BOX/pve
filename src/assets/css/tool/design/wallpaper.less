@@ -1,0 +1,33 @@
+.m-wallpaper {
+    .m-wallpaper-box {
+        .flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .m-wallpaper-item {
+        .u-img-name {
+            .x;
+            color: #777;
+            .bold;
+            .fz(13px,2);
+        }
+
+        .u-sizes {
+            max-width: 360px;
+            .flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 4px;
+            .fz(12px,2);
+        }
+
+        .u-size-item {
+            font-size: 12px;
+            padding: 2px 8px;
+            &:hover {
+                color: @pink;
+            }
+        }
+    }
+}

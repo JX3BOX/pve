@@ -1,0 +1,393 @@
+.star-color {
+    color: #f7ba2a;
+    border-color: #f7ba2a;
+}
+
+.m-list-item {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &.m-database-item__npc:hover {
+        filter: brightness(1.3);
+    }
+}
+
+.m-database-item {
+    .pr;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    .fz(12px);
+    .r(3px);
+
+    .m-item {
+        border: 1px solid #e1e4e8;
+        padding: 10px 10px 10px 70px;
+        background: #fafbfc;
+
+        &:hover {
+            background-color: #f2f7ff;
+        }
+
+        .u-icon {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            .size(50px);
+            .r(6px);
+            border: 1px solid @border-hr;
+        }
+
+        .u-title {
+            flex-wrap: wrap;
+            line-height: 2;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .u-name {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            .bold;
+            .fz(14px, 2);
+
+            .u-name-secondary {
+                .fz(12px);
+                color: #999;
+                font-weight: normal;
+            }
+        }
+
+        .u-rt-tags {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .u-ref-count {
+
+            .mr(8px);
+            .fz(10px);
+            background-color: @color;
+            color: #fff;
+            padding: 2px 8px 2px 5px;
+            border-radius: 4px;
+            font-weight: normal;
+            display: inline-block;
+            flex-shrink: 0;
+        }
+
+        .u-id {
+            .fz(10px);
+            // color: #555;
+            margin-left: 5px;
+        }
+
+        .u-primary {
+            display: flex;
+            gap: 4px;
+            align-items: flex-end;
+        }
+
+        .u-primary-items {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .u-primary-item {
+            .fz(12px, 1.8);
+            color: #aaa;
+        }
+    }
+}
+
+.m-database-item__npc {
+    margin-bottom: 10px;
+
+    .pr;
+    .clearfix;
+    .fz(13px);
+
+    .m-item {
+        .r(4px);
+        background-color: #282828;
+        color: #e7e7e7;
+        padding: 10px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
+        .u-icon {
+            .fl;
+            .mr(10px);
+            .r(4px);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+        }
+
+        .u-isBoss {
+            .pa;
+            .rt(10px, 40px);
+            .z(2);
+            svg {
+                .size(20px);
+                .y(top);
+            }
+            font-style: normal;
+            .lh(20px);
+            .bold;
+        }
+
+        .u-id {
+            .pa;
+            .z(1);
+            .rt(10px);
+            .pointer;
+        }
+
+        .u-ref-count {
+            .pa;
+            .z(1);
+            .fz(12px);
+            color: white;
+            right: 10px;
+            top: 40px;
+            background-color: #0366d6;
+            padding: 2px 8px 2px 5px;
+            border-radius: 2px;
+            font-weight: normal;
+            flex-shrink: 0;
+        }
+
+        .u-title {
+            flex-wrap: wrap;
+            min-height: 48px;
+            .u-name {
+                .fz(18px);
+                color: #ebeef5;
+                margin-right: 5px;
+                .bold;
+                font-weight: 300;
+            }
+            .u-name-add {
+                .fz(12px);
+                color: #aaa;
+            }
+            .u-level {
+                .fz(12px);
+            }
+            border-bottom: 1px solid #4a5056;
+            padding-bottom: 10px;
+        }
+
+        .u-base {
+            .fz(12px, 2);
+
+            span {
+                &:after {
+                    content: "|";
+                    color: #aaa;
+                    padding: 0 5px;
+                }
+                &:last-child {
+                    &:after {
+                        .none;
+                    }
+                }
+            }
+        }
+
+        .u-primary {
+            .pr;
+            margin-top: 10px;
+            min-height: 23px;
+            em {
+                .none;
+            }
+            b {
+                padding: 2px 5px;
+                .mr(15px);
+                .y(top);
+                .h(20px);
+                .fz(13px);
+                font-weight: normal;
+                color: #aaa;
+            }
+            div {
+                .fz(12px, 23px);
+                white-space: nowrap;
+                overflow-x: auto;
+            }
+
+            strong {
+                // color:#0cf;
+                .fz(13px);
+                color: #eee;
+            }
+
+            .u-range {
+                transform: skewX(-15deg);
+                background-color: #ddd;
+                // background-color:#eee;
+                .r(2px);
+                .w(220px);
+                .dbi;
+                .y(top);
+                .h(19px);
+                margin: 2px 0;
+                .pr;
+
+                strong {
+                    .h(100%);
+                    .db;
+                    .pa;
+                    .lt(0);
+                    font-weight: 400;
+                    text-indent: 10px;
+                    .r(2px);
+                    .fz(12px, 18px);
+                    color: #fff;
+                    max-width: 300%;
+                }
+            }
+        }
+
+        .u-prop-item {
+            color: #aaa;
+        }
+        .u-shield,
+        .u-critical,
+        .u-attack {
+            .u-prop-item {
+                .mr(20px);
+            }
+            .u-value {
+                padding: 0 5px;
+                // color:#08A541;
+                // color:@bg-black;
+                .bold;
+                .fz(13px);
+                color: #eee;
+            }
+        }
+
+        .u-misc {
+            .u-remark {
+                margin-right: 20px;
+                strong {
+                    color: #f28f02;
+                    color: #f00;
+                }
+            }
+        }
+        .u-misc-tip {
+            .x;
+            background-color: #444;
+            .r(2px);
+            color: #999;
+            padding: 5px 10px;
+            a {
+                color: #fff;
+                margin: 0 3px;
+                box-shadow: 0 1px 0 #fff;
+            }
+            a:hover {
+                color: #eee;
+            }
+        }
+
+        .u-desc-icon {
+            .size(14px);
+            .y(-2px);
+            .mr(5px);
+        }
+        .u-desc-icon-life {
+            fill: #ffacd5;
+        }
+        .u-desc-icon-mana {
+            fill: #77e3ff;
+        }
+        .u-desc-icon-speed {
+            fill: #c2f703;
+        }
+        .u-desc-icon-shield {
+            fill: #49c10f;
+        }
+        .u-desc-icon-touch {
+            fill: #f1c309;
+        }
+        .u-desc-icon-sense {
+            fill: #c0a3ff;
+        }
+        .u-desc-icon-dodge {
+            fill: #49c10f;
+        }
+        .u-desc-icon-attack {
+            fill: #fc3c3c;
+        }
+    }
+    .u-props-toggle {
+        width: 120px;
+        margin-top: 21px;
+        .ml(10px);
+    }
+}
+
+.u-props-toggle {
+    .dbi;
+    .fr;
+    width: 110px;
+}
+
+.m-detail {
+    .mt(10px);
+    padding: 10px 0;
+    border-top: 1px dashed @border-hr;
+    display: flex;
+    flex-wrap: wrap;
+
+    .u-prop {
+        width: 50%;
+        margin: 6px 0;
+    }
+
+    em {
+        font-style: normal;
+        background-color: #eee;
+        color: #999;
+        padding: 0 5px;
+        margin: 0 3px;
+        .r(3px);
+    }
+
+    @media screen and (max-width: @phone) {
+        .u-prop {
+            width: 100%;
+        }
+    }
+}
+
+.m-operation {
+    text-align: right;
+    border-top: 1px dashed @border-hr;
+    padding: 10px 0;
+
+    .u-star {
+        &:hover,
+        &:active,
+        &:focus {
+            .star-color;
+        }
+    }
+    .u-stared {
+        .star-color;
+
+        &:hover,
+        &:active,
+        &:focus {
+            .star-color;
+        }
+    }
+}

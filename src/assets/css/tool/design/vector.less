@@ -1,0 +1,47 @@
+.m-vector {
+    .m-vector-box {
+        .flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .m-vector-item {
+        .u-img-name {
+            .x;
+            color:#777;
+            .bold;
+            .fz(13px,2);
+        }
+        .u-img {
+            .size(68px);
+            .auto(x);
+            .db;
+        }
+        .u-download {
+            .mt(5px);
+            .w(auto);
+            .auto(x);
+            font-size: 12px;
+            padding: 4px 15px !important;
+            .flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                color:@color-link;
+            }
+        }
+
+        margin: 1em 20px;
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .m-vector {
+        .m-vector-box {
+            justify-content: space-between;
+        }
+        .m-vector-item {
+            margin: 1em 20px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.m-main{
+    padding:20px 30px;
+}
+@media screen and (max-width:@ipad){
+    .m-main{
+        padding:10px 20px;
+    }
+}
+@media screen and (max-width:@phone){
+    .m-main{
+        padding:5px 15px;
+    }
+
+    .wechat-miniprogram {
+        .c-breadcrumb {
+            position: sticky;
+            top: 0;
+        }
+
+        .c-main {
+            margin-top: 0;
+        }
+
+        .c-sidebar-left,.c-sidebar-right {
+            top: 48px;
+        }
+
+        .m-tabs {
+            top: 48px;
+        }
+    }
+}
+
+.m-extend{
+    padding:10px 15px;
+}
+
+.p-layout--app{
+    .c-footer{
+        .none;
+    }
+}
