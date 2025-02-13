@@ -14,10 +14,6 @@ Vue.use(JX3BOX_UI);
 import reporter from "@jx3box/jx3box-common/js/reporter";
 reporter.install(Vue);
 
-// 数据与路由
-// import router from "@/router";
-// import store from "@/store";
-
 import App from "./App.vue";
 new Vue({
     // router,

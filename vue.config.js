@@ -13,6 +13,12 @@ module.exports = {
             template: "public/index.html",
             filename: "tool/index.html",
         },
+        macro: {
+            title: "剑三宏 - JX3BOX",
+            entry: "src/pages/macro/index.js",
+            template: "public/index.html",
+            filename: "macro/index.html",
+        }
     },
 
     //❤️ Proxy ~

@@ -67,7 +67,6 @@
     </ListLayout>
 </template>
 <script>
-import { appKey } from "@/../setting.json";
 import listItem from "@/components/tool/list/list_item.vue";
 import { publishLink } from "@jx3box/jx3box-common/js/utils";
 import { getPosts } from "@/service/tool/post";
@@ -77,6 +76,7 @@ import {getDesignLog} from "@/service/tool/design";
 import DesignTask from "@jx3box/jx3box-common-ui/src/bread/DesignTask.vue";
 import bus from "@/utils/bus";
 import User from "@jx3box/jx3box-common/js/user";
+const appKey = "tool";
 export default {
     name: "Index",
     props: [],
