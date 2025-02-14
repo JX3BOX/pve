@@ -18,7 +18,19 @@ module.exports = {
             entry: "src/pages/macro/index.js",
             template: "public/index.html",
             filename: "macro/index.html",
-        }
+        },
+        // macros: {
+        //     title: "云端宏排行榜 - JX3BOX",
+        //     entry: "src/pages/macro/macros.js",
+        //     template: "public/macro.html",
+        //     filename: "macro/tops/index.html",
+        // },
+        // macro: {
+        //     title: "云端宏 - JX3BOX",
+        //     entry: "src/pages/macro/macro.js",
+        //     template: "public/macro.html",
+        //     filename: "macro/details/index.html",
+        // },
     },
 
     //❤️ Proxy ~
