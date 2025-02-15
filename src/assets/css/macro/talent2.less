@@ -1,3 +1,11 @@
+// .m-talent2 {
+//     overflow-x: auto;
+
+//     .m-talent-wrapper {
+//         overflow: hidden;
+//     }
+// }
+
 .m-talent2-box {
     position: relative;
     background-image: url("../../img/macro/talent2/bg.png");
@@ -426,5 +434,34 @@
 
     .reset-btn {
         bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width:@phone){
+    .v-miniprogram {
+        .c-breadcrumb{
+            .none;
+        }
+
+        .m-talent2 {
+            overflow: auto;
+        }
+
+        .m-talent2-box {
+            margin-bottom: 20px;
+        }
+
+        .m-talent-wrapper {
+            overflow: auto;
+        }
+
+        .m-talent-panel {
+            flex-wrap: wrap;
+            .u-toolbar {
+                .pa;
+                top: 0;
+                right: -10px;
+            }
+        }
     }
 }

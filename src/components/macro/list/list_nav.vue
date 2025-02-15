@@ -17,8 +17,8 @@
             </li>
         </ul>
 
-        <h5 class="u-title">在线应用</h5>
-        <div class="m-nav-group">
+        <h5 class="u-title u-app-title">在线应用</h5>
+        <div class="m-nav-group m-app-nav">
             <a href="/pz" target="_blank">
                 <img class="u-icon" :src="getAppIcon('pz', true)" />
                 <span>配装模拟器</span>

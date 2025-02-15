@@ -27,12 +27,10 @@
                     </div>
                     <div class="u-toolbar" v-if="isLogin">
                         <el-button type="primary" @click="drawer = true" icon="el-icon-setting" size="small"
-                            >我的预设</el-button
+                            >预设</el-button
                         >
                     </div>
                 </div>
-            </div>
-            <div class="m-talent-wrapper">
                 <h2 class="m-talent-subtitle">选择心法</h2>
                 <div class="m-talent-xf">
                     <el-radio
@@ -47,6 +45,31 @@
                         <span class="u-txt">{{ item.name }}</span>
                     </el-radio>
                 </div>
+                <div class="m-xf-select">
+                    <div class="m-talent-version">
+                        <span class="u-label">选择心法</span>
+                        <el-select
+                            v-model="xf"
+                            placeholder="请选择心法"
+                            @change="reload"
+                            popper-class="m-talent__pop"
+                        >
+                            <el-option
+                                v-for="(item, i) in xfMaps"
+                                :key="i"
+                                :label="item.name"
+                                :value="item.name"
+                            >
+                                <div class="m-talent__option">
+                                    <img class="u-pic" :src="xficon(item.id)" :alt="item.name" />
+                                    <span class="u-txt">{{ item.name }}</span>
+                                </div>
+                            </el-option>
+                        </el-select>
+                    </div>
+                </div>
+            </div>
+            <div class="m-talent-wrapper">
                 <h2 class="m-talent-subtitle">配置镇派</h2>
                 <div class="m-talent2-box">
                     <div class="m-talent2-main-title">镇派经脉模拟器</div>

@@ -23,6 +23,10 @@
             font-size: 12px;
             color: #999;
         }
+
+        .u-pic {
+            .size(24px);
+        }
     }
 
     .selected {
@@ -60,6 +64,10 @@
         .rb(0);
     }
 }
+
+.m-xf-select {
+    .none;
+}
 @media screen and (max-width: @phone) {
     .m-talent-panel {
         .u-toolbar {
@@ -67,6 +75,28 @@
             .mt(10px);
         }
     }
+
+    .v-miniprogram {
+        .m-talent-panel {
+            flex-wrap: wrap;
+            .u-toolbar {
+                .pa;
+                top: 0;
+                margin-top: 0;
+            }
+        }
+        .m-talent-subtitle,.m-talent-xf {.none;}
+
+        .m-xf-select {
+            .db;
+            margin-bottom: 20px;
+        }
+
+        .m-talent-code {
+            .mb(20px);
+        }
+    }
+
 }
 
 .m-talent-version {
