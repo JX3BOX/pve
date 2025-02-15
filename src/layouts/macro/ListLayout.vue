@@ -62,4 +62,5 @@ export default {
     }
 }
 @import "~@/assets/css/macro/list.less";
+@import "~@/assets/css/macro/miniprogram.less";
 </style>

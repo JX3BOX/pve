@@ -299,6 +299,10 @@ export default {
         }
     }
 }
+
+.m-single-comment{
+    padding-bottom:20px;
+}
 @media print{
     .m-single-comment{.none;}
 }

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="p-layout-app">
         <Header></Header>
         <Breadcrumb
             :name="title"
@@ -53,4 +53,5 @@ export default {
 
 <style lang="less">
 @import "~@/assets/css/macro/list.less";
+@import "~@/assets/css/macro/miniprogram.less";
 </style>
