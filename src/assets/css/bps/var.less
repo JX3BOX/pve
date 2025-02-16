@@ -1,0 +1,63 @@
+.el-tabs--card {
+    .el-tabs__item {
+        background-color: @bg-light;
+        border-bottom: 1px solid @border !important;
+
+        &.is-active {
+            border-bottom: none !important;
+            background-color: #fff;
+            .bold;
+        }
+    }
+}
+
+// 品质颜色
+// 橙色品质：ffa500
+@q_orange: #ffa500;
+// 紫色品质：ff2dff
+@q_purple: #ff2dff;
+// 蓝色品质：007eff
+@q_blue: #007eff;
+// 绿色品质：00d24b
+@q_green: #00d24b;
+.isQuality-2 {
+    color: @q_green;
+}
+.isQuality-3 {
+    color: @q_blue;
+}
+.isQuality-4 {
+    color: @q_purple;
+}
+.isQuality-5 {
+    color: @q_orange;
+}
+
+.u-msg-yellow {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border: 1px solid #faebcc;
+    padding: 8px 14px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+.scrollbar() {
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+    &::-webkit-scrollbar-track,
+    &::-webkit-scrollbar-track-piece {
+        background-color: #fafafa;
+        border-radius: 6px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #eee;
+        border-radius: 6px;
+    }
+    &::-webkit-scrollbar-button,
+    &::-webkit-scrollbar-corner,
+    &::-webkit-resizer {
+        display: none;
+    }
+}
