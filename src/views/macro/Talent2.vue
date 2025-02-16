@@ -4,6 +4,9 @@
             <div class="m-talent-header">
                 <h1 class="m-talent-title">镇派模拟器</h1>
                 <div class="m-talent-panel">
+                    <el-radio-group v-model="finalClient">
+                        <el-radio-button label="origin">缘起</el-radio-button>
+                    </el-radio-group>
                     <div class="m-talent-version">
                         <span class="u-label">选择版本</span>
                         <el-select
@@ -497,6 +500,7 @@ export default {
             isInit: true,
 
             talentOriginData: {},
+            finalClient: "origin",
         };
     },
     computed: {
