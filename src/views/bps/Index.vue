@@ -85,10 +85,8 @@
 import ListLayout from "@/layouts/bps/ListLayout.vue";
 import listItem from "@/components/bps/list/list_item.vue";
 import listItemMiniprogram from "@/components/bps/list/list_item_miniprogram.vue";
-// import recTable from "@/components/bps/list/rec_table.vue";
 import User from "@jx3box/jx3box-common/js/user";
 import bus from "@/utils/bus";
-import Bus from "@jx3box/jx3box-common-ui/service/bus";
 
 import { publishLink } from "@jx3box/jx3box-common/js/utils";
 import { getPosts } from "@/service/bps/post";
