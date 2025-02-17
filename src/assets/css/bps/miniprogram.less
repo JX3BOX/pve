@@ -1,33 +1,20 @@
 .v-miniprogram {
     // nav
-    .u-app-title, .m-app-nav {
+    .u-app-title,
+    .m-app-nav {
         .none;
-    }
-
-    // .c-breadcrumb {
-    //     .none;
-    // }
-
-    .m-archive-search {
-        .none;
-
-        &.is-phone {
-            .db;
-
-            .el-input-group__prepend {
-                .x;
-                padding: 0;
-                width: 40px;
-            }
-        }
     }
 
     .c-sidebar-left {
         top: 0;
     }
 
-    .m-archive-pages{
+    .m-archive-pages {
         .none;
+    }
+
+    .m-archive-list {
+        margin-top: 10px;
     }
 
     .v-raw .m-header {
@@ -40,10 +27,13 @@
         }
     }
 
-    .m-recipe-search, .m-dps-search {
+    .m-recipe-search,
+    .m-dps-search,
+    .m-archive-search {
         margin-bottom: 10px;
 
-        .u-search,.el-input-group__append {
+        .u-search,
+        .el-input-group__append {
             .none;
         }
         .el-input__inner {
@@ -52,8 +42,10 @@
         }
     }
 
-    .v-collection .m-tabs {
-        .none;
+    .v-collection {
+        .m-tabs {
+            .none;
+        }
     }
 
     .v-lua {
