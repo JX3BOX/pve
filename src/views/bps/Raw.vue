@@ -6,7 +6,7 @@
                     <el-radio-button label="std">旗舰</el-radio-button>
                     <el-radio-button label="wujie">无界</el-radio-button>
                 </el-radio-group>
-                <el-tabs v-model="kungfuid" type="card">
+                <el-tabs v-model="kungfuid" type="card" class="m-raw-tabs">
                     <el-tab-pane v-if="~~mountid" label="心法被动" name="pasv" key="pasv"></el-tab-pane>
                     <el-tab-pane
                         v-for="(kungfu, index) in kungfus"

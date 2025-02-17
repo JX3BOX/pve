@@ -19,7 +19,6 @@
                     :loading="loading"
                     @row-click="expandRow"
                     ref="recipeTable"
-                    border
                 >
                     <el-table-column type="expand">
                         <template slot-scope="props">
