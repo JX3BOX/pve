@@ -10,16 +10,6 @@
                 </el-input>
             </div>
 
-            <div class="m-archive-search is-phone" slot="search-before">
-                <a :href="publish_link" class="u-publish el-button el-button--primary">+ 发布作品</a>
-                <el-input placeholder="请输入搜索内容" v-model.trim.lazy="search" clearable @clear="onSearch" @keydown.native.enter="onSearch">
-                    <template slot="prepend">
-                        <img width="14" height="14" @click.stop="toggleLeftSide" src="@/assets/img/bps/list/filter.svg" alt="">
-                    </template>
-                    <!-- <el-button slot="append" icon="el-icon-position" class="u-btn" @click="onSearch"></el-button> -->
-                </el-input>
-            </div>
-
             <!-- 筛选 -->
             <div class="m-archive-filter">
                 <div class="m-filter--left">
