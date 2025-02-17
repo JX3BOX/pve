@@ -4,9 +4,9 @@
         .none;
     }
 
-    .c-breadcrumb {
-        .none;
-    }
+    // .c-breadcrumb {
+    //     .none;
+    // }
 
     .m-archive-search {
         .none;
@@ -22,15 +22,49 @@
         }
     }
 
-    .m-archive-box {
-        padding-top: 10px;
-    }
-
     .c-sidebar-left {
         top: 0;
     }
 
     .m-archive-pages{
         .none;
+    }
+
+    .v-raw .m-header {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 5px;
+
+        .el-radio-group {
+            margin-bottom: 0;
+        }
+    }
+
+    .m-recipe-search, .m-dps-search {
+        margin-bottom: 10px;
+
+        .u-search,.el-input-group__append {
+            .none;
+        }
+        .el-input__inner {
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+    }
+
+    .v-collection .m-tabs {
+        .none;
+    }
+
+    .v-lua {
+        .m-type-box {
+            .flex;
+            // max-height: 100px;
+            overflow: auto;
+        }
+
+        .u-type {
+            flex-shrink: 0;
+        }
     }
 }

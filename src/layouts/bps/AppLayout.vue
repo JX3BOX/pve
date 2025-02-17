@@ -52,4 +52,5 @@ export default {
 
 <style lang="less">
 @import "~@/assets/css/bps/list.less";
+@import "~@/assets/css/bps/miniprogram.less";
 </style>

@@ -9,14 +9,16 @@
                         无界
                     </el-checkbox>
                 </div>
-                <div
-                    class="u-type"
-                    :class="{ on: current == type }"
-                    v-for="(icon, type) in schoolmap"
-                    :key="type"
-                    @click="changeType(type)"
-                >
-                    <img class="u-typeicon" :src="type | iconURL" /><span>{{ showTypeLabel(type) }}</span>
+                <div class="m-type-box">
+                    <div
+                        class="u-type"
+                        :class="{ on: current == type }"
+                        v-for="(icon, type) in schoolmap"
+                        :key="type"
+                        @click="changeType(type)"
+                    >
+                        <img class="u-typeicon" :src="type | iconURL" /><span>{{ showTypeLabel(type) }}</span>
+                    </div>
                 </div>
             </div>
             <!-- 搜索 -->

@@ -4,9 +4,9 @@
             <!-- 搜索 -->
             <div class="m-recipe-search">
                 <el-input v-model.trim.lazy="search" placeholder="请输入关键词.." clearable @clear="onSearch" @keydown.native.enter="onSearch">
-                    <template #prepend> <i class="el-icon-search"></i> 搜索 </template>
+                    <template #prepend> <i class="el-icon-search"></i> <span class="u-search">搜索</span></template>
                     <template #append>
-                        <el-button icon="el-icon-position" @click="onSearch"></el-button>
+                        <el-button icon="el-icon-position" class="u-btn" @click="onSearch"></el-button>
                     </template>
                 </el-input>
             </div>
@@ -19,6 +19,7 @@
                     :loading="loading"
                     @row-click="expandRow"
                     ref="recipeTable"
+                    border
                 >
                     <el-table-column type="expand">
                         <template slot-scope="props">
@@ -51,7 +52,7 @@
                             </span>
                         </template>
                     </el-table-column>
-                    <el-table-column prop="Desc" label="秘籍描述" sortable>
+                    <el-table-column prop="Desc" label="秘籍描述" width="100" sortable>
                         <template slot-scope="scope">
                             <span class="u-desc">{{ scope.row.Desc }}</span>
                         </template>

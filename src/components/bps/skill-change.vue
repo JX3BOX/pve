@@ -23,7 +23,7 @@
                     <div class="m-item__right">
                         <el-button
                             @click="showDetail(item)"
-                            size="large"
+                            size="small"
                             :icon="item.showSub ? 'el-icon-arrow-down' : 'el-icon-arrow-right'"
                             type="primary"
                             >技改详解
@@ -51,7 +51,7 @@
             <el-pagination
                 class="m-changelog-pages"
                 background
-                layout="total, prev, pager, next,jumper"
+                layout="total, prev, pager, next"
                 :hide-on-single-page="true"
                 :page-size="per"
                 :total="total"

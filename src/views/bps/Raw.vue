@@ -2,7 +2,7 @@
     <AppLayout>
         <div class="v-raw" v-loading="loading">
             <div class="m-header">
-                <el-radio-group v-model="platform" v-if="client == 'std'">
+                <el-radio-group v-model="platform" v-if="client == 'std'" :disabled="!mountid">
                     <el-radio-button label="std">旗舰</el-radio-button>
                     <el-radio-button label="wujie">无界</el-radio-button>
                 </el-radio-group>
@@ -342,16 +342,4 @@ export default {
 
 <style lang="less">
 @import "~@/assets/css/bps/raw.less";
-
-.v-raw {
-    .m-header {
-        display: flex;
-        gap: 6px;
-        align-items: center;
-
-        .el-radio-group {
-            margin-bottom: 15px;
-        }
-    }
-}
 </style>

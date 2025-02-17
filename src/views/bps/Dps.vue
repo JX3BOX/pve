@@ -11,7 +11,7 @@
                     @clear="onSearch"
                     @keydown.native.enter="onSearch"
                 >
-                    <template #prepend> <i class="el-icon-search"></i> 搜索 </template>
+                    <template #prepend> <i class="el-icon-search"></i> <span class="u-search">搜索</span></template>
                     <template #append>
                         <el-button icon="el-icon-position" @click="onSearch"></el-button>
                     </template>
@@ -31,6 +31,7 @@
                         :filter-method="filterMatchValue"
                         column-key="mount"
                         :filter-multiple="true"
+                        min-width="100"
                     >
                         <template slot-scope="scope">
                             <div class="u-xf">

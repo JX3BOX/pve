@@ -120,3 +120,32 @@
         }
     }
 }
+
+.v-collection {
+    .m-types {
+        .none;
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .v-collection {
+        .m-types {
+            .flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 13px;
+
+            .m-type {
+                border: 1px solid #ddd;
+                padding: 3px 6px;
+                .r(3px);
+            }
+
+            .is-active {
+                color: @color-link;
+                border-color: @color-link;
+            }
+        }
+    }
+}
+

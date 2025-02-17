@@ -65,7 +65,7 @@
                     </el-form>
                 </el-card>
             </el-col>
-            <el-col :lg="16" :md="12" :sm="24">
+            <el-col :lg="16" :md="12" :sm="24" class="m-haste-result">
                 <el-card header="计算结果">
                     <el-table :data="tableData">
                         <template>

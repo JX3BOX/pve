@@ -1,7 +1,7 @@
 <template>
     <AppLayout>
         <div class="v-collection" v-loading="loading">
-            <el-tabs v-model="type" type="card" @tab-click="changeTab">
+            <el-tabs class="m-tabs" v-model="type" type="card" @tab-click="changeTab">
                 <el-tab-pane :label="item.label" :name="item.key" v-for="(item, i) in types" :key="i">
                     <router-link
                         slot="label"
@@ -14,38 +14,39 @@
                     <div class="m-collection-box">
                         <div class="m-collection-header" v-html="item.desc"></div>
                     </div>
-                    <ul class="m-collection-list" v-if="data && data.length">
-                        <li class="u-item" v-for="(item, j) in data" :key="j">
-                            <a :href="getItemLink(item)" target="_blank">
-                                <img class="u-icon" :src="iconLink(item.icon, client)" />
-                                <span class="u-name">{{ item.name }}</span>
-                                <span class="u-xf"> ({{ getBelongTo(item) }}) </span>
-                                <span class="u-desc">{{ item.desc }}</span>
-                                <span class="u-remark">{{ item.content }}</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <el-empty description="当前心法暂无此类技能" v-else :image-size="180"></el-empty>
                 </el-tab-pane>
             </el-tabs>
 
-            <!-- <div class="m-ladder-contributor">
-                <div class="u-label">❤️ 感谢以下人员的贡献</div>
-                <div class="u-list" v-if="authors && authors.length">
-                    <a
-                        class="u-author"
-                        target="_blank"
-                        :href="item.ID | authorLink"
-                        v-for="(item, i) in authors"
-                        :key="i"
+            <div class="m-types">
+                <div class="m-type" v-for="(item, i) in types" :key="i" :class="{'is-active': item.key == type}" @click="changeTab(item)">
+                    <router-link
+                        slot="label"
+                        class="u-tab-icon"
+                        :to="{ name: 'kungfu', query: { tab: item.key, subtype } }"
                     >
-                        <img :src="item.user_avatar | showAvatar" :alt="item.display_name" />
-                        {{ item.display_name }}
-                    </a>
+                        <i :class="item.icon"></i>
+                        {{ item.label }}
+                    </router-link>
                 </div>
-            </div> -->
-        </div></AppLayout
-    >
+                <div class="m-collection-box">
+                    <div class="m-collection-header" v-html="desc"></div>
+                </div>
+            </div>
+
+            <ul class="m-collection-list" v-if="data && data.length">
+                <li class="u-item" v-for="(item, j) in data" :key="j">
+                    <a :href="getItemLink(item)" target="_blank">
+                        <img class="u-icon" :src="iconLink(item.icon, client)" />
+                        <span class="u-name">{{ item.name }}</span>
+                        <span class="u-xf"> ({{ getBelongTo(item) }}) </span>
+                        <span class="u-desc">{{ item.desc }}</span>
+                        <span class="u-remark">{{ item.content }}</span>
+                    </a>
+                </li>
+            </ul>
+            <el-empty description="当前心法暂无此类技能" v-else :image-size="180"></el-empty>
+        </div>
+    </AppLayout>
 </template>
 
 <script>
@@ -68,6 +69,8 @@ export default {
             authors: [],
             relation: relation["mount_relation"],
 
+            currentItem: {},
+
             data: [],
             loading: false,
         };
@@ -87,6 +90,9 @@ export default {
         },
         contributors: function () {
             return this.$store.state.client == "std" ? "bps_collection_authors" : "bps_collection_authors_origin";
+        },
+        desc: function () {
+            return this.types.find((item) => item.key == this.type)?.desc;
         },
     },
     watch: {
@@ -135,6 +141,7 @@ export default {
             return getLink(item.type || "skill", item.id);
         },
         changeTab: function (item) {
+            this.type = item.key;
             this.$router.push({
                 query: { tab: item.name, subtype: this.subtype },
             });
@@ -154,14 +161,6 @@ export default {
     mounted: function () {
         this.loadGroup();
         this.loadData();
-
-        // 加载贡献名单
-        // getBread(this.contributors).then((ids) => {
-        //     if (!ids) return;
-        //     getUsers(ids).then((data) => {
-        //         this.authors = data || [];
-        //     });
-        // });
 
         // 初始化tab
         if (this.$route.query.tab) {

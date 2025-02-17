@@ -45,7 +45,7 @@
                     </el-form>
                 </el-card>
             </el-col>
-            <el-col :lg="16" :md="12" :sm="24">
+            <el-col :lg="16" :md="12" :sm="24" class="m-haste-result">
                 <el-card header="cal_result">
                     <div slot="header">计算结果</div>
                     <el-table :data="tableData">
