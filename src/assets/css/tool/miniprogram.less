@@ -1,15 +1,31 @@
 .v-miniprogram {
-    .m-database-tabs {
-        .u-icon, .u-count {
-            display: none;
+    // 数据库
+    .p-database {
+        .m-database-tabs {
+            .u-icon,
+            .u-count {
+                display: none;
+            }
+        }
+        .m-database-item .m-item .u-title {
+            .u-section:first-of-type {
+                width: 100%;
+            }
+            .u-section:last-of-type {
+                justify-content: flex-start;
+            }
         }
     }
-    .m-database-item .m-item .u-title {
-        .u-section:first-of-type {
-            width: 100%;
+
+    // 魔盒矩阵
+    .p-app-index {
+        padding-top: 0;
+
+        .c-breadcrumb {
+            padding-left: 10px;
         }
-        .u-section:last-of-type {
-            justify-content: flex-start;
+        .c-breadcrumb .u-menu {
+            display: none;
         }
     }
 }

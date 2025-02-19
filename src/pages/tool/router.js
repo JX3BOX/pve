@@ -20,20 +20,6 @@ const routes = [
             type: "userdata",
         },
     },
-    // tool
-    {
-        name: "index",
-        path: "",
-        component: () => import("@/views/tool/Tool.vue"),
-        meta: {
-            type: "tool",
-        },
-    },
-    {
-        name: "tool_single",
-        path: "/:id",
-        component: () => import("@/views/tool/Single.vue"),
-    },
     // jx3dat
     {
         name: "jx3dat",
@@ -106,6 +92,20 @@ const routes = [
         name: "translator",
         path: "/app/translator",
         component: () => import("@/views/tool/Translator.vue"),
+    },
+    // tool
+    {
+        name: "index",
+        path: "",
+        component: () => import("@/views/tool/Tool.vue"),
+        meta: {
+            type: "tool",
+        },
+    },
+    {
+        name: "tool_single",
+        path: "/:id",
+        component: () => import("@/views/tool/Single.vue"),
     },
 ];
 

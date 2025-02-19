@@ -1,5 +1,5 @@
 <template>
-    <app-layout slug="database" icon="database">
+    <app-layout slug="database" icon="database" class="p-database">
         <template #left>
             <!-- 筛选区域 -->
             <database-filter :type="type" :client.sync="client" :query.sync="query"></database-filter>

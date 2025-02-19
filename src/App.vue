@@ -10,4 +10,5 @@ export default {
 
 <style lang="less">
 @import "~@/assets/css/tool/app.less";
+@import "~@/assets/css/tool/miniprogram.less";
 </style>
