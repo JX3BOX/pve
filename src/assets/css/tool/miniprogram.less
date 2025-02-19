@@ -18,7 +18,8 @@
     }
 
     // 魔盒矩阵
-    .p-app-index {
+    .p-app-index,
+    .p-translator {
         padding-top: 0;
 
         .c-breadcrumb {
@@ -26,6 +27,26 @@
         }
         .c-breadcrumb .u-menu {
             display: none;
+        }
+    }
+
+    // 设计资源
+    .p-design {
+        .m-icons-matrix.m-icons-matrix-main {
+            display: flex;
+            flex-wrap: 1;
+            justify-content: center;
+        }
+        .m-icons-view {
+            .m-icons-matrix__view {
+                display: flex;
+                flex-wrap: 1;
+                justify-content: center;
+
+                .m-icon__empty {
+                    min-width: 60px;
+                }
+            }
         }
     }
 }

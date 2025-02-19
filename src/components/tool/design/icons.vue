@@ -8,13 +8,6 @@
             </el-radio-group>
             <IconsSearch v-if="mode === 'search'" />
             <IconsView v-if="mode === 'view'" />
-            <!-- <el-tabs v-model="activeTabName" type="card">
-                <el-tab-pane label="图标库" name="list">
-                </el-tab-pane>
-                <el-tab-pane label="收藏图标" name="favicon">
-                    <IconsFav />
-                </el-tab-pane>
-            </el-tabs> -->
         </div>
     </div>
 </template>

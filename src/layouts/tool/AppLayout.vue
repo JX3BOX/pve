@@ -63,6 +63,9 @@ export default {
             return app[this.slug]?.title || this.name;
         },
     },
+    mounted() {
+        this.$store.dispatch("initMutationObserver");
+    },
 };
 </script>
 

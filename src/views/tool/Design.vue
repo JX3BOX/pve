@@ -1,5 +1,5 @@
 <template>
-    <AppLayout slug="design" icon="icons" name="设计资源" :has-right="hasRight" class="p-design">
+    <AppLayout slug="design" icon="icon" name="设计资源" :has-right="hasRight" class="p-design">
         <template #left>
             <Nav ></Nav>
         </template>
