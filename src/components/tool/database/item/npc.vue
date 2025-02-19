@@ -3,7 +3,7 @@
         <div class="m-item">
             <div class="u-title">
                 <div class="u-name">
-                    <span class="u-name-primary">{{ data.Name }}</span>
+                    <span class="u-name-primary">{{ data.Name }}&nbsp;</span>
                     <span class="u-name-secondary" v-if="data.BuffName"> ({{ data.BuffName }})</span>
                 </div>
                 <span class="u-name-add">
