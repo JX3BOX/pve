@@ -1,5 +1,5 @@
 <template>
-    <div class="m-database-filter">
+    <div class="m-database-filter" @click.stop>
         <div class="w-card-title">筛选条件</div>
         <div class="m-filters">
             <div class="u-client">

@@ -4,15 +4,19 @@
         <div class="m-item">
             <img class="u-icon" :title="'IconID:' + 10909" :src="iconLink(10909)" />
             <div class="u-title">
-                <span class="u-name">{{ data.Name }}</span>
-                <div class="u-rt-tags">
-                    <span v-if="refCount" class="u-ref-count">
-                        <i class="el-icon-connection"></i> 引用指数 {{ refCount }}</span
-                    >
-                    <el-tag size="small" @click.stop="copy('ID')">
-                        <i class="el-icon-document-copy u-copy"></i>
-                        <span class="u-id" title="点击快速复制">ID:{{ data.ID }}</span>
-                    </el-tag>
+                <div class="u-section">
+                    <span class="u-name">{{ data.Name }}</span>
+                </div>
+                <div class="u-section">
+                    <div class="u-rt-tags">
+                        <span v-if="refCount" class="u-ref-count">
+                            <i class="el-icon-connection"></i> 引用指数 {{ refCount }}</span
+                        >
+                        <el-tag size="small" @click.stop="copy('ID')">
+                            <i class="el-icon-document-copy u-copy"></i>
+                            <span class="u-id" title="点击快速复制">ID:{{ data.ID }}</span>
+                        </el-tag>
+                    </div>
                 </div>
             </div>
             <div class="u-primary u-primary__doodad">

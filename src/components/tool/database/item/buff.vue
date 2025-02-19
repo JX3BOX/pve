@@ -4,9 +4,11 @@
         <div class="m-item">
             <img class="u-icon" :title="'IconID:' + data.IconID" :src="iconLink(data.IconID)" />
             <div class="u-title">
-                <div class="u-name">
+                <div class="u-section">
                     <span class="u-name-primary">{{ data.Name }}</span>
                     <span class="u-name-secondary" v-if="data.BuffName"> ({{ data.BuffName }})</span>
+                </div>
+                <div class="u-section">
                     <span class="u-buff-tag is-buff" v-if="data.CanCancel">BUFF</span>
                     <span class="u-buff-tag is-debuff" v-else>DEBUFF</span>
                     <template v-if="data._Types && data._Types.length">
@@ -20,7 +22,7 @@
                         >
                     </template>
                 </div>
-                <div class="u-rt-tags">
+                <div class="u-section">
                     <span v-if="refCount" class="u-ref-count">
                         <i class="el-icon-connection"></i> 引用指数 {{ refCount }}</span
                     >

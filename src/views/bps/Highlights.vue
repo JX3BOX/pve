@@ -10,16 +10,6 @@
                 </el-input>
             </div>
 
-            <div class="m-archive-search is-phone" slot="search-before">
-                <a :href="publish_link" class="u-publish el-button el-button--primary">+ 发布作品</a>
-                <el-input placeholder="请输入搜索内容" v-model.trim.lazy="search" clearable @clear="onSearch" @keydown.native.enter="onSearch">
-                    <template slot="prepend">
-                        <img width="14" height="14" @click.stop="toggleLeftSide" src="@/assets/img/bps/list/filter.svg" alt="">
-                    </template>
-                    <!-- <el-button slot="append" icon="el-icon-position" class="u-btn" @click="onSearch"></el-button> -->
-                </el-input>
-            </div>
-
             <!-- 筛选 -->
             <div class="m-archive-filter">
                 <div class="m-filter--left">
@@ -52,7 +42,12 @@
             <!-- 列表 -->
             <div class="m-archive-list" v-if="data && data.length">
                 <ul class="u-list">
-                    <list-item v-for="(item, i) in data" :key="i + item" :item="item" :order="order" caller="bps_highlights_index_click" />
+                    <template v-if="isMiniprogram">
+                        <list-item-miniprogram v-for="(item) in data" :key="item.ID" :item="item" :order="order" caller="bps_highlights_index_click" />
+                    </template>
+                    <template v-else>
+                        <list-item v-for="(item) in data" :key="item.ID" :item="item" :order="order" caller="bps_highlights_index_click" />
+                    </template>
                 </ul>
             </div>
 
@@ -87,7 +82,7 @@
 <script>
 import ListLayout from "@/layouts/bps/ListLayout.vue";
 import listItem from "@/components/bps/list/list_item.vue";
-// import recTable from "@/components/bps/list/rec_table.vue";
+import listItemMiniprogram from "@/components/bps/list/list_item_miniprogram.vue";
 
 import { publishLink } from "@jx3box/jx3box-common/js/utils";
 import { getPosts } from "@/service/bps/post";
@@ -125,7 +120,9 @@ export default {
             topic: "", // 主题
 
             pv_types: ["PVE", "PVP"],
-            marks
+            marks,
+
+            isMiniProgram: false
         };
     },
     computed: {
@@ -310,11 +307,13 @@ export default {
             },
         },
     },
-    mounted: function () {},
+    mounted: function () {
+        this.isMiniprogram = document.getElementsByClassName("v-miniprogram")?.length > 0;
+    },
     components: {
         listItem,
         ListLayout,
-        // recTable
+        listItemMiniprogram,
     },
 };
 </script>

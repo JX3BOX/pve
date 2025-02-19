@@ -20,7 +20,6 @@
 </template>
 
 <script>
-
 import JX3BOX from "@jx3box/jx3box-common/data/jx3box.json";
 import app from "@/assets/data/tool/app.json";
 
@@ -63,6 +62,9 @@ export default {
         title() {
             return app[this.slug]?.title || this.name;
         },
+    },
+    mounted() {
+        this.$store.dispatch("initMutationObserver");
     },
 };
 </script>

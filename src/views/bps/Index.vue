@@ -4,21 +4,11 @@
             <!-- 搜索 -->
             <div class="m-archive-search" slot="search-before">
                 <a :href="publish_link" class="u-publish el-button el-button--primary">+ 发布作品</a>
-                <el-input placeholder="请输入搜索内容" v-model.trim.lazy="search" prefix-icon="el-icon-search" clearable @clear="onSearch" @keydown.native.enter="onSearch">
+                <el-input placeholder="请输入搜索内容" v-model.trim.lazy="search" clearable @clear="onSearch" @keydown.native.enter="onSearch">
                     <template slot="prepend">
                         <i class="el-icon-search"></i> <span class="u-search">关键词</span>
                     </template>
                     <el-button slot="append" icon="el-icon-position" class="u-btn" @click="onSearch"></el-button>
-                </el-input>
-            </div>
-
-            <div class="m-archive-search is-phone" slot="search-before">
-                <a :href="publish_link" class="u-publish el-button el-button--primary">+ 发布作品</a>
-                <el-input placeholder="请输入搜索内容" v-model.trim.lazy="search" clearable @clear="onSearch" @keydown.native.enter="onSearch">
-                    <template slot="prepend">
-                        <img width="14" height="14" @click.stop="toggleLeftSide" src="@/assets/img/bps/list/filter.svg" alt="">
-                    </template>
-                    <!-- <el-button slot="append" icon="el-icon-position" class="u-btn" @click="onSearch"></el-button> -->
                 </el-input>
             </div>
 
@@ -95,10 +85,8 @@
 import ListLayout from "@/layouts/bps/ListLayout.vue";
 import listItem from "@/components/bps/list/list_item.vue";
 import listItemMiniprogram from "@/components/bps/list/list_item_miniprogram.vue";
-// import recTable from "@/components/bps/list/rec_table.vue";
 import User from "@jx3box/jx3box-common/js/user";
 import bus from "@/utils/bus";
-import Bus from "@jx3box/jx3box-common-ui/service/bus";
 
 import { publishLink } from "@jx3box/jx3box-common/js/utils";
 import { getPosts } from "@/service/bps/post";
@@ -142,6 +130,8 @@ export default {
             showDesignTask: false,
 
             stdClient: "std",
+
+            isMiniprogram: false,
         };
     },
     computed: {
@@ -191,14 +181,8 @@ export default {
         isPhone: function () {
             return window.innerWidth < 768;
         },
-        isMiniprogram: function () {
-            return document.getElementsByClassName("v-miniprogram");
-        }
     },
     methods: {
-        toggleLeftSide: function () {
-            Bus.$emit("toggleLeftSide", true);
-        },
         reporterLink: function (val) {
             const prefix = this.client === 'std' ? 'www' : 'origin'
             return`${prefix}:/${appKey}/` + val;
@@ -362,11 +346,7 @@ export default {
             this.showDesignTask = true;
         });
 
-        // if (this.client !== "origin") {
-        //     this.is_wujie = this.isPhone ? 1 : '';
-        // } else {
-        //     this.is_wujie = "";
-        // }
+        this.isMiniprogram = document.getElementsByClassName("v-miniprogram")?.length > 0;
 
     },
     components: {

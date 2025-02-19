@@ -1,0 +1,52 @@
+.v-miniprogram {
+    // 数据库
+    .p-database {
+        .m-database-tabs {
+            .u-icon,
+            .u-count {
+                display: none;
+            }
+        }
+        .m-database-item .m-item .u-title {
+            .u-section:first-of-type {
+                width: 100%;
+            }
+            .u-section:last-of-type {
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    // 魔盒矩阵
+    .p-app-index,
+    .p-translator {
+        padding-top: 0;
+
+        .c-breadcrumb {
+            padding-left: 10px;
+        }
+        .c-breadcrumb .u-menu {
+            display: none;
+        }
+    }
+
+    // 设计资源
+    .p-design {
+        .m-icons-matrix.m-icons-matrix-main {
+            display: flex;
+            flex-wrap: 1;
+            justify-content: center;
+        }
+        .m-icons-view {
+            .m-icons-matrix__view {
+                display: flex;
+                flex-wrap: 1;
+                justify-content: center;
+
+                .m-icon__empty {
+                    min-width: 60px;
+                }
+            }
+        }
+    }
+}

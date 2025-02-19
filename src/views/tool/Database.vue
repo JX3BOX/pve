@@ -1,10 +1,8 @@
 <template>
-    <app-layout slug="database" icon="database">
+    <app-layout slug="database" icon="database" class="p-database">
         <template #left>
             <!-- 筛选区域 -->
             <database-filter :type="type" :client.sync="client" :query.sync="query"></database-filter>
-            <!-- 其他应用跳转区域 -->
-            <app-nav></app-nav>
         </template>
         <div class="v-database">
             <keep-alive :exclude="['DatabaseDetail']">
@@ -143,6 +141,7 @@ export default {
         this.$store.dispatch("getMapIndex");
         this.$store.dispatch("getDatabaseFields");
         this.$store.dispatch("getDatabaseBlacklist");
+        this.$store.dispatch("initMutationObserver");
         document.title = "剑三数据库 - JX3BOX";
     },
 };

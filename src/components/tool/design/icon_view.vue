@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <icon-item slot="reference" :icon="index" :isFav="false"></icon-item>
+                    <icon-item slot="reference" class="u-item" :icon="index" :isFav="false"></icon-item>
                 </el-popover>
                 <div class="m-icon__empty" v-else :key="index">
                     <div class="u-icon"></div>
@@ -52,6 +52,8 @@
             :current-page="page"
             hide-on-single-page
             @current-change="onPageChange"
+            :pager-count="isMiniProgram ? 5 : 7"
+            :small="isMiniProgram"
         >
         </el-pagination>
     </div>
@@ -61,6 +63,7 @@
 import iconItem from "./item.vue";
 import {getIcons, getIconLatest} from "@/service/tool/icons.js";
 import { iconLink } from "@jx3box/jx3box-common/js/utils.js";
+import {mapState} from "vuex";
 export default {
     name: "icons-view",
     components: {
@@ -81,6 +84,7 @@ export default {
         };
     },
     computed: {
+        ...mapState(["isMiniProgram"]),
         client() {
             return this.$store.state.client;
         },
@@ -173,7 +177,7 @@ export default {
     }
 }
 .m-icons-matrix__view {
-    display: grid !important;
+    display: grid;
     grid-template-columns: repeat(18, 1fr);
 
     .u-icons-item {

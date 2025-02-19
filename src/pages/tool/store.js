@@ -12,6 +12,8 @@ let store = {
         client: location.href.includes("origin") ? "origin" : "std",
         isLogin: User.isLogin(),
         user_group: User.getInfo().group,
+        isMiniProgram: document.getElementsByClassName("v-miniprogram")?.length > 0,
+        mutationObserverInit: false,
 
         mapIndex: {},
         mapKeys: [],
@@ -55,6 +57,20 @@ let store = {
     },
     getters: {},
     actions: {
+        initMutationObserver({ state }) {
+            state.isMiniProgram = document.getElementsByClassName("v-miniprogram")?.length > 0;
+            if (state.mutationObserverInit) return;
+            const html = document.querySelector("html");
+            const observer = new MutationObserver((mutationsList) => {
+                for (let mutation of mutationsList) {
+                    if (mutation.type === "attributes" && mutation.attributeName === "class") {
+                        state.isMiniProgram = html.classList.contains("v-miniprogram");
+                    }
+                }
+            });
+            observer.observe(html, { attributes: true, attributeFilter: ["class"] });
+            state.mutationObserverInit = true;
+        },
         getMapIndex({ state }) {
             $img.get("/map/data/map_index.json").then((res) => {
                 const mapIndex = res.data;

@@ -1,27 +1,27 @@
 <template>
     <el-tabs class="m-database-tabs" v-model="typeModel" type="card" @tab-click="changeType">
-        <el-tab-pane label="Buff" name="buff">
+        <el-tab-pane name="buff">
             <span slot="label">
                 <img class="u-icon" svg-inline src="@/assets/img/tool/database/skill3.svg" />
                 <b>Buff</b>
                 <em class="u-count">{{ stat.buff }}</em>
             </span>
         </el-tab-pane>
-        <el-tab-pane label="技能" name="skill">
+        <el-tab-pane name="skill">
             <span slot="label">
                 <img class="u-icon" svg-inline src="@/assets/img/tool/database/skill4.svg" />
                 <b>技能</b>
                 <em class="u-count">{{ stat.skill }}</em>
             </span>
         </el-tab-pane>
-        <el-tab-pane label="NPC" name="npc">
+        <el-tab-pane name="npc">
             <span slot="label">
                 <img class="u-icon" svg-inline src="@/assets/img/tool/database/skull.svg" />
                 <b>NPC</b>
                 <em class="u-count">{{ stat.npc }}</em>
             </span>
         </el-tab-pane>
-        <el-tab-pane label="交互物件" name="doodad">
+        <el-tab-pane name="doodad">
             <span slot="label">
                 <img class="u-icon" svg-inline src="@/assets/img/tool/database/doodad.svg" />
                 <b>交互物件</b>
@@ -54,7 +54,7 @@ export default {
         event: "change",
     },
     computed: {
-        ...mapState(["database_stat"]),
+        ...mapState(["database_stat", "isMiniProgram"]),
         stat() {
             return this.database_stat.count;
         },

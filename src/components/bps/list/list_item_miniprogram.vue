@@ -1,8 +1,8 @@
 <template>
-    <li class="m-list-item--miniprogram">
-        <div class="m-left">
+    <li class="m-list-item--miniprogram" @click.stop="toItem">
+        <a class="m-left" :href="postLink(item.ID)">
             <img class="u-img" :src="getBanner(item.post_banner, item.post_subtype)" :key="item.ID" />
-        </div>
+        </a>
         <div class="m-right m-info">
             <div class="m-header">
                 <div class="u-title">
@@ -12,10 +12,10 @@
                 <span class="u-label u-zlp u-wujie" v-if="item.is_wujie">无界</span>
             </div>
             <div class="m-bottom">
-                <div class="m-auth">
+                <a class="m-auth" :href="item.post_author | authorLink">
                     <img class="u-avatar" :src="item.author_info | showAvatar" :alt="item.author_info | showNickname" />
                     <div class="u-name">{{ item.author_info | showNickname }}</div>
-                </div>
+                </a>
                 <div class="u-date">
                     <time v-if="order == 'update'">{{ item.post_modified | dateFormat }}</time>
                     <time v-else>{{ item.post_date | dateFormat }}</time>
@@ -26,10 +26,11 @@
 </template>
 
 <script>
-import { showAvatar, authorLink, showBanner, buildTarget } from "@jx3box/jx3box-common/js/utils";
+import { showAvatar, authorLink, showBanner } from "@jx3box/jx3box-common/js/utils";
 import { __ossMirror, __imgPath } from "@jx3box/jx3box-common/data/jx3box";
 import { showDate } from "@jx3box/jx3box-common/js/moment.js";
 import xfmap from "@jx3box/jx3box-data/data/xf/xf.json";
+const appKey = "bps";
 export default {
     name: "ListItemMiniprogram",
     props: ["item", "order", "caller"],
@@ -45,6 +46,12 @@ export default {
                 let img_name = (subtype && xfmap[subtype]?.["id"]) || 0;
                 return __imgPath + "image/bps_thumbnail/" + img_name + ".png";
             }
+        },
+        postLink: function (val) {
+            return location.origin + `/${appKey}/` + val;
+        },
+        toItem() {
+            window.open(this.postLink(this.item.ID));
         },
     },
     filters: {
