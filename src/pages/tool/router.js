@@ -112,7 +112,7 @@ const routes = [
 const router = new VueRouter({
     routes,
     mode: "history",
-    base: "/tool",
+    // base: "/tool",
 });
 
 router.beforeEach((to, from, next) => {
