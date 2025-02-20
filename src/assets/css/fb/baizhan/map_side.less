@@ -1,0 +1,111 @@
+.m-map-side {
+    padding: 15px;
+    .m-header {
+        & > a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            height: 30px;
+        }
+        img {
+            .size(24px, 24px);
+        }
+        .u-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #000;
+        }
+        border-bottom: 1px solid #0000001a;
+        box-sizing: border-box;
+    }
+    .u-time {
+        font-size: 10px;
+        color: #777777;
+        padding-top: 10px;
+    }
+    .u-tabs {
+        position: sticky;
+        top: 0;
+        .flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        background-color: #fff;
+        z-index: 2;
+        .u-tab {
+            .flex;
+            align-items: center;
+            justify-content: center;
+            .size(76.67px, 24px);
+            .r(5px);
+            border: 1px solid #ebebeb;
+            font-size: 12px;
+            color: #777;
+            cursor: pointer;
+            box-sizing: border-box;
+            &.is-active,
+            &:hover {
+                background-color: #a361e4;
+                color: #fff;
+                border: 1px solid #a361e4;
+            }
+        }
+    }
+    .u-list {
+        margin-bottom: 10px;
+        .flex;
+        flex-direction: column;
+        gap: 10px;
+        .u-item {
+            background-color: #f4f4f4;
+            .size(calc(100% - 20px), 30px);
+            border-radius: 2px;
+            padding: 0 10px;
+            .flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            .u-item-left {
+                .flex;
+                align-items: center;
+                height: 100%;
+                gap: 10px;
+                color: #777;
+                .u-index {
+                    .w(12px);
+                    font-size: 10px;
+                }
+                .u-avatar {
+                    .size(18px, 18px);
+                    .r(50%);
+                }
+                .u-name {
+                    font-size: 12px;
+                }
+            }
+            &:hover {
+                background-color: #f1e3ff;
+            }
+            &.is-special {
+                background-color: #fe7171;
+                .u-item-left {
+                    color: #fff;
+                }
+                &:hover {
+                    background-color: #a361e4;
+                }
+            }
+            .u-item-right {
+                .size(12px, 12px);
+                .flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                overflow: hidden;
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

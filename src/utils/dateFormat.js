@@ -20,7 +20,39 @@ function dateFormat(dt, separator = "-", polished = true) {
     return str;
 }
 
-function polish(val) {
+export function getWeekStartDate() {
+    // 获取当前日期
+    var today = new Date();
+
+    // 获取当前日期是一周中的第几天，其中周日为0，周一为1，以此类推
+    var day = today.getDay();
+
+    // 计算与周一的时间差（毫秒）
+    var timeDiff = today.getTime() - (day - 1) * 24 * 60 * 60 * 1000;
+
+    // 创建新的日期对象，表示当前周一
+    var monday = new Date(timeDiff);
+    return dateFormat(monday);
+}
+
+export function getWeekEndDate() {
+    // 获取当前日期
+    var today = new Date();
+
+    // 获取当前日期是一周中的第几天，其中周日为0，周一为1，以此类推
+    var day = today.getDay();
+
+    // 计算与下一个周日的时间差（毫秒）
+    var timeDiff = (7 - day) * 24 * 60 * 60 * 1000;
+
+    // 创建新的日期对象，表示当前周日
+    var sunday = new Date(today.getTime() + timeDiff);
+
+    // 输出当前周日的日期和时间
+    return dateFormat(sunday);
+}
+
+export function polish(val) {
     return val < 10 ? "0" + val : val;
 }
 

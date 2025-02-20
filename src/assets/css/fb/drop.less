@@ -1,0 +1,194 @@
+.m-fb-drop{
+    .el-tabs__content{
+        .clearfix;
+    }
+    .u-bosslist{
+        background-color:@bg-gray;
+        .clearfix;
+        // .r(30px);
+
+        .fz(14px,32px);
+        .mb(20px);
+        user-select: none;
+        .u-boss{
+            .fl;
+            .pr(40px);
+            .pointer;
+            &.on{
+                .bold;
+                color:@primary;
+                background-color:#e6f0fb;
+                svg{
+                    fill:@primary;
+                }
+            }
+            &:hover{
+                background-color:#e6f0fb;
+                color:@pink;
+            }
+            .bold;
+            img{
+                .r(4px);
+                .y;
+                .size(32px);
+                .mr(5px);
+            }
+            .fz(15px,32px);
+        }
+        .u-label{
+            .fl;
+            padding:0 10px;
+            color:@primary;
+            background-color:#e6f0fb;
+            .mr(20px);
+        }
+        .u-boss-avatar{
+            .size(18px);
+            .y(-3px);
+            padding-left:8px;
+        }
+    }
+    .u-droplist{
+        // .u-label{
+        //     border-bottom:1px dashed #ddd;
+        //     padding:10px;
+        //     .fz(14px);
+        // }
+        .clearfix;
+        .is-active{
+            background-color:#e6f0fb;
+        }
+        .el-tabs__item{
+            border-bottom:none !important;
+            padding:0 42px !important;
+
+            &:hover{
+                background-color:#e6f0fb;
+                color:@pink;
+            }
+        }
+
+        display:flex;
+        .u-drops{
+            flex:1;
+        }
+        .u-drop{
+            .clearfix;
+        }
+        .el-alert{
+            .mb(10px);
+        }
+
+        .u-item-wrapper{
+            .clearfix;
+            .fl;
+        }
+        .u-item{
+            .fl;
+            .mb(10px);
+            .mr(10px);
+
+            .pointer;
+            .x;
+
+            .u-item-name{
+                .w(68px);
+                .nobreak;
+                .db;
+                .fz(13px,1.8);
+            }
+
+            &:hover{
+                .u-item-name{
+                    .bold;
+                    color:@pink;
+                }
+            }
+
+            img{
+                .r(4px);
+                .size(48px);
+            }
+        }
+        .u-drop-item-icon {
+            .pr;
+            .dbi;
+            img {
+                .db;
+                .r(4px);
+                box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+                .size(48px);
+            }
+            &::after {
+                content: "";
+                .db;
+                .pa;
+                .lt(0);
+                .size(100%);
+                box-sizing: border-box;
+                .r(4px);
+            }
+        }
+        .u-item-color-5::after {
+            border: 2px solid #ffa500;
+        }
+        .u-item-color-4::after {
+            border: 2px solid #be5dbc;
+        }
+        .u-item-color-3::after {
+            border: 2px solid #007eff;
+        }
+        .u-item-color-2::after {
+            border: 2px solid #00d24b;
+        }
+        
+    }
+    .u-schools{
+        .clearfix;
+        .mb(20px);
+        .u-school{
+            padding:4px 10px;
+            .fl;
+            .fz(12px,22px);
+            img{.size(22px);.y;.mr(2px);}
+            // .mr(20px);
+            // .mb(10px);
+            .pointer;
+            .bold;
+
+            &:hover{
+                color:@pink;
+                background-color:@bg-gray;
+            }
+
+            &.active{
+                color:@color-link;
+                background-color:#e6f0fb;
+            }
+        }
+    }
+
+    .pr;
+    .u-switch-version{
+        .pa;.rt(0);
+        i{
+            display: inline-block;
+            transform: rotate(90deg);
+        }
+        .fz(14px);
+        .bold;
+        padding:10px 0;
+    }
+}
+@media screen and (max-width:@phone){
+    .m-fb-drop .u-droplist .u-tabs{
+        .none;
+    }
+}
+
+.u-drop-popup{
+    background:none;
+    border:none;
+    box-shadow: none;
+    padding:0;
+}

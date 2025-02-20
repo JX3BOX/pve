@@ -1,0 +1,507 @@
+{
+    "nDamageBase": {
+        "desc": "基础伤害",
+        "remark": "基础伤害值",
+        "shortmark": "基础伤害值"
+    },
+    "nDamageRand": {
+        "desc": "浮动值",
+        "remark": "基础伤害浮动值"
+    },
+    "AddAttribute": {
+        "desc": "附加效果",
+        "remark": "该技能附加的子技能、BUFF、脚本或属性的对应效果",
+        "shortmark": "该技能附加的子技能、BUFF、脚本或属性的对应效果"
+    },
+    "AddSlowCheckSelfBuff": {
+        "desc": "需要自身存在Buff",
+        "remark": "技能需求自身存在对应Buff时才能生效/释放 或 不生效/释放",
+        "shortmark": "技能需求自身存在对应Buff时才能生效/释放 或 不生效/释放"
+    },
+    "AddSlowCheckDestBuff": {
+        "desc": "需要目标存在Buff",
+        "remark": "技能需求目标存在对应Buff时才能生效/释放 或 不生效/释放",
+        "shortmark": "技能需求目标存在对应Buff时才能生效/释放 或 不生效/释放"
+    },
+    "AddSlowCheckSelfOwnBuff": {
+        "desc": "需要自身存在属于自己的Buff",
+        "remark": "技能需求自身存在属于自己释放的对应Buff时才能生效/释放 或 不生效/释放",
+        "shortmark": "技能需求自身存在属于自己释放的对应Buff时才能生效/释放 或 不生效/释放"
+    },
+    "AddSlowCheckDestOwnBuff": {
+        "desc": "需要目标存在属于自己的Buff",
+        "remark": "技能需求目标存在属于自己释放的对应Buff时才能生效/释放 或 不生效/释放",
+        "shortmark": "技能需求目标存在属于自己释放的对应Buff时才能生效/释放 或 不生效/释放"
+    },
+    "AddCheckSelfLearntSkill": {
+        "desc": "检查玩家已学技能",
+        "remark": "检查比较释放者自身已学习的技能ID和等级",
+        "shortmark": "检查比较释放者自身已学习的技能ID和等级"
+    },
+    "nNeedPoseState": {
+        "desc": "需求姿态",
+        "remark": "需求姿态，1为擎刀姿态，2为擎盾姿态",
+        "shortmark": "需求姿态，1为擎刀姿态，2为擎盾姿态"
+    },
+    "nDamageToLifeForParty": {
+        "desc": "技能伤害给小队成员回血",
+        "remark": "技能伤害按照对应百分比的数值给小队成员回血",
+        "shortmark": "技能伤害按照对应百分比的数值给小队成员回血"
+    },
+    "nAttackAttenuationCof": {
+        "desc": "AOE技能伤害变化系数",
+        "remark": "技能伤害渐变百分比，1024为100%，正数为增加，负数为减少。只能在渐变类型的AOE中使用！",
+        "shortmark": "技能伤害渐变百分比，1024为100%，正数为增加，负数为减少。只能在渐变类型的AOE中使用！"
+    },
+    "SetSubSkillForAreaDepth": {
+        "desc": "对下个目标释放的子技能",
+        "remark": "对第N个搜索到的目标施放子技能。只能在渐变类型的AOE中使用！",
+        "shortmark": "对第N个搜索到的目标施放子技能。只能在渐变类型的AOE中使用！"
+    },
+    "BindBuff": {
+        "desc": "技能附带Buff",
+        "remark": "技能命中目标后会使其获得对应Buff",
+        "shortmark": "技能命中目标后会使其获得对应Buff"
+    },
+    "SetPublicCoolDown": {
+        "desc": "公共调息时间",
+        "remark": "技能的公共调息时间",
+        "shortmark": "技能的公共调息时间"
+    },
+    "SetNormalCoolDown": {
+        "desc": "调息时间",
+        "remark": "技能自身的调息时间",
+        "shortmark": "技能自身的调息时间"
+    },
+    "SetCheckCoolDown": {
+        "desc": "检查CD",
+        "remark": "检查该技能与对应CD此时的状态",
+        "shortmark": "检查该技能与对应CD此时的状态"
+    },
+    "dwLevelUpExp": {
+        "desc": "升级经验",
+        "remark": "升级经验",
+        "shortmark": "升级经验"
+    },
+    "nExpAddOdd": {
+        "desc": "技能熟练度增长概率",
+        "remark": "技能熟练度增长概率",
+        "shortmark": "技能熟练度增长概率"
+    },
+    "nPlayerLevelLimit": {
+        "desc": "该技能所需最低等级",
+        "remark": "角色可以学会该技能所必须达到的最低等级",
+        "shortmark": "角色可以学会该技能所必须达到的最低等级"
+    },
+    "nBaseThreat": {
+        "desc": "附加仇恨值",
+        "remark": "技能能够造成的额外仇恨值",
+        "shortmark": "技能能够造成的额外仇恨值"
+    },
+    "bIgnorePrepareState": {
+        "desc": "能否在施法中施放",
+        "remark": "技能能否在吟唱、引导、蓄力中施放",
+        "shortmark": "技能能否在吟唱、引导、蓄力中施放"
+    },
+    "bKeyUpSkill": {
+        "desc": "响应技能",
+        "remark": "为true表示keyup响应技能",
+        "shortmark": "为true表示keyup响应技能"
+    },
+    "nCostLife": {
+        "desc": "消耗气血",
+        "remark": "释放技能会消耗的气血数值",
+        "shortmark": "释放技能会消耗的气血数值"
+    },
+    "nCostMana": {
+        "desc": "消耗内力",
+        "remark": "释放技能会消耗的内力数值",
+        "shortmark": "释放技能会消耗的内力数值"
+    },
+    "nCostStamina": {
+        "desc": "技能消耗的体力",
+        "remark": "技能消耗的体力",
+        "shortmark": "技能消耗的体力"
+    },
+    "nCostItemType": {
+        "desc": "消耗物品类型",
+        "remark": "技能消耗的物品类型",
+        "shortmark": "技能消耗的物品类型"
+    },
+    "nCostItemIndex": {
+        "desc": "消耗物品",
+        "remark": "技能消耗的物品索引ID",
+        "shortmark": "技能消耗的物品索引ID"
+    },
+    "nCostManaBasePercent": {
+        "desc": "消耗基础内力百分比",
+        "remark": "技能消耗的内力百分比",
+        "shortmark": "技能消耗的内力百分比"
+    },
+    "nCostRage": {
+        "desc": "消耗怒气",
+        "remark": "技能消耗的怒气值",
+        "shortmark": "技能消耗的怒气值"
+    },
+    "nCostEnergy": {
+        "desc": "消耗能量",
+        "remark": "技能消耗的能量值",
+        "shortmark": "技能消耗的能量值"
+    },
+    "nCostSunEnergy": {
+        "desc": "消耗日灵",
+        "remark": "技能消耗的日灵能量值",
+        "shortmark": "技能消耗的日灵能量值"
+    },
+    "nCostSprintPower": {
+        "desc": "消耗气力值",
+        "remark": "技能消耗气力值",
+        "shortmark": "技能消耗气力值"
+    },
+    "nNeedSunEnergy": {
+        "desc": "需求日灵",
+        "remark": "技能释放时需求的日灵值",
+        "shortmark": "技能释放时需求的日灵值"
+    },
+    "nNeedMoonEnergy": {
+        "desc": "需求月魂",
+        "remark": "技能释放时需求的月魂值",
+        "shortmark": "技能释放时需求的月魂值"
+    },
+    "nNeedEnergy": {
+        "desc": "需求能量",
+        "remark": "释放时需求的能量值",
+        "shortmark": "释放时需求的能量值"
+    },
+    "nNeedRage": {
+        "desc": "需求战斗资源",
+        "remark": "技能释放需求怒气值、战意点数、刀气值、剑气值等",
+        "shortmark": "技能释放需求怒气值、战意点数、刀气值、剑气值等"
+    },
+    "bIsAccumulate": {
+        "desc": "是否消耗所有气点",
+        "remark": "技能是否需要聚气且消耗所有气点",
+        "shortmark": "技能是否需要聚气且消耗所有气点"
+    },
+    "nNeedAccumulateCount": {
+        "desc": "需求气点",
+        "remark": "释放技能需要的气点个数",
+        "shortmark": "释放技能需要的气点个数"
+    },
+    "SetSubsectionSkill": {
+        "desc": "聚气子技能",
+        "remark": "聚气类技能按照气点个数释放对应的子技能",
+        "shortmark": "聚气类技能按照气点个数释放对应的子技能"
+    },
+    "nChainBranch": {
+        "desc": "链状技能分支数",
+        "remark": "链状技能分支数",
+        "shortmark": "链状技能分支数"
+    },
+    "nChainDepth": {
+        "desc": "链状技能层数",
+        "remark": "链状技能层数",
+        "shortmark": "链状技能层数"
+    },
+    "nMinRadius": {
+        "desc": "施放最小距离",
+        "remark": "技能施放时需要的最小半径",
+        "shortmark": "技能施放时需要的最小半径"
+    },
+    "nMaxRadius": {
+        "desc": "施放最大距离",
+        "remark": "技能施放时需要的最大半径，可能根据等级范围不同",
+        "shortmark": "技能施放时需要的最大半径，可能根据等级范围不同"
+    },
+    "bCanAddMaxRadius": {
+        "desc": "是否受增加距离影响",
+        "remark": "是否受到atMaxSkillRadiusAdd属性影响增加距离",
+        "shortmark": "是否受到最大攻击距离属性影响增加距离"
+    },
+    "bCheckMinAltitude": {
+        "desc": "是否检查最小高度",
+        "remark": "是否检查最小高度",
+        "shortmark": "是否检查最小高度"
+    },
+    "nMinAltitude": {
+        "desc": "最小高度",
+        "remark": "最小高度值",
+        "shortmark": "最小高度值"
+    },
+    "bCheckMaxAltitude": {
+        "desc": "是否检查最大高度",
+        "remark": "是否检查最大高度",
+        "shortmark": "是否检查最大高度"
+    },
+    "nMaxAltitude": {
+        "desc": "最大高度",
+        "remark": "最大高度值",
+        "shortmark": "最大高度值"
+    },
+    "nSkillBulletType": {
+        "desc": "子弹类型",
+        "remark": "子弹类型(苍云为1、霸刀为3)",
+        "shortmark": "子弹类型(苍云为1、霸刀为3)"
+    },
+    "nSkillBulletSubType": {
+        "desc": "子弹子类型",
+        "remark": "子弹的子类型",
+        "shortmark": "子弹的子类型(和BulletType一起确定不同子弹的不同表现，取值范围0~256)"
+    },
+    "nAnimationPlayFrame": {
+        "desc": "延迟消失帧数",
+        "remark": "延迟消失帧数",
+        "shortmark": "延迟消失帧数，这个为发射子弹后动画等待时间,即从子弹打到目标开始算起,这么多帧之后,发送sbsEnd消息给表现."
+    },
+    "nMaxHitCount": {
+        "desc": "弹射最多次数",
+        "remark": "弹射技能的最大攻击次数",
+        "shortmark": "弹射技能的最大攻击次数"
+    },
+    "nMaxHitRadius": {
+        "desc": "弹射最远影响距离",
+        "remark": "距离释放者的最大距离限定",
+        "shortmark": "距离释放者的最大距离限定"
+    },
+    "nMaxHoodleRadius": {
+        "desc": "弹射搜索距离",
+        "remark": "弹射搜索距离",
+        "shortmark": "弹射搜索距离"
+    },
+    "nMaxSearchCount": {
+        "desc": "是否限制弹射目标",
+        "remark": "是否限制弹射目标(0为不限 1为只打一个目标)",
+        "shortmark": "是否限制弹射目标"
+    },
+    "nProtectRadius": {
+        "desc": "技能保护半径",
+        "remark": "环形和矩形AOE的保护距离，处于这个范围内的玩家不会受到技能影响；也是环形技能的起始点",
+        "shortmark": "环形和矩形AOE的保护距离，处于这个范围内的玩家不会受到技能影响；也是环形技能的起始点"
+    },
+    "nHeight": {
+        "desc": "AOE高度",
+        "remark": "AOE高度，全高，圆柱体AOE中不填为2倍的nAreaRadius，矩形AOE中不填为nAreaRadius",
+        "shortmark": "二段跳最高3尺，扶摇最高12.8尺，扶摇+2段跳最高14.2尺"
+    },
+    "nRectWidth": {
+        "desc": "矩形宽度",
+        "remark": "矩形AOE的宽度，全宽，不填为nAreaRadius，玩家所处位置就在全宽的中点",
+        "shortmark": "矩形AOE的宽度，全宽，不填为nAreaRadius，玩家所处位置就在全宽的中点"
+    },
+    "nAngleRange": {
+        "desc": "扇形角度",
+        "remark": "扇形角度，攻击范围的扇形角度范围，256=360°",
+        "shortmark": "扇形角度"
+    },
+    "nAreaRadius": {
+        "desc": "技能作用半径",
+        "remark": "技能作用半径，当技能范围为矩形时，这个半径即为矩形的长",
+        "shortmark": "技能作用半径，当技能范围为矩形时，这个半径即为矩形的长"
+    },
+    "nTargetCountLimit": {
+        "desc": "目标数量",
+        "remark": "技能作用目标数量限制，小于0代表目标数量不限制，不同难度有不同，以逗号分隔",
+        "shortmark": "技能作用目标数量限制，小于0代表目标数量不限制，不同难度有不同，以逗号分隔"
+    },
+    "nRectRotation": {
+        "desc": "矩形旋转角度",
+        "remark": "矩形旋转角度（正数表示逆时针旋转，负数表示顺时针旋转）",
+        "shortmark": "矩形旋转角度（正数表示逆时针旋转，负数表示顺时针旋转）"
+    },
+    "nRectOffset": {
+        "desc": "技能范围平移点数",
+        "remark": "技能朝着向量方向平移的点数(正数为正向量方向，负数为反向)",
+        "shortmark": "技能朝着向量方向平移的点数(正数为正向量方向，负数为反向)"
+    },
+    "nPrepareFrames": {
+        "desc": "施法帧数",
+        "remark": "成功释放技能需要保持的吟唱、蓄力帧数",
+        "shortmark": "成功释放技能需要保持的吟唱、蓄力帧数"
+    },
+    "nMinPrepareFrames": {
+        "desc": "最小施法帧数",
+        "remark": "急速效果影响下最小的施法帧数：默认为-1时，施法不受急速影响。大于等于0则受急速影响，最小施法帧数为填的值",
+        "shortmark": "急速效果影响下最小的施法帧数：默认为-1时，施法不受急速影响。大于等于0则受急速影响，最小施法帧数为填的值"
+    },
+    "nChannelInterval": {
+        "desc": "引导技能间隔帧数",
+        "remark": "引导技能作用的间隔时间",
+        "shortmark": "引导技能作用的间隔时间"
+    },
+    "nMinChannelInterval": {
+        "desc": "最小引导间隔帧数",
+        "remark": "急速效果影响下最小引导技能的间隔帧数：默认为-1时，引导不受急速影响。大于等于0则受急速影响，最短的引导帧数为填的值",
+        "shortmark": "急速效果影响下最小引导技能的间隔帧数：默认为-1时，引导不受急速影响。大于等于0则受急速影响，最短的引导帧数为填的值"
+    },
+    "nChannelFrame": {
+        "desc": "引导持续帧数",
+        "remark": "引导技能的持续时间，单位帧数",
+        "shortmark": "引导技能的持续时间，单位帧数"
+    },
+    "nMinChannelFrame": {
+        "desc": "引导技能是否加速",
+        "remark": "通常配合急速最小间隔时间使用。使得通道技能整体加速。如果这个填-1，间隔不是-1，高急速可以多1跳",
+        "shortmark": "通常配合急速最小间隔时间使用。使得通道技能整体加速。如果这个填-1，间隔不是-1，高急速可以多1跳"
+    },
+    "nBulletVelocity": {
+        "desc": "子弹速度",
+        "remark": "子弹速度，单位 点/帧",
+        "shortmark": "子弹速度，单位 点/帧"
+    },
+    "bInstantChannel": {
+        "desc": "引导技能开始时造成伤害",
+        "remark": "引导技能是否在开始时就立刻造成一次伤害",
+        "shortmark": "引导技能是否在开始时就立刻造成一次伤害"
+    },
+    "bIsFormationSkill": {
+        "desc": "是否为阵眼技能",
+        "remark": "是否为阵眼技能",
+        "shortmark": "是否为阵眼技能"
+    },
+    "nFormationRange": {
+        "desc": "结阵范围",
+        "remark": "结阵的范围",
+        "shortmark": "结阵的范围"
+    },
+    "nLeastFormationPopulation": {
+        "desc": "结阵最少人数",
+        "remark": "结阵的范围内，需求的最少队员数（包括队长）",
+        "shortmark": "结阵的范围内，需求的最少队员数（包括队长）"
+    },
+    "nTargetLifePercentMin": {
+        "desc": "需求目标血量>=",
+        "remark": "技能释放需要目标血量>=对应值",
+        "shortmark": "技能释放需要目标血量>=对应值"
+    },
+    "nTargetLifePercentMax": {
+        "desc": "需求目标血量<=",
+        "remark": "技能释放需要目标血量<=对应值",
+        "shortmark": "技能释放需要目标血量<=对应值"
+    },
+    "nSelfLifePercentMin": {
+        "desc": "需求自身血量>=",
+        "remark": "技能释放需要自身血量>=对应值",
+        "shortmark": ""
+    },
+    "nSelfLifePercentMax": {
+        "desc": "需求自身血量<=",
+        "remark": "技能释放需要自身血量<=对应值",
+        "shortmark": ""
+    },
+    "nBeatBackRate": {
+        "desc": "可否被打退",
+        "remark": "施法、引导类技能被打退的概率, 默认1024 = 100%",
+        "shortmark": ""
+    },
+    "nBrokenRate": {
+        "desc": "可否被打断",
+        "remark": "施法、引导类技能被打断的概率, 默认1024 = 100%",
+        "shortmark": ""
+    },
+    "nBreakRate": {
+        "desc": "打断目标的概率",
+        "remark": "打断目标施法、引导技能的概率,默认1024 = 100%",
+        "shortmark": ""
+    },
+    "nDismountingRate": {
+        "desc": "击落下马的概率",
+        "remark": "将目标击落下马概率,默认1024 = 100%",
+        "shortmark": ""
+    },
+    "nWeaponDamagePercent": {
+        "desc": "武器伤害百分比",
+        "remark": "武器伤害百分比,对外功伤害有用。填0表示此次外功攻击不计算武器伤害,1024 = 100%",
+        "shortmark": ""
+    },
+    "ProtectRadius": {
+        "desc": "技能保护半径",
+        "remark": "环形和矩形AOE的保护距离，处于这个范围内的玩家不会受到技能影响",
+        "shortmark": ""
+    },
+    "RectWidth": {
+        "desc": "矩形宽度",
+        "remark": "矩形AOE的宽度，全宽，不填为nAreaRadius，玩家所处位置就在全宽的中点"
+    },
+    "RectRotation": {
+        "desc": "矩形旋转角度",
+        "remark": "矩形旋转角度（正数表示逆时针旋转，负数表示顺时针旋转）"
+    },
+    "RectOffset": {
+        "desc": "技能范围平移距离",
+        "remark": "技能朝着向量方向平移的点数(正数为正向量方向，负数为反向)"
+    },
+    "PrepareFrames": {
+        "desc": "施法帧数",
+        "remark": "吟唱帧数，每秒16帧，用值除以16得到读条秒数，不同难度有不同，以逗号分隔"
+    },
+    "ChannelInterval": {
+        "desc": "引导技能间隔帧数",
+        "remark": "引导技能作用的间隔时间"
+    },
+    "ChannelFrame": {
+        "desc": "引导持续帧数",
+        "remark": "引导技能的整体持续时间，单位帧数"
+    },
+    "InstantChannel": {
+        "desc": "引导技能开始就造成伤害",
+        "remark": "引导技能是否在开始时就立刻造成一次伤害"
+    },
+
+    "TargetLifePercentMin": {
+        "desc": "需求目标血量>=",
+        "remark": "技能释放需要目标血量>=对应值"
+    },
+    "TargetLifePercentMax": {
+        "desc": "需求目标血量<=",
+        "remark": "技能释放需要目标血量<=对应值"
+    },
+    "SelfLifePercentMin": {
+        "desc": "需求自身血量>=",
+        "remark": "技能释放需要自身血量>=对应值"
+    },
+    "SelfLifePercentMax": {
+        "desc": "需求自身血量<=",
+        "remark": "技能释放需要自身血量<=对应值"
+    },
+    "DamageBase": {
+        "desc": "基础伤害",
+        "remark": "基础伤害，根据mapID伤害不同"
+    },
+    "Immune": {
+        "desc": "移除buff",
+        "remark": "移除玩家buff，相当于免疫"
+    },
+    "PULL": {
+        "desc": "每秒拖拽距离",
+        "remark": "每帧移动点数，一秒16帧，64点为一米"
+    },
+    "SpreadCircleVelocity": {
+        "desc": "环每帧运动距离",
+        "remark": "环每帧运动点数，可以为负的，距离/64后就为尺"
+    },
+    "SpreadCircleTotalFrame": {
+        "desc": "环的运动时间",
+        "remark": "环形技能总的释放帧数"
+    },
+    "nTargetRayTargetType": {
+        "desc": "射线目标类型",
+        "remark": "射线类技能可以命中的目标类型"
+    },
+    "SetHoardSkill": {
+        "desc": "预释放技能",
+        "remark": "一般用于蓄力类技能，根据返回的施法时间来释放对应子技能"
+    },
+    "nCastHeight": {
+        "desc": "技能合法释放高度",
+        "remark": "技能释放高度,表示释放者的合法释放高度,如果这个值为0,采用原来的skill.nHeight的释放高度规则.技能作用高度规则和原来的一样,用skill.nHeight来计算",
+        "shortmark":"技能释放高度,默认为AOE高度"
+    },
+    "nSpreadCircleVelocity": {
+        "desc": "环每帧运动距离",
+        "remark": "环每帧运动点数，可以为负的，距离/64后就为尺"
+    },
+    "nSpreadCircleTotalFrame": {
+        "desc": "环的运动时间",
+        "remark": "环形技能总的释放帧数"
+    }
+}

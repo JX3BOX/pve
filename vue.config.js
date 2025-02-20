@@ -24,6 +24,12 @@ module.exports = {
             entry: "src/pages/bps/index.js",
             template: "public/index.html",
             filename: "bps/index.html",
+        },
+        fb: {
+            title: "副本专栏 - JX3BOX",
+            entry: "src/pages/fb/index.js",
+            template: "public/index.html",
+            filename: "fb/index.html",
         }
     },
 

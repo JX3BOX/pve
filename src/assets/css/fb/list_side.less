@@ -1,0 +1,228 @@
+.m-fb-info {
+    padding: 10px;
+    .u-pic {
+        img {
+            .size(235px, 132px);
+            .r(4px);
+            filter: saturate(180%) brightness(120%);
+            .db;
+            .auto(x);
+        }
+    }
+    .u-title {
+        .bold;
+        .mb(10px);
+    }
+    .u-intro {
+        .break(3);
+        .fz(13px, 1.8);
+        .h(69px);
+    }
+    .u-mode {
+        list-style: none;
+        .clearfix;
+        margin: 0;
+        padding: 0;
+        li {
+            .fl;
+            .fz(13px);
+            border: 1px solid @border-hr;
+            padding: 3px 10px;
+            .mr(10px);
+            .mb(10px);
+            .r(4px);
+            background-color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: @ipad) {
+    .m-fb-info {
+        .none;
+    }
+}
+
+.m-fb-links {
+    padding: 15px;
+
+    .u-icon {
+        .size(18px);
+        .y(-3px);
+    }
+}
+@media screen and (max-width: @phone) {
+    .m-fb-links {
+        .none;
+    }
+}
+
+.c-sidebar-right-msg {
+    .mb(15px);
+}
+.c-sidebar-right-title {
+    .fz(14px);
+    font-weight: normal;
+
+    .u-more {
+        .fz(12px);
+        color: #aaa;
+        .fr;
+        &:hover {
+            color: @color-link;
+        }
+    }
+}
+
+.m-rank-list {
+    margin: 10px 15px;
+    .u-icon {
+        .size(24px);
+        .y;
+        .mr(3px);
+    }
+    ul {
+        padding: 0 10px;
+        margin: 0;
+        list-style: none;
+    }
+    li {
+        .fz(13px, 32px);
+    }
+    li a {
+        &:before {
+            content: "»";
+            margin-right: 5px;
+            color: #555;
+        }
+        &:hover {
+            color: @pink;
+        }
+    }
+}
+
+.m-team-recruit {
+    margin: 10px 15px;
+    .u-icon {
+        .size(17px);
+        .y;
+        .ml(3px);
+        .mr(7px);
+    }
+    ul {
+        padding: 0 10px;
+        margin: 0;
+        list-style: none;
+    }
+    li {
+        .mb(5px);
+    }
+    a {
+        .db;
+        &:hover {
+            color: @pink;
+        }
+        padding: 1px 0;
+        .fz(13px, 2);
+    }
+    img {
+        .size(24px);
+        .r(2px);
+        .fl;
+        .mr(10px);
+    }
+    .u-server {
+        color: #aaa;
+        .fr;
+        .fz(12px);
+    }
+    .u-flag {
+        .mr(5px);
+        color: #aaa;
+    }
+}
+
+.m-team-app {
+    display: block;
+    margin: 20px 15px;
+    color: #3d454d;
+    border: 1px solid #0366d6;
+    padding: 10px;
+    border-radius: 3px;
+    // background-color: #fff;
+    background-color: #f1faff;
+    &:hover {
+        // background-color: #f2f6fc;
+        background-color: #fff;
+        box-shadow: 0 0 6px rgba(0,0,0,.1);
+    }
+    svg {
+        width: 32px;
+        height: 32px;
+        fill: #3d454d;
+        float: left;
+        *display: inline;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    b {
+        font-size: 14px;
+        line-height: 2;
+        display: block;
+    }
+    span {
+        font-size: 12px;
+        color: #999;
+        display: block;
+    }
+}
+
+.m-rank-ing {
+    .db;
+    .auto(x);
+    .x;
+    img {
+        .r(4px);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    }
+    .mb(10px);
+}
+
+.m-extend-qlink {
+    a {
+        .db;
+        height: 48px;
+        line-height: 48px;
+        background-color: #fff;
+        color: #303133;
+        cursor: pointer;
+        border-bottom: 1px solid #ebeef5;
+        font-size: 13px;
+        font-weight: 500;
+
+        &.router-link-exact-active{
+            background-color:@bg-light;
+            color:@color-link;
+            span{.bold;}
+        }
+        .el-icon-arrow-right{
+            .fr;
+            .mt(18px);
+        }
+    }
+
+    i{
+        .mr(5px);
+    }
+    margin:0 15px;
+}
+@media screen and (max-width:@phone){
+    .m-extend-qlink{
+        .none;
+    }
+}
+
+.m-team-rank{
+    background:#fffce4;
+    border-color:#fba524;
+}

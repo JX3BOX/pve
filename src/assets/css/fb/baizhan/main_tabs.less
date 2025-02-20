@@ -1,0 +1,88 @@
+@tab-text-color: #b2b3ff;
+@tab-text-color-active: #fff;
+@tab-bg-active: #7879d0;
+
+.m-baizhan-tabs {
+    .flex-column;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 247px;
+    box-sizing: border-box;
+
+    .u-tab-list {
+        .flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .u-tab {
+        .fz(16px);
+        .size(84px, 115px);
+
+        color: @tab-text-color;
+        .no-select;
+        .pointer;
+
+        .r(10px);
+        .flex-column;
+        align-items: center;
+        gap: 10px;
+
+        &.is-active {
+            color: @tab-text-color-active;
+            background-color: @tab-bg-active;
+        }
+        &.is-gray {
+            img,
+            .u-name {
+                opacity: 0.3;
+            }
+        }
+    }
+
+    .u-map-info {
+        .u-skill-tab-img {
+            margin-top: 6px;
+        }
+        .flex-column;
+        gap: 6px;
+        color: #fdfcf5;
+        .fz(12px, normal);
+        font-weight: 400;
+        width: 100%;
+        & > div {
+            height: 20px;
+        }
+        .u-map-duration {
+            .flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            .u-download {
+                .flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                .size(74px, 20px);
+                font-size: 12px;
+                background-color: @tab-bg-active;
+                color: #fff;
+                .r(2px);
+                cursor: pointer;
+                img {
+                    .size(12px, 12px);
+                }
+                &.is-disabled {
+                    opacity: 0.5;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+
+    .u-title-icon {
+        .size(12px);
+        .mr(4px);
+    }
+}

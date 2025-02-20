@@ -12,6 +12,7 @@
         "update": "npm --registry https://registry.npmjs.org install @jx3box/jx3box-common-ui@latest @jx3box/jx3box-common@latest @jx3box/jx3box-data@latest @jx3box/jx3box-emotion@latest @jx3box/jx3box-comment-ui@latest @jx3box/jx3box-editor@latest"
     },
     "dependencies": {
+        "@jx3box/jx3box-bmap": "^0.1.15",
         "@jx3box/jx3box-comment-ui": "^2.0.3",
         "@jx3box/jx3box-common": "^8.6.3",
         "@jx3box/jx3box-common-ui": "^9.1.9",
@@ -33,6 +34,7 @@
         "lodash": "^4.17.19",
         "lottie-web": "^5.12.2",
         "mitt": "^3.0.1",
+        "pinyin-pro": "^3.26.0",
         "vue": "^2.6.14",
         "vue-codemirror": "^4.0.6",
         "vue-router": "^3.5.2",

@@ -1,0 +1,278 @@
+.p-skills {
+    flex: 1;
+    .flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: @baizhan_bg;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: calc(100vh - 64px - 48px - 30px);
+    overflow-y: hidden;
+    .m-search {
+        .flex;
+        gap: 10px;
+        input {
+            background-color: @baizhan_tab_bg !important;
+            border-color: @baizhan_tab_bg !important;
+            color: @baizhan_color;
+            &::placeholder {
+                color: #494949;
+            }
+        }
+    }
+    .m-table {
+        .cell {
+            line-height: unset;
+        }
+        .u-detail-btn {
+            .none;
+            background: #313956;
+            color: #fff;
+            padding: 9px 25px 10px;
+            .r(5px);
+            .size(106px, 37px);
+            cursor: pointer;
+            &:hover {
+                background-color: @baizhan_active;
+            }
+        }
+        .el-table__body-wrapper {
+            background-color: #1f2937 !important;
+        }
+        .el-table__row {
+            &.is-active {
+                tr,
+                td {
+                    background-color: #101827 !important;
+                }
+            }
+            &:hover {
+                .u-detail-btn {
+                    .db;
+                }
+            }
+        }
+        .el-table__body-wrapper {
+            .scrollbar(2px, #666);
+        }
+        .el-table__header-wrapper {
+            background-color: @baizhan_bg !important;
+        }
+        input {
+            background-color: @baizhan_tab_bg !important;
+            border-color: @baizhan_tab_bg !important;
+            color: @baizhan_color;
+        }
+        .flex;
+        flex-direction: column;
+        flex: none;
+        // min-width: 1200px;
+        margin-bottom: 200px;
+        &::before {
+            background-color: transparent;
+        }
+        .is-scrolling-none {
+            background-color: @baizhan_bg !important;
+        }
+        tr {
+            background-color: @baizhan_bg;
+            th,
+            td {
+                background-color: @baizhan_bg !important;
+                border-bottom-color: @baizhan_tab_bg !important;
+                .cell {
+                    color: @baizhan_color;
+                }
+            }
+            &:hover {
+                td {
+                    background-color: @baizhan_tab_bg !important;
+                }
+            }
+        }
+        .u-skill-cell {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .u-skill-img {
+                .size(50px, 50px);
+                border-radius: 4px;
+                box-sizing: border-box;
+                overflow: hidden;
+                img {
+                    transform: scale(1.25);
+                }
+                &.u-skill-icon__1 {
+                    // 白色
+                    border: 3px solid @skill_1;
+                }
+                &.u-skill-icon__2 {
+                    // 黄色
+                    border: 3px solid @skill_2;
+                }
+                &.u-skill-icon__3 {
+                    // 蓝色
+                    border: 3px solid @skill_3;
+                }
+                &.u-skill-icon__4 {
+                    // 绿色
+                    border: 3px solid @skill_4;
+                }
+                &.u-skill-icon__5 {
+                    // 红色
+                    border: 3px solid @skill_5;
+                }
+                &.u-skill-icon__6 {
+                    // 紫色
+                    border: 3px solid @skill_6;
+                }
+                &.u-skill-icon__7 {
+                    // 黑色
+                    border: 3px solid @skill_7;
+                }
+            }
+            .u-edit {
+                .pointer;
+            }
+        }
+        .u-skill-item {
+            .flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 150px;
+            gap: 10px;
+            padding: 0;
+            color: @baizhan_color;
+            .u-skill-icon {
+                .size(48px, 48px);
+                border: 2px solid transparent;
+                border-radius: 5px;
+                box-sizing: border-box;
+                overflow: hidden;
+                .flex;
+                justify-content: center;
+                align-items: center;
+                &.u-skill-icon__1 {
+                    // 白色
+                    border-color: @skill_1;
+                }
+                &.u-skill-icon__2 {
+                    // 黄色
+                    border-color: @skill_2;
+                }
+                &.u-skill-icon__3 {
+                    // 蓝色
+                    border-color: @skill_3;
+                }
+                &.u-skill-icon__4 {
+                    // 绿色
+                    border-color: @skill_4;
+                }
+                &.u-skill-icon__5 {
+                    // 红色
+                    border-color: @skill_5;
+                }
+                &.u-skill-icon__6 {
+                    // 紫色
+                    border-color: @skill_6;
+                }
+                &.u-skill-icon__7 {
+                    // 黑色
+                    border-color: @skill_7;
+                }
+                &.is-passive {
+                    border-radius: 50%;
+                }
+                img {
+                    .size(100%, 100%);
+                    transform: scale(1.15);
+                    cursor: pointer;
+                }
+            }
+            .u-skill-popover {
+                .size(48px, 48px);
+            }
+            .el-popover__reference-wrapper {
+                .dbi;
+                .size(48px, 48px);
+            }
+        }
+        .u-cooldown-60,
+        .u-endurance-about {
+            color: #dbcf1f;
+            .bold;
+        }
+        .u-cooldown-30,
+        .u-vigor-about {
+            color: #3476f0;
+            .bold;
+        }
+        .u-cooldown-10 {
+            color: #494949;
+            .bold;
+        }
+        .u-cooldown-10 {
+            color: #0087d4;
+            .bold;
+        }
+        .u-level-select-header {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            .el-select,
+            .el-input {
+                padding: 0;
+            }
+        }
+    }
+}
+
+.el-popover {
+    padding: 2px;
+    &.u-skill__popup__1 {
+        // 白色
+        background: @skill_1;
+        border-color: @skill_1;
+    }
+    &.u-skill__popup__2 {
+        // 黄色
+        background: @skill_2;
+        border-color: @skill_2;
+    }
+    &.u-skill__popup__3 {
+        // 蓝色
+        background: @skill_3;
+        border-color: @skill_3;
+    }
+    &.u-skill__popup__4 {
+        // 绿色
+        background: @skill_4;
+        border-color: @skill_4;
+    }
+    &.u-skill__popup__5 {
+        // 红色
+        background: @skill_5;
+        border-color: @skill_5;
+    }
+    &.u-skill__popup__6 {
+        // 紫色
+        background: @skill_6;
+        border-color: @skill_6;
+    }
+    &.u-skill__popup__7 {
+        // 黑色
+        background: @skill_7;
+        border-color: @skill_7;
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .m-skill-dialog {
+        max-width: 100%;
+        .el-dialog {
+            margin-top: 3vh !important;
+            width: 90%;
+        }
+    }
+}

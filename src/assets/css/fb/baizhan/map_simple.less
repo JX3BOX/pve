@@ -1,0 +1,90 @@
+.m-simple-map {
+    color: @baizhan_color;
+    .u-header {
+        .flex;
+        justify-content: space-between;
+        .u-title {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .u-time {
+            font-size: 12px;
+        }
+    }
+    .u-list {
+        .flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        .u-floor {
+            position: relative;
+            .flex;
+            justify-content: center;
+            align-items: center;
+            .size(20px, 20px);
+            font-size: 12px;
+            background-color: #1e2539;
+            user-select: none;
+            color: transparent;
+            &.is-active {
+                background-color: @baizhan_active;
+                color: @baizhan_color;
+            }
+            &::after {
+                position: absolute;
+                right: -8px;
+                width: 8px;
+                height: 2px;
+                display: block;
+                background-color: #1e2539;
+                content: "";
+            }
+            &:nth-of-type(10n) {
+                &::after {
+                    right: unset;
+                    bottom: -10px;
+                    width: 2px;
+                    height: 10px;
+                }
+            }
+        }
+        .u-step {
+            .flex;
+            gap: 7px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &:nth-of-type(even) {
+                flex-direction: row-reverse;
+                .u-floor {
+                    &::after {
+                        position: absolute;
+                        right: unset;
+                        left: -8px;
+                        width: 8px;
+                        height: 2px;
+                        display: block;
+                        background-color: #1e2539;
+                        content: "";
+                    }
+                    &:nth-of-type(10n) {
+                        &::after {
+                            left: unset;
+                            bottom: -10px;
+                            width: 2px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+            &:nth-of-type(6) {
+                .u-floor {
+                    &:last-of-type {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

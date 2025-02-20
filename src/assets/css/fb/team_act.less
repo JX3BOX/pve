@@ -1,0 +1,148 @@
+.m-act-title {
+    .x;
+
+    .u-icon {
+        .y(-5px);
+        .size(24px);
+    }
+
+    .u-dot {
+        margin: 0 8px 0 5px;
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .m-act-title {
+        .u-dot {
+            .none;
+        }
+
+        .u-title {
+            .db;
+            .mb(10px);
+        }
+    }
+}
+
+.m-team-act-mini {
+    padding: 15px;
+
+    .m-act-title {
+        .flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0 0 5px 0;
+        border-bottom: 1px solid #ebeef5;
+    }
+
+    .u-more {
+        .fr;
+        .fz(12px);
+        .pointer;
+        font-weight: normal;
+        color: #777;
+
+        &:hover {
+            color: @pink;
+        }
+    }
+
+}
+
+.m-tab {
+    .w(100%);
+    .mt(8px);
+
+    .el-radio-button {
+        .w(50%);
+
+        .el-radio-button__inner {
+            .w(100%);
+            .fz(14px);
+            letter-spacing: 1px;
+        }
+    }
+
+    .is-active {
+        .bold;
+    }
+}
+
+.m-act-info {
+    .pr;
+    padding: 10px 0;
+    .pl(40px);
+    .pointer;
+    .flex;
+    // height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    .r(4px);
+    border-bottom: 1px dotted #eee;
+
+    &:hover {
+        background-color: @bg-light;
+
+        .u-act-title,
+        .u-team-title {
+            color: @pink;
+        }
+    }
+
+    .u-img {
+        .pa;
+        left: 2px;
+        top: 12px;
+        .size(32px);
+        .r(4px);
+        border: 1px solid #eee;
+        img{
+            object-fit: cover;
+        }
+    }
+
+    .u-act-title,
+    .u-title {
+        color: #0366d6;
+        .bold;
+        .fz(12px, 18px)
+    }
+
+    .u-title {
+        .pl(5px);
+        .flex;
+        .mb(5px);
+    }
+
+    .u-team-server{
+        .fz(12px);
+        color:#999;
+        font-weight: normal;
+        transform: scale(0.8);
+    }
+
+    .u-detail {
+        .fz(10px, 20px);
+        color: #777;
+        padding: 0px 5px;
+        letter-spacing: 1px;
+        .flex;
+    }
+
+    .u-tag {
+        padding: 2px 5px;
+        border-radius: 3px;
+        background-color: #f2f6fc;
+        color: #637a9c;
+        transform: scale(0.8);
+    }
+}
+
+.m-act-info-null {
+    .flex;
+    justify-content: center;
+    .pt(5px);
+    color: #ccc;
+    .fz(14px)
+}

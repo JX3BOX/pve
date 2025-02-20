@@ -1,0 +1,26 @@
+.m-fb-item {
+
+    .u-mode-list,.u-boss-list{
+        color:#565656;
+    }
+    .u-mode-list {
+        .mb(5px);
+    }
+    .u-boss-list {
+        b {
+            //.mr(5px);
+            &:after {
+                content: " ／ ";
+                color: #ccc;
+            }
+            &:last-child {
+                &:after {
+                    .none;
+                }
+            }
+        }
+        .isFocus {
+            background-color: #ff0;
+        }
+    }
+}

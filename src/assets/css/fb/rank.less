@@ -1,0 +1,271 @@
+.m-fb-rank-title{
+    .x;
+    font-weight:300;
+    font-size:32px;
+    .nobreak;
+    margin:10px auto;
+}
+.m-fb-rank-desc{
+    .x;
+    .mb(20px);
+    a:hover{
+        box-shadow:0 1px 0 @primary;
+    }
+}
+.m-fb-rank-tip{
+    .db;
+    .fz(13px);
+    .mb(10px);
+}
+.m-fb-rank-box-full{
+    overflow-x: auto;
+}
+.m-fb-rank-list{
+    // .pr;
+    min-width:1200px;
+}
+.m-fb-rank-group{
+
+    .u-list{
+        padding:0;
+        margin:0;
+
+        li{
+            list-style: none;
+            border-bottom:1px solid #ebeef5;
+            .fz(13px,48px);
+            .h(48px);
+            // display: flex;
+            // justify-content:space-between;
+            .clearfix;
+            .db;
+        }
+    }
+
+    .el-row{
+        // display: flex;
+        border-bottom:1px solid #ebeef5;
+        .fz(13px,48px);
+        // .h(48px);
+    }
+
+    .u-subblock{
+        // .fl;
+        .nobreak;
+    }
+
+    .u-th{
+        position: sticky;
+        top:0;
+        background-color:#fff;
+        .z(10);
+    }
+
+    .u-th .u-subblock{
+        background:none;
+        .fz(13px,48px);
+        color:#555;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        // .x;
+    }
+
+    .u-order{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color:#eee;
+        .w(40px);
+        .fz(16px);
+        // .dbi;.y(top);
+        width:40px;
+        .x;
+        .mr(10px);
+
+        &.t1,&.t2,&.t3{
+            color:#fff;
+        }
+
+        &.t1{
+            background-color:#fc3c3c;
+        }
+
+        &.t2{
+            background-color:#fba524;
+        }
+
+        &.t3{
+            background-color:@primary;
+        }
+    }
+
+    .u-team{
+        .fz(13px);
+        // &:after{
+        //     content:"@"
+        // }
+        // .w(200px);
+        padding:0 40px;
+    }
+
+    .u-server{
+        .fz(13px);
+        // .w(100px);
+        padding:0 40px;
+        
+    }
+
+    .u-date{
+        .fz(12px);
+        color:#888;
+        // .pa;.rt(30px,0);
+        // .ml(20px);
+        flex:1;
+    }
+
+    .u-important{
+        color:#f00;
+    }
+
+    .u-big{
+        font-size:16px;
+    }
+
+    .u-cost{
+        .fz(12px);
+        color:#888;
+        // .fr;
+        .h(100%);
+        margin-left: 20px
+    }
+
+    .u-detail{
+        // .fr;
+        .pointer;
+        color:#666;
+        user-select: none;
+    }
+
+    .u-detail-toggle{
+        display: block;
+        height: 100%;
+    }
+
+    .u-members {
+        width: 100%;
+        float: none;
+        height: auto;
+        text-align: left;
+        clear: both;
+        .fz(12px,24px);
+        padding:10px 10px 0 10px;
+        background-color:@bg-light;
+        border:1px solid #eee;
+        border-bottom:none;
+
+        em{
+            .db;.fl;
+            img{.db;.size(24px);}
+            .mr(10px);
+        }
+        b{
+            font-weight: normal;
+            color:#666;
+        }
+        .clearfix;
+        .none;
+
+        &.on{
+            .db;
+        }
+    }
+
+    .u-member{
+        .fl;
+        .db;
+        .clearfix;
+        .w(200px);
+        .mb(10px);
+    }
+
+    .u-status {
+        
+    }
+    .u-verified{
+        color:#49c10f;
+        i{
+            .mr(5px);
+        }
+    }
+    .u-undefined{
+        color:#999;
+    }
+}
+
+@media screen and (max-width:@phone){
+    .m-fb-rank-group .u-th{
+        position: static;
+    }
+    .m-fb-rank-title{
+        margin:10px auto;
+        .break;
+        font-size:1.6rem;
+    }
+}
+
+.m-fb-rank-mini{
+    padding:15px;
+
+    .u-icon{
+        .mr(5px);
+        .y(-5px);
+    }
+
+    .u-list{
+        padding:0 10px;
+        li{
+            .db;
+            .h(34px);
+            .lh(34px);
+            border-bottom:1px dotted #eee;
+            .nobreak;
+        }
+    }
+    .u-team,.u-server{
+        .w(auto) !important;
+        padding:0 !important;
+        .fz(12px);
+        color:#555;
+    }
+
+    .u-order{
+        background-color:@bg-gray;
+        .dbi;
+        padding:2px 10px;
+        .r(3px);
+        .fz(13px,24px);
+        color:#888;
+        .w(40px);
+        .h(24px);
+        .y;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .u-team{
+        &:after{
+            content:"@";
+            padding:0 2px;
+        }
+    }
+
+    .u-more{
+        // .none;
+        // .w(100%);
+        .db;
+        margin-top:10px;
+    }
+}
+
+@media screen and (max-width:@phone){
+    .m-fb-rank-mini{
+        .none;
+    }
+}

@@ -1,0 +1,88 @@
+.m-gem-search{
+    .mb(10px);
+}
+
+.m-gem-item{
+    background-color:@bg-light;
+    border:1px solid #eee;
+    .r(4px);
+    .mb(20px);
+    .db;
+    padding:10px;
+    .clearfix;
+
+    .u-icon{
+        .r(4px);
+        .fl;
+        .mr(10px);
+        .size(48px);
+    }
+
+    .u-title{
+        .fz(14px,1.4);
+        .db;
+        .mb(5px);
+        color: #0366d6;
+        .pointer;
+        i{
+            .pl(0.75rem);
+        }
+    }
+
+    .u-desc{
+        color:#555;
+        .db;
+        .fz(12px);
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+
+    transition:0.06s border ease-in-out;
+    &:hover{
+        border-color:@primary;
+    }
+
+    .pr;
+    .u-point{
+        .pa;.rt(10px);
+        .fz(13px,18px);
+        color:#555;
+        font-style:normal;
+        img{
+            .size(18px);
+            .fl;
+            .mr(2px);
+        }
+    }
+
+    .u-drops{
+        .fz(12px);
+    }
+    .u-drop{
+        color:#ff33ef;
+        .mr(5px);
+    }
+
+    .pr;
+    .u-id{
+        .pa;.rt(10px);
+        color:#666;
+        .fz(12px);
+    }
+}
+@media screen and (max-width:@phone){
+    .m-gem-item{
+        .u-id{
+            .none;
+        }
+    }
+}
+
+.m-archive-more{
+    .db;
+    .w(100%);
+}
+.m-archive-null{
+    .mb(20px);
+}

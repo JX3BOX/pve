@@ -1,0 +1,87 @@
+.m-skill-reward {
+    .flex;
+    flex-direction: column;
+    gap: 10px;
+    .u-header {
+        font-weight: 700;
+    }
+    .u-skill-list {
+        .flex;
+        flex-direction: column;
+        gap: 4px;
+        .u-skill-item {
+            border-right: 5px solid #000;
+            width: 100%;
+            height: 30px;
+            .flex;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: @baizhan_color;
+            box-sizing: border-box;
+            cursor: pointer;
+            &:hover {
+                .u-skill-left {
+                    color: @skill_active;
+                }
+            }
+            .u-skill-left {
+                .flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .u-skill-right {
+                font-size: 12px;
+                color: @baizhan_active;
+                padding-right: 12px;
+            }
+            .u-skill-icon {
+                transform: scale(1.15);
+            }
+            .u-img-wrap {
+                .flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                .size(30px, 30px);
+                &.is-passive {
+                    background-color: @baizhan_map_bg;
+                    .u-skill-icon {
+                        .size(24px, 24px);
+                        border-radius: 50%;
+                        transform: scale(1);
+                    }
+                }
+            }
+            &.u-skill-icon__1 {
+                // 白色
+                border-color: @skill_1;
+            }
+            &.u-skill-icon__2 {
+                // 黄色
+                border-color: @skill_2;
+            }
+            &.u-skill-icon__3 {
+                // 蓝色
+                border-color: @skill_3;
+            }
+            &.u-skill-icon__4 {
+                // 绿色
+                border-color: @skill_4;
+            }
+            &.u-skill-icon__5 {
+                // 红色
+                border-color: @skill_5;
+            }
+            &.u-skill-icon__6 {
+                // 紫色
+                border-color: @skill_6;
+            }
+            &.u-skill-icon__7 {
+                // 黑色
+                border-color: @skill_7;
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+@baizhan_img_path: "https://img.jx3box.com/pve/baizhan/";
+@skill_1: #fff;
+@skill_2: #fae634;
+@skill_3: #1066db;
+@skill_4: #27950a;
+@skill_5: #a0393e;
+@skill_6: #863bb6;
+@skill_7: #232323;
+@baizhan_bg: #1f2937;
+@baizhan_active: #7879d0;
+@baizhan_tab_bg: #111827;
+@baizhan_color: #c8c8c8;
+@baizhan_left: 333px;
+@baizhan_right: 312px;
+@baizhan_map_bg: #373f5f;
+@baizhan_map_color: #c2c3ff;
+@baizhan_map_select_color: #deddd3;
+@skill_active: #b2b3ff;
+
+.scrollbar(@w:2px, @color:#0003, @bg: rgba(0, 0, 0, 0.1)) {
+    &::-webkit-scrollbar {
+        width: @w;
+        height: @w;
+    }
+    &::-webkit-scrollbar-track-piece {
+        background-color: hsla(0, 0%, 87%, 0.2);
+        border-radius: 6px;
+        -webkit-box-shadow: inset 0 0 6px @bg;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: @color;
+        border-radius: 6px;
+        transition: all 0.2s ease-in-out;
+    }
+    &::-webkit-scrollbar-button,
+    &::-webkit-scrollbar-corner,
+    &::-webkit-resizer {
+        display: none;
+    }
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.no-select {
+    user-select: none;
+}
