@@ -11,34 +11,34 @@ VueRouter.prototype.push = function push(location) {
 import { compatibilityRoute } from "@/utils/compatibility.js";
 
 const routes = [
-    // userdata
-    {
-        name: "userdata",
-        path: "/userdata",
-        component: () => import("@/views/tool/UserData.vue"),
-        meta: {
-            type: "userdata",
-        },
-    },
-    // jx3dat
-    {
-        name: "jx3dat",
-        path: "/jx3dat",
-        component: () => import("@/views/tool/Jx3Dat.vue"),
-        meta: {
-            type: "jx3dat",
-        },
-    },
-    {
-        name: "jx3dat_single",
-        path: "/jx3dat/:id",
-        component: () => import("@/views/tool/Jx3DatSingle.vue"),
-    },
-    {
-        name: "jx3dat_rank",
-        path: "/jx3dat/rank",
-        component: () => import("@/views/tool/Jx3DatRank.vue"),
-    },
+    // // userdata
+    // {
+    //     name: "userdata",
+    //     path: "/userdata",
+    //     component: () => import("@/views/tool/UserData.vue"),
+    //     meta: {
+    //         type: "userdata",
+    //     },
+    // },
+    // // jx3dat
+    // {
+    //     name: "jx3dat",
+    //     path: "/jx3dat",
+    //     component: () => import("@/views/tool/Jx3Dat.vue"),
+    //     meta: {
+    //         type: "jx3dat",
+    //     },
+    // },
+    // {
+    //     name: "jx3dat_single",
+    //     path: "/jx3dat/:id",
+    //     component: () => import("@/views/tool/Jx3DatSingle.vue"),
+    // },
+    // {
+    //     name: "jx3dat_rank",
+    //     path: "/jx3dat/rank",
+    //     component: () => import("@/views/tool/Jx3DatRank.vue"),
+    // },
     // app
     {
         name: "app",
