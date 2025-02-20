@@ -32,12 +32,12 @@
                 <span>数据构建</span>
                 <em>JX3dat</em>
             </a>
-            <a :href="getLink('database')" target="_blank">
+            <a href="/app/database" target="_blank">
                 <img class="u-icon" :src="getAppIcon('database')" />
                 <span>数据库大全</span>
                 <em>Database</em>
             </a>
-            <a :href="getLink('design')" target="_blank">
+            <a href="/app/design" target="_blank">
                 <img class="u-icon" :src="getAppIcon('design')" />
                 <span>美术资源</span>
                 <em>Design</em>
@@ -142,10 +142,6 @@ export default {
         this.loadMenu();
     },
     methods: {
-        getLink(val) {
-            const path = this.$router.resolve({ name: val })?.href;
-            return path;
-        },
         getAppIcon(key) {
             return __cdn + "logo/logo-light/" + key + ".svg";
         },
