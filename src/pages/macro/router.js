@@ -87,7 +87,7 @@ const routes = [
 const router = new VueRouter({
     routes,
     mode: 'history',
-    // base: '/macro'
+    base: '/macro'
 });
 
 export default router;

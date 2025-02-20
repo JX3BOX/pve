@@ -96,7 +96,7 @@ const routes = [
     // tool
     {
         name: "index",
-        path: "",
+        path: "/tool",
         component: () => import("@/views/tool/Tool.vue"),
         meta: {
             type: "tool",
@@ -104,7 +104,7 @@ const routes = [
     },
     {
         name: "tool_single",
-        path: "/:id",
+        path: "/tool/:id",
         component: () => import("@/views/tool/Single.vue"),
     },
 ];
