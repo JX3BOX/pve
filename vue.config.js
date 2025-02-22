@@ -36,6 +36,12 @@ module.exports = {
             entry: "src/pages/fb/index.js",
             template: "public/index.html",
             filename: "fb/index.html",
+        },
+        team: {
+            title: "团队管理平台 - JX3BOX",
+            entry: "src/pages/team/index.js",
+            template: "public/index.html",
+            filename: "team/index.html",
         }
     },
 
