@@ -4,7 +4,7 @@
             <el-tab-pane v-for="item in data" :label="item.Layer3Name" :key="item.MapID" :name="String(item.MapID)">
                 <div class="m-story-basic">
                     <el-divider content-position="left">基本信息</el-divider>
-                    <el-descriptions :column="3" :border="true">
+                    <el-descriptions :column="column" :border="true">
                         <el-descriptions-item label="名称">{{ item.OtherName }}</el-descriptions-item>
                         <el-descriptions-item label="地图ID">{{ item.MapID }}</el-descriptions-item>
                         <el-descriptions-item label="资料片"
@@ -86,6 +86,7 @@ export default {
                 // NPCID : []
             },
             skill_status: {},
+            column : 3,
         };
     },
     computed: {
@@ -168,6 +169,9 @@ export default {
     },
     mounted: function () {
         this.loadData();
+    },
+    created: function () {
+        window.navigator.userAgent.toLowerCase().includes('miniprogram') && (this.column = 1);
     },
 };
 </script>
