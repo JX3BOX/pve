@@ -7,11 +7,13 @@
 <script>
 import single from "@/components/fb/single/single.vue";
 import { getAppIcon, getAppID } from "@jx3box/jx3box-common/js/utils";
+import SingleLayout from "@/layouts/fb/SingleLayout.vue";
 export default {
     name: "Single",
     props: [],
     components: {
         single,
+        SingleLayout,
     },
     data: function() {
         return {

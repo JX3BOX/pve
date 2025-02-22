@@ -4,7 +4,7 @@
             <el-tab-pane v-for="item in data" :label="item.Layer3Name" :key="item.MapID" :name="String(item.MapID)">
                 <div class="m-story-basic">
                     <el-divider content-position="left">基本信息</el-divider>
-                    <el-descriptions :column="3" border>
+                    <el-descriptions :column="3" :border="true">
                         <el-descriptions-item label="名称">{{ item.OtherName }}</el-descriptions-item>
                         <el-descriptions-item label="地图ID">{{ item.MapID }}</el-descriptions-item>
                         <el-descriptions-item label="资料片"
@@ -67,6 +67,8 @@ import { __ossMirror } from "@jx3box/jx3box-common/data/jx3box";
 import { getInfo, getBoss, getBossSkills } from "@/service/fb/story.js";
 import { extractTextContent } from "@jx3box/jx3box-common/js/utils";
 import fbMap from "./Map.vue";
+import "element-ui/lib/theme-chalk/descriptions.css";
+import "element-ui/lib/theme-chalk/descriptions-item.css";
 
 export default {
     name: "Story",

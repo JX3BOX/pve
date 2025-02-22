@@ -15,8 +15,7 @@ pve/
 │   ├── pages/         # 多页面
 │   ├── utils/         # 工具函数
 │   ├── service/           # API接口
-│   ├── App.vue        # 根组件
-│   └── main.js        # 入口文件
+│   └── App.vue        # 根组件
 ├── .gitignore         # Git忽略文件
 ├── package.json       # 项目配置
 ├── README.md          # 项目说明
