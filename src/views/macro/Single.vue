@@ -244,9 +244,10 @@ export default {
                                 id: this.id,
                                 category: "posts",
                                 subcategory: "default",
-                                visible_type: this.post.visible,
+                                visible_type: ~~this.post.visible,
                                 author_id: this.post.post_author,
                                 banner: this.post.post_banner,
+                                contentMetaId: this.post.link_content_meta_id,
                             });
                     }
                 })

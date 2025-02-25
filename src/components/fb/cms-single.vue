@@ -53,6 +53,7 @@
                 showRss
                 :author-id="author_id"
                 :banner="banner"
+                :contentMetaId="contentMetaId"
             />
 
             <!-- 评论 -->
@@ -195,6 +196,9 @@ export default {
         },
         banner: function () {
             return this.post?.post_banner || "";
+        },
+        contentMetaId: function () {
+            return this.post?.link_content_meta_id || 0;
         },
     },
     methods: {
