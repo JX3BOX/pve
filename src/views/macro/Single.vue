@@ -237,6 +237,7 @@ export default {
                             title: this.post?.post_title,
                             author_id: this.post.post_author,
                             banner: this.post.post_banner,
+                            content_meta_id: this.post.link_content_meta_id,
                         });
 
                         this.post.visible > 1 &&
