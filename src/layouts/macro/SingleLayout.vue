@@ -19,7 +19,7 @@
         <Main :withoutRight="false" >
             <router-view />
             <RightSidebar :showToggle="true">
-                <Side :id="id" class="m-extend" />
+                <Side :id="id" :post="post" class="m-extend" />
             </RightSidebar>
             <Footer></Footer>
         </Main>

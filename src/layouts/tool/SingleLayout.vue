@@ -30,7 +30,7 @@
         <Main :withoutRight="false">
             <slot></slot>
             <RightSidebar :show-toggle="true">
-                <Side :id="id" class="m-extend" />
+                <Side :id="id" :post="post" class="m-extend" />
             </RightSidebar>
             <Footer></Footer>
         </Main>

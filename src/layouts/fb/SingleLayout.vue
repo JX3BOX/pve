@@ -4,7 +4,7 @@
         <Breadcrumb name="副本专栏" slug="fb" :publishEnable="true" :feedbackEnable="true" :adminEnable="true">
             <template #op-prepend>
                 <!-- <AdminDirectMessage :user-id="user_id" :sourceId="String(post.ID)" :sourceType="post.post_type"></AdminDirectMessage> -->
-                <AdminDrop v-if="isTeammate" :post="post" :user-id="user_id"  :showMove="true"/>
+                <AdminDrop v-if="isTeammate" :post="post" :user-id="user_id" :showMove="true" />
             </template>
             <template #title>
                 <span>
@@ -12,7 +12,7 @@
                 </span>
             </template>
             <template #logo>
-                <img class="u-breadcrumb-logo" :src="logo" alt="">
+                <img class="u-breadcrumb-logo" :src="logo" alt="" />
             </template>
         </Breadcrumb>
         <LeftSidebar :uid="user_id">
@@ -21,7 +21,7 @@
         <Main :withoutRight="false">
             <slot></slot>
             <RightSidebar :show-toggle="true">
-                <Side :id="id" class="m-extend" />
+                <Side :id="id" :post="post" class="m-extend" />
             </RightSidebar>
             <Footer></Footer>
         </Main>
@@ -38,7 +38,7 @@ import { __cdn } from "@jx3box/jx3box-common/data/jx3box.json";
 export default {
     name: "SingleLayout",
     props: [],
-    data: function() {
+    data: function () {
         return {
             id: getAppID(),
             logo: __cdn + "logo/logo-light/fb.svg",
@@ -48,7 +48,7 @@ export default {
         user_id: function () {
             return this.$store.state.user_id;
         },
-        post: function (){
+        post: function () {
             return this.$store.state.post;
         },
         title() {
@@ -56,7 +56,7 @@ export default {
         },
         isTeammate() {
             return User.isTeammate();
-        }
+        },
     },
     methods: { getAppIcon },
     components: {
@@ -71,4 +71,3 @@ export default {
 <style lang="less">
 @import "~@/assets/css/app.less";
 </style>
-

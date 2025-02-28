@@ -14,50 +14,51 @@
             </div>
         </div>
         <PostDirectory id="directory" />
+        <PostVersion :post="post"></PostVersion>
         <PostCollection v-if="showSideCollection" :store="collection_data" />
     </div>
 </template>
 
 <script>
 import feed from "@/components/macro/feed.vue";
-import PostDirectory from '@jx3box/jx3box-common-ui/src/single/PostDirectory.vue'
-import PostCollection from '@jx3box/jx3box-common-ui/src/single/PostCollection.vue'
-import PostTopic from '@jx3box/jx3box-common-ui/src/single/PostTopic.vue'
+import PostDirectory from "@jx3box/jx3box-common-ui/src/single/PostDirectory.vue";
+import PostVersion from "@jx3box/jx3box-common-ui/src/single/PostVersion.vue";
+import PostCollection from "@jx3box/jx3box-common-ui/src/single/PostCollection.vue";
+import PostTopic from "@jx3box/jx3box-common-ui/src/single/PostTopic.vue";
 export default {
     name: "single_side",
-    props: ['id'],
-    data: function() {
-        return {
-        };
+    props: ["id", "post"],
+    data: function () {
+        return {};
     },
-    components : {
+    components: {
         PostDirectory,
         PostCollection,
         PostTopic,
         feed,
     },
-    computed : {
-        hasDirectory : function (){
-            return this.$store.state.extend?.directory
+    computed: {
+        hasDirectory: function () {
+            return this.$store.state.extend?.directory;
         },
-        showSideCollection : function (){
-            let hasCollection = this.$store.state.post?.post_collection
-            let foldTopCollection = !this.$store.state.post?.collection_collapse
-            return hasCollection && foldTopCollection
+        showSideCollection: function () {
+            let hasCollection = this.$store.state.post?.post_collection;
+            let foldTopCollection = !this.$store.state.post?.collection_collapse;
+            return hasCollection && foldTopCollection;
         },
-        collection_data : function (){
-            return this.$store.state.extend?.collection_data
+        collection_data: function () {
+            return this.$store.state.extend?.collection_data;
         },
 
-        data: function() {
+        data: function () {
             return this.$store.state.post?.post_meta?.data || [];
         },
-        subtype: function() {
+        subtype: function () {
             return this.$store.state.post?.post_subtype || "通用";
         },
-        author : function (){
-            return this.$store.state.post?.author_info?.display_name || this.$store.state.post?.author
-        }
+        author: function () {
+            return this.$store.state.post?.author_info?.display_name || this.$store.state.post?.author;
+        },
     },
 };
 </script>
@@ -70,50 +71,49 @@ export default {
     .mb(20px);
 }
 
-
-.m-single-macroindex{
+.m-single-macroindex {
     .mb(20px);
 }
 
-.m-cloud-name{
-    font-weight:300;
-    margin:0 0 10px 0;
+.m-cloud-name {
+    font-weight: 300;
+    margin: 0 0 10px 0;
 
-    .u-help{
-        color:#888;
-        &:hover{
-            color:@color-link;
+    .u-help {
+        color: #888;
+        &:hover {
+            color: @color-link;
         }
         .mt(5px);
         .fz(12px);
-        font-weight:normal;
+        font-weight: normal;
         .fr;
-        i{
+        i {
             .mr(3px);
         }
     }
 }
 
-.m-single-meta{
+.m-single-meta {
     // margin:20px;
-    border:1px solid @primary;
+    border: 1px solid @primary;
     .r(4px);
-    padding:20px;
-    background-color:#faffff;
+    padding: 20px;
+    background-color: #faffff;
 
-    .u-data{
+    .u-data {
         .fz(13px,24px);
         .pr;
         .mb(10px);
         .clearfix;
         .nobreak;
 
-        &:last-child{
+        &:last-child {
             .mb(0);
         }
     }
 
-    .u-feed{
+    .u-feed {
         .y(top);
         .mr(10px);
         .pointer;
@@ -121,18 +121,20 @@ export default {
         .h(24px);
     }
 
-    .u-desc{
+    .u-desc {
         .lh(24px);
     }
 
-    .w-mark{
+    .w-mark {
         white-space: nowrap;
         .db;
         overflow: hidden;
     }
-    .w-mark-key,.w-mark-value{
-        .dbi;.y(top);
-        float:none;
+    .w-mark-key,
+    .w-mark-value {
+        .dbi;
+        .y(top);
+        float: none;
     }
 }
 </style>
