@@ -1,0 +1,49 @@
+.m-main {
+    padding: 20px 30px;
+    min-height: calc(100vh - @header-height - @bread-height - 100px);
+}
+
+.m-header-dropmenu {
+    float: right;
+}
+.m-header-dropmenu__content {
+    width: 120px;
+}
+@media screen and (max-width: @ipad) {
+    .m-main {
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width: @phone) {
+    .m-main {
+        padding: 10px 15px;
+    }
+}
+
+@media print {
+    .m-single-box {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+.m-battle-desc{
+    border: 1px dashed #e1e4e8;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fafbfc;
+    font-size: 12px;
+    line-height: 2;
+    margin: 10px 0;
+}
+
+
+.m-bucket-pages {
+    .x;
+    .mt(20px);
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+#tab-tinymins{
+    padding-right:0;
+}

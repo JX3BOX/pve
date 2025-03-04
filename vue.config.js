@@ -37,6 +37,12 @@ module.exports = {
             template: "public/index.html",
             filename: "dbm/index.html",
         },
+        battle: {
+            title: "战斗统计 - JX3BOX",
+            entry: "src/pages/battle/index.js",
+            template: "public/index.html",
+            filename: "battle/index.html",
+        },
         fb: {
             title: "副本专栏 - JX3BOX",
             entry: "src/pages/fb/index.js",
@@ -54,18 +60,6 @@ module.exports = {
     //❤️ Proxy ~
     devServer: {
         proxy: {
-            "/api/dbm/voice": {
-                target: "https://pull.jx3box.com",
-                onProxyReq: function (request) {
-                    request.setHeader("origin", "");
-                },
-            },
-            "/api/plugins/my-team-mon": {
-                target: "https://pull.jx3box.com",
-                onProxyReq: function (request) {
-                    request.setHeader("origin", "");
-                },
-            },
             "/api/horn": {
                 target: "https://pay.jx3box.com",
                 onProxyReq: function (request) {

@@ -1,0 +1,93 @@
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.m-entity-skills {
+    .u-timeline-title {
+        display: flex;
+        align-items: center;
+    }
+    .u-setting {
+        margin-left: 16px;
+        .el-dropdown {
+            margin-left: 16px;
+        }
+    }
+    .u-chart-wrapper {
+        color: #909399;
+        font-size: 12px;
+        .u-chart-item {
+            .flex;
+            align-items: center;
+            margin-bottom: 6px;
+            .pointer;
+        }
+        .u-chart-label {
+            width: 120px;
+            margin-right: 8px;
+            flex-shrink: 0;
+            text-align: right;
+            .ellipsis;
+        }
+        .el-checkbox {
+            margin-right: 8px;
+        }
+        .u-chart-bar {
+            height: 24px;
+            border-radius: 2px;
+            transition: 0.4s;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+        .u-chart-count {
+            margin-left: 8px;
+        }
+    }
+}
+.u-setting-popover {
+    color: #909399;
+    .u-setting-list {
+        max-height: 600px;
+        overflow-y: auto;
+
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: #909399;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background: #e0d3d3;
+        }
+    }
+    .u-setting-title {
+        font-weight: bold;
+        margin: 0 0 8px 0;
+    }
+    .u-setting-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        .u-setting-item-name {
+            width: 200px;
+            flex-shrink: 0;
+            text-align: right;
+            margin-right: 16px;
+            font-size: 12px;
+            .ellipsis;
+        }
+    }
+
+    .u-setting-apply {
+        float: right;
+    }
+}
+.u-chart-tooltip {
+    div:not(:last-of-type) {
+        margin-bottom: 4px;
+    }
+}

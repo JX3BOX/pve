@@ -1,0 +1,78 @@
+.m-battle-log {
+    border: #eee 1px solid;
+    height: 800px;
+    .u-log-title {
+        .fz(14px);
+        padding: 8px;
+        font-weight: bold;
+    }
+    .u-log-scroll {
+        height: calc(100% - 36px);
+        .u-scroll-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+            padding: 0 20px;
+            border-bottom: 1px solid #eee;
+
+            .u-item-player {
+                display: flex;
+                align-items: center;
+                .fz(15px);
+                font-weight: 600;
+                width: 220px;
+                // 长度溢出省略号
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .u-item-player:last-child {
+                justify-content: flex-end;
+            }
+
+            .u-item-skill__wrapper {
+                flex-shrink: 1;
+                display: flex;
+                align-items: center;
+                &::after {
+                    content: "➤";
+                }
+            }
+            .u-item-skill {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                width: 64px;
+
+                .u-skill-time {
+                    .fz(12px);
+                    font-weight: 400;
+                    color: #888;
+                }
+                .u-skill-icon {
+                    .size(30px);
+                    display: block;
+                }
+                .u-skill-name {
+                    .fz(14px);
+                    font-weight: 600;
+                }
+            }
+        }
+
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: #bbb;
+            height: 32px;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background: #fff;
+        }
+    }
+}

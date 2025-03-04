@@ -1,0 +1,22 @@
+{
+    "1": "UUID",
+    "2": "BOSSNAME",
+    "3": "VERSION",
+    "4": "TIME_BEGIN",
+    "5": "TICK_BEGIN",
+    "6": "TIME_DURING",
+    "7": "TICK_DURING",
+    "8": "AWAYTIME",
+    "9": "NAME_LIST",
+    "10": "FORCE_LIST",
+    "11": "EFFECT_LIST",
+    "12": "DAMAGE",
+    "13": "HEAL",
+    "14": "BE_HEAL",
+    "15": "BE_DAMAGE",
+    "16": "EVERYTHING",
+    "17": "ABSORB",
+    "18": "PLAYER_LIST",
+    "19": "SERVER",
+    "20": "MAP"
+}

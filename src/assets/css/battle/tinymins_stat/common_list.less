@@ -1,0 +1,33 @@
+.m-stat-list {
+    overflow-x: auto;
+
+    @h: 12px;
+
+    .u-force-icon {
+        .size(32px);
+        .y;
+        .mr(10px);
+    }
+
+    .u-progress-container {
+        .db;
+        .h(@h);
+        max-width: 400px;
+        .w(200px);
+    }
+    .u-progress {
+        .db;
+        .h(100%);
+        .r(@h);
+        background-image: url("~@/assets/img/battle/tinymins/process_bg.svg");
+        background-repeat: repeat;
+        background-position: 0 0;
+        background-size: auto 100%;
+        box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    }
+}
+@media screen and (max-width: @phone) {
+    .m-stat-list .u-progress-container {
+        .w(150px);
+    }
+}

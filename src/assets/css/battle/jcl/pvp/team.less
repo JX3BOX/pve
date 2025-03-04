@@ -1,0 +1,53 @@
+.m-team-info {
+    border: #eee 1px solid;
+    padding: 8px;
+    .fz(14px);
+    margin-bottom: 16px;
+
+    .u-title {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .u-player-list {
+        .u-player {
+            .flex;
+            width: 100%;
+            margin-bottom: 8px;
+            border-radius: 10px;
+            align-items: center;
+            padding-left: 8px;
+
+            &.u-red {
+                border-left: rgb(238, 89, 55) 4px solid;
+            }
+
+            &.u-blue {
+                border-left: rgb(145, 145, 255) 4px solid;
+            }
+
+            .u-player-icon {
+                .size(50px);
+                margin-right: 20px;
+                flex-shrink: 0;
+            }
+
+            .u-player-info {
+                flex: 0.9;
+            }
+            .u-player-name {
+                font-weight: 600;
+                margin-bottom: 4px;
+            }
+
+            .u-player-mount {
+                font-size: 12px;
+                color: #999;
+            }
+        }
+    }
+
+    .m-player-equip {
+        text-align: center;
+    }
+}

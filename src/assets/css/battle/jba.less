@@ -1,0 +1,59 @@
+.m-jba-token {
+    .flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+    .u-warn {
+        .fz(14px, 2);
+        .mb(10px);
+        .color(#ff9a03);
+        font-weight: 400;
+    }
+    .u-primary {
+        .fz(24px, 1.5);
+        .flex;
+        width: 70%;
+        max-width: 600px;
+        background-color: #e6f0fb;
+        border: 1px solid #0366d6;
+        color: #0366d6;
+        padding: 16px;
+        .pointer;
+        .r(3px);
+    }
+    .u-copy {
+        .ml(14px);
+    }
+    .u-token {
+        flex: 1;
+        // 省略号
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding-bottom: 8px;
+
+        &::-webkit-scrollbar {
+            height: 4px;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: #0366d6;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background: #fff;
+        }
+    }
+    .u-desc {
+        .mt(20px);
+        text-align: center;
+        background-color: #f5f7fa;
+        border: 1px solid #eee;
+        .r(3px);
+        padding: 30px;
+        line-height: 1.8;
+        max-width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
