@@ -54,7 +54,7 @@ module.exports = {
             entry: "src/pages/team/index.js",
             template: "public/index.html",
             filename: "team/index.html",
-        }
+        },
     },
 
     //❤️ Proxy ~
@@ -98,7 +98,7 @@ module.exports = {
             },
             "/api/cms": {
                 // target: process.env["DEV_SERVER"] == "true" ? "http://localhost:7100" : "https://cms.jx3box.com",
-                target: "https://cms.jx3box.com"
+                target: "https://cms.jx3box.com",
             },
             "/api/summary-any": {
                 target: "https://next2.jx3box.com",
@@ -146,9 +146,9 @@ module.exports = {
                     request.setHeader("origin", "");
                 },
             },
-            "/api/lua":{
+            "/api/lua": {
                 target: "https://lua.jx3box.com/",
-                onProxyReq: function(request) {
+                onProxyReq: function (request) {
                     request.setHeader("origin", "");
                 },
             },
@@ -185,6 +185,9 @@ module.exports = {
         //for lost
         "/",
 
+    // 奇怪的打包错误 ThreadLoader 会和 WorkerLoader 冲突
+    // 禁用并行打包
+    parallel: false,
     chainWebpack: (config) => {
         //💘 html-webpack-plugin ~
         // Multiple pages disable the block below
