@@ -1,0 +1,19 @@
+{
+    "szStackOp": "",
+    "nStackNum": "",
+    "bOnlyMine": false,
+    "bOnlyMe": false,
+
+    "bAttention": false,
+    "col": "",
+    "nColAlpha": 0,
+
+    "bCaution": false,
+
+    "bScreenHead": false,
+    "colScreenHead": "",
+
+    "szReminder": "",
+    "nPriority": "",
+    "__colors": ""
+}

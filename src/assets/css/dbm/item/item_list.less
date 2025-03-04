@@ -1,0 +1,58 @@
+.m-item-list__item {
+    .u-text {
+        .fz(12px);
+        color: #999;
+        padding-top: 5px;
+        letter-spacing: 0.5px;
+    }
+    .u-status {
+        .fz(12px);
+        background-color: #ff9900;
+        color: #fff;
+        padding: 2px 8px 2px 5px;
+        border-radius: 2px;
+        font-weight: normal;
+        .ml(10px);
+
+        transform: scale(0.8);
+        display: inline-block;
+        transform-origin: left center;
+    }
+    .u-time,
+    // .u-delete,
+    .u-id {
+        .fz(12px);
+        color: #999;
+        font-weight: normal;
+    }
+    .u-op {
+        .el-checkbox {
+            .flex;
+            align-items: center;
+        }
+        .el-checkbox__input {
+            .flex;
+        }
+    }
+}
+
+.m-list {
+    .pr;
+}
+
+.u-batch-delete {
+    .pa;
+    right: 0;
+    top: -40px;
+
+    .u-del-btn {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .u-batch-delete {
+        position: static;
+        .mb(10px);
+    }
+}

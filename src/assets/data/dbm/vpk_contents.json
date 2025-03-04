@@ -1,0 +1,201 @@
+[
+    {
+        "group": "aoe",
+        "label": "范围技能处理",
+        "children": [
+            { "slug": "aoe_1", "remark": "面向快躲" },
+            { "slug": "aoe_2", "remark": "躲面向不要停" },
+            { "slug": "aoe_3", "remark": "快进面向" },
+            { "slug": "aoe_4", "remark": "矩形快躲" },
+            { "slug": "aoe_5", "remark": "快躲圈" },
+            { "slug": "aoe_6", "remark": "躲圈躲圈躲圈" },
+            { "slug": "aoe_7", "remark": "快进圈" },
+            { "slug": "aoe_8", "remark": "连线快躲" },
+            { "slug": "aoe_9", "remark": "快挡线" },
+            { "slug": "aoe_10", "remark": "开始跳环" },
+            { "slug": "aoe_11", "remark": "开始跳绳" }
+        ]
+    },
+    {
+        "group": "qinggong",
+        "label": "小轻功",
+        "children": [
+            {
+                "slug": "qinggong_1",
+                "remark": "扶摇起跳"
+            },
+            {
+                "slug": "qinggong_2",
+                "remark": "扶摇起跳并滞空"
+            },
+            {
+                "slug": "qinggong_3",
+                "remark": "点名扶摇跳"
+            },
+            {
+                "slug": "qinggong_4",
+                "remark": "开始二段跳"
+            },
+            {
+                "slug": "qinggong_5",
+                "remark": "点名二段跳"
+            },
+            {
+                "slug": "qinggong_6",
+                "remark": "开始后跳"
+            },
+            {
+                "slug": "qinggong_7",
+                "remark": "点名快后跳"
+            },
+            {
+                "slug": "qinggong_8",
+                "remark": "蹑云快跑"
+            }
+        ]
+    },
+    {
+        "group": "move",
+        "label": "占位走位",
+        "children": [
+            { "slug": "move_1", "remark": "承伤抱团" },
+            { "slug": "move_2", "remark": "找T抱团" },
+            { "slug": "move_3", "remark": "人群抱团" },
+            { "slug": "move_4", "remark": "点名抱团" },
+            { "slug": "move_5", "remark": "boss脚下抱团" },
+            { "slug": "move_6", "remark": "npc脚下抱团" },
+            { "slug": "move_7", "remark": "保持分散" },
+            { "slug": "move_8", "remark": "保持移动" },
+            { "slug": "move_9", "remark": "别动" },
+            { "slug": "move_10", "remark": "背对boss" },
+            { "slug": "move_11", "remark": "注意引导" },
+            { "slug": "move_12", "remark": "点名引导" },
+            { "slug": "move_13", "remark": "远离boss" },
+            { "slug": "move_14", "remark": "boss拉走" },
+            { "slug": "move_15", "remark": "小怪拉走" }
+        ]
+    },
+    {
+        "group": "call",
+        "label": "点名",
+        "children": [
+            { "slug": "call_1", "remark": "远离点名" },
+            { "slug": "call_2", "remark": "点名出人群" },
+            { "slug": "call_3", "remark": "点名躲技能" },
+            { "slug": "call_4", "remark": "点名上点" },
+            { "slug": "call_5", "remark": "点名不动" },
+            { "slug": "call_6", "remark": "点名遛怪" }
+        ]
+    },
+    {
+        "group": "cast",
+        "label": "技能释放",
+        "children": [
+            { "slug": "cast_1", "remark": "驱散T" },
+            { "slug": "cast_2", "remark": "驱散点名" },
+            { "slug": "cast_3", "remark": "驱散boss" },
+            { "slug": "cast_4", "remark": "驱散npc" },
+            { "slug": "cast_5", "remark": "快开减伤" },
+            { "slug": "cast_6", "remark": "点名给减伤" },
+            { "slug": "cast_7", "remark": "注意控怪" },
+            { "slug": "cast_8", "remark": "打断！" },
+            { "slug": "cast_9", "remark": "打断，注意接断" },
+            { "slug": "cast_10", "remark": "注意团血" },
+            { "slug": "cast_11", "remark": "点名给大加" },
+            { "slug": "cast_12", "remark": "别用读条技能" }
+        ]
+    },
+    {
+        "group": "target",
+        "label": "目标",
+        "children": [
+            { "slug": "target_1", "remark": "转火白云" },
+            { "slug": "target_2", "remark": "转火小剑" },
+            { "slug": "target_3", "remark": "转火斧头" },
+            { "slug": "target_4", "remark": "转火钩子" },
+            { "slug": "target_5", "remark": "转火红鼓" },
+            { "slug": "target_6", "remark": "转火剪刀" },
+            { "slug": "target_7", "remark": "转火棒槌" },
+            { "slug": "target_8", "remark": "转火如意" },
+            { "slug": "target_9", "remark": "转火飞镖" },
+            { "slug": "target_10", "remark": "转火扇子" },
+            { "slug": "target_11", "remark": "近战转火白云" },
+            { "slug": "target_12", "remark": "近战转火小剑" },
+            { "slug": "target_13", "remark": "近战转火斧头" },
+            { "slug": "target_14", "remark": "近战转火钩子" },
+            { "slug": "target_15", "remark": "近战转火红鼓" },
+            { "slug": "target_16", "remark": "近战转火剪刀" },
+            { "slug": "target_17", "remark": "近战转火棒槌" },
+            { "slug": "target_18", "remark": "近战转火如意" },
+            { "slug": "target_19", "remark": "近战转火飞镖" },
+            { "slug": "target_20", "remark": "近战转火扇子" },
+            { "slug": "target_21", "remark": "远程转火白云" },
+            { "slug": "target_22", "remark": "远程转火小剑" },
+            { "slug": "target_23", "remark": "远程转火斧头" },
+            { "slug": "target_24", "remark": "远程转火钩子" },
+            { "slug": "target_25", "remark": "远程转火红鼓" },
+            { "slug": "target_26", "remark": "远程转火剪刀" },
+            { "slug": "target_27", "remark": "远程转火棒槌" },
+            { "slug": "target_28", "remark": "远程转火如意" },
+            { "slug": "target_29", "remark": "远程转火飞镖" },
+            { "slug": "target_30", "remark": "远程转火扇子" },
+            { "slug": "target_31", "remark": "内功转火白云" },
+            { "slug": "target_32", "remark": "内功转火小剑" },
+            { "slug": "target_33", "remark": "内功转火斧头" },
+            { "slug": "target_34", "remark": "内功转火钩子" },
+            { "slug": "target_35", "remark": "内功转火红鼓" },
+            { "slug": "target_36", "remark": "内功转火剪刀" },
+            { "slug": "target_37", "remark": "内功转火棒槌" },
+            { "slug": "target_38", "remark": "内功转火如意" },
+            { "slug": "target_39", "remark": "内功转火飞镖" },
+            { "slug": "target_40", "remark": "内功转火扇子" },
+            { "slug": "target_41", "remark": "外功转火白云" },
+            { "slug": "target_42", "remark": "外功转火小剑" },
+            { "slug": "target_43", "remark": "外功转火斧头" },
+            { "slug": "target_44", "remark": "外功转火钩子" },
+            { "slug": "target_45", "remark": "外功转火红鼓" },
+            { "slug": "target_46", "remark": "外功转火剪刀" },
+            { "slug": "target_47", "remark": "外功转火棒槌" },
+            { "slug": "target_48", "remark": "外功转火如意" },
+            { "slug": "target_49", "remark": "外功转火飞镖" },
+            { "slug": "target_50", "remark": "外功转火扇子" },
+            { "slug": "target_51", "remark": "治疗奶白云" },
+            { "slug": "target_52", "remark": "治疗奶小剑" },
+            { "slug": "target_53", "remark": "治疗奶斧头" },
+            { "slug": "target_54", "remark": "治疗奶钩子" },
+            { "slug": "target_55", "remark": "治疗奶红鼓" },
+            { "slug": "target_56", "remark": "治疗奶剪刀" },
+            { "slug": "target_57", "remark": "治疗奶棒槌" },
+            { "slug": "target_58", "remark": "治疗奶如意" },
+            { "slug": "target_59", "remark": "治疗奶飞镖" },
+            { "slug": "target_60", "remark": "治疗奶扇子" }
+        ]
+    },
+    {
+        "group": "other",
+        "label": "其它",
+        "children": [
+            { "slug": "other_1", "remark": "停手别打了" },
+            { "slug": "other_2", "remark": "治疗停手" },
+            { "slug": "other_3", "remark": "注意换仇" },
+            { "slug": "other_4", "remark": "准备转阶段" },
+            { "slug": "other_5", "remark": "准备QTE" },
+            { "slug": "other_6", "remark": "使用道具" },
+            { "slug": "other_7", "remark": "使用特殊技能" }
+        ]
+    },
+    {
+        "group": "jx3box",
+        "label": "特殊",
+        "children": [
+            { "slug": "jx3box_1", "remark": "剑三欢迎你" },
+            { "slug": "jx3box_2", "remark": "魔盒真好用" },
+            { "slug": "jx3box_3", "remark": "喵~" },
+            { "slug": "jx3box_4", "remark": "风风火火恍恍惚惚" },
+            { "slug": "jx3box_5", "remark": "Hello World!" },
+            { "slug": "jx3box_6", "remark": "666666" },
+            { "slug": "jx3box_7", "remark": "快开门!我知道你在家!" },
+            { "slug": "jx3box_8", "remark": "下把一定" }
+        ]
+    }
+]

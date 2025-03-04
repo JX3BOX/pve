@@ -1,0 +1,115 @@
+.m-index-title {
+    .flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        .size(36px);
+    }
+}
+
+.m-index-ac{
+    white-space: pre-line;
+}
+
+.m-index-docs {
+
+    margin:0 15px;
+
+    .u-title {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+        margin: 0;
+    }
+
+    .u-list-box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        .u-icon{
+            .mr(5px);
+            .fz(16px);
+            // .bold;
+        }
+    }
+
+    .u-list {
+        .mt(10px);
+        a {
+            .db;
+            .fz(13px,28px);
+            .u-icon {
+                .fz(15px);
+            }
+            span {
+                .pr;
+                top: -2px;
+            }
+            padding: 5px 10px;
+            color: #555;
+            svg{
+                .y(-3px);
+                .mr(5px);
+                fill:#555;
+                .size(16px);
+            }
+            .u-blank{
+                .mt(7px);
+                .fr;
+                .size(12px);
+            }
+
+            .u-mark{
+
+                color:#fff;
+                .fz(12px);
+                font-style: normal;
+                padding:1px 5px;
+                .r(2px);
+                .pr;
+                // top:-5px;
+                margin-left:10px;
+
+                &.isnew {
+                    background-color:#49c10f;
+                }
+                &.ishot{
+                    background-color:#c00;
+                }
+                &.ispending{
+                    background-color:#fba524;
+                }
+            }
+
+            &:hover {
+                // background-color: @color-link;
+                // color:#fff;
+                svg{fill:@color-link;}
+                text-decoration: underline;
+                color:@color-link;
+            }
+
+            border-top:1px solid transparent;
+            border-bottom:1px solid transparent;
+        }
+    }
+
+    .u-list-label {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .m-index-docs {
+        .u-list-box {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: @ipad) {
+    .m-index-docs {
+        .u-list-box {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

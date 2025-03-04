@@ -1,0 +1,240 @@
+@import "common/header.less";
+@import "common/form.less";
+@import "common/item.less";
+
+.m-main {
+    padding: 15px 25px;
+    // &.with-sticky{
+    //     padding:0;
+    // }
+}
+@media screen and (max-width: @ipad) {
+    .m-main {
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width: @phone) {
+    .m-main {
+        padding: 10px 15px;
+    }
+}
+
+.m-primary {
+    min-height: calc(100vh - @header-height - @bread-height - 150px);
+}
+
+.c-footer {
+    .none;
+}
+
+.el-drawer__wrapper {
+    .pf;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.m-drawer {
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    position: fixed !important;
+    .el-drawer__header {
+        margin-bottom: 0;
+    }
+    .u-manage-drawer__title {
+        color: #000;
+    }
+}
+
+.el-tabs--card {
+    .el-tabs__item {
+        background-color: @bg-light;
+        border-bottom: 1px solid @border !important;
+
+        &.is-active {
+            border-bottom: none !important;
+            background-color: #fff;
+            .bold;
+        }
+    }
+}
+
+// 列表搜索
+.m-archive-search {
+    .mb(10px);
+    .flex;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width: @phone) {
+    .m-archive-search {
+        .u-publish {
+            .none;
+        }
+        .u-search,
+        .el-input-group__append {
+            .none;
+        }
+        .el-input__inner {
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+    }
+}
+
+// 为空
+.m-archive-null {
+    margin-top: 10px;
+}
+
+// 加载更多
+.m-archive-more {
+    .mb(10px);
+    .w(100%);
+    .none;
+}
+.m-archive-more.show {
+    .db;
+}
+
+// 分页
+.m-archive-pages {
+    overflow-x: auto;
+    padding: 20px 0;
+    .x;
+}
+
+.c-footer {
+    padding: 0;
+    margin: 0;
+    .mt(40px);
+}
+
+.el-select-dropdown {
+    .u-label {
+        .fl;
+    }
+    .u-value {
+        .fr;
+        color: #8492a6;
+        font-size: 13px;
+    }
+}
+
+.w-filter-topic {
+    .flex;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid #dcdfe6;
+    padding: 5px 15px 5px 10px;
+    box-sizing: border-box;
+    line-height: 18px;
+
+    .u-toggle {
+        .pr;
+        top: -1px;
+    }
+}
+
+.w-filter-box {
+    position: sticky;
+    top: @header-height + @bread-height;
+    z-index: 100;
+    background-color: #fff;
+    padding: 0 0 10px 0;
+}
+.m-main.show-shadow .w-filter-box {
+    // box-shadow:0 5px 5px rgba(0,0,0,.1);
+    border-bottom: 5px solid @color-link;
+}
+// .w-filter-list{
+//     padding:0 25px;
+// }
+
+.m-publish {
+    .x;
+    padding: 20px 0 40px;
+
+    .u-btn {
+        .pr;
+        // .w(140px);
+        .w(200px);
+    }
+
+    .u-super {
+        .pa;
+        .rt(5px);
+        .fz(12px);
+        background-color: #fba524;
+        color: #fffee6;
+        .r(2px);
+        padding: 2px 4px;
+    }
+
+    .u-txt {
+        .pr;
+    }
+
+    .u-tip {
+        a {
+            .bold;
+        }
+        a:hover {
+            color: @pink;
+        }
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .m-publish {
+        .u-btn {
+            .db;
+            .auto(x);
+            .mb(5px);
+        }
+    }
+
+    .c-breadcrumb .u-op {
+        position: static;
+    }
+}
+
+.c-main {
+    min-height: auto;
+}
+
+.w-select {
+    position: relative;
+    .flex;
+    align-items: center;
+    .u-select-label {
+        background-color: #f5f7fa;
+        color: #909399;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 4px;
+        padding: 0 20px;
+        white-space: nowrap;
+        border-right: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        box-shadow: 1px 0 0 0 #dcdfe6 inset, 0 1px 0 0 #dcdfe6 inset, 0 -1px 0 0 #dcdfe6 inset;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+    .el-select {
+        .el-input__inner {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            // box-shadow: 0 1px 0 0 #dcdfe6 inset, 0 -1px 0 0 #dcdfe6 inset, 0 0 0 1px #dcdfe6 inset;
+        }
+    }
+}

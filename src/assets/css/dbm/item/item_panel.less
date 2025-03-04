@@ -1,0 +1,71 @@
+.m-my-panel-item {
+    .fz(13px);
+    color: #888;
+
+    .el-checkbox {
+        .mr(10px);
+        .el-checkbox__label {
+            color: #888;
+        }
+    }
+
+    .u-op {
+        .el-select,
+        .el-input {
+            .y;
+        }
+        .el-select {
+            .pr;
+        }
+        .u-op-opr .el-input {
+            .w(100px);
+            .mr(10px) !important;
+        }
+        .u-op-value.el-input {
+            .w(100px);
+            .el-input-group__append {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+
+    .u-text {
+        max-width: 120px !important;
+    }
+
+    .u-space {
+        margin: 0 5px;
+    }
+
+    .el-slider{
+        .dbi;.y;
+        .w(250px);
+
+        .el-slider__button{
+            .size(8px);
+        }
+    }
+
+    border-bottom:1px solid @border;
+    .mb(5px);
+    padding-bottom:5px;
+
+    .u-del{
+        .x(right);
+    }
+}
+@media screen and (max-width:@ipad){
+    .m-my-panel-item {
+        .u-item{
+            .u-desc{
+                .none;
+            }
+        }
+        .el-slider{
+            margin:0 10px;
+            .db;
+            .w(auto);
+        }
+    }
+}

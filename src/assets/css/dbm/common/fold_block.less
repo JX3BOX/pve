@@ -1,0 +1,45 @@
+.m-foldblock {
+    user-select: none;
+    .el-divider__text.is-left {
+        display: flex;
+        align-items: baseline;
+        gap: 5px;
+    }
+    .m-foldblock-toolbar {
+        .ml(5px);
+        padding: 0 5px;
+    }
+    .u-collapse {
+        // border:1px solid @color-link;
+        color: #888;
+        .dbi;
+        padding: 2px 5px;
+        .r(4px);
+        .ml(5px);
+        .fz(12px);
+        .pointer;
+
+        &:before {
+            content: "\e79a";
+            font-family: element-icons !important;
+            font-style: normal;
+            font-weight: 400;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            vertical-align: baseline;
+            display: inline-block;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        &.on {
+            color: @color-link;
+        }
+    }
+    .m-foldblock-content {
+        &.on {
+            .none;
+        }
+    }
+}

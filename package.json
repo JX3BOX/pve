@@ -2,16 +2,35 @@
     "name": "pve",
     "private": true,
     "scripts": {
-        "dev": "env DEV_SERVER=true vue-cli-service serve --mode development",
-        "serve": "vue-cli-service serve --mode production",
-        "debug": "env DEV_SERVER=true vue-cli-service serve --mode staging",
         "build": "vue-cli-service build",
-        "preview": "env BUILD_MODE=preview vue-cli-service build",
-        "lint": "vue-cli-service lint",
+        "debug": "env DEV_SERVER=true vue-cli-service serve --mode staging",
+        "dev": "env DEV_SERVER=true vue-cli-service serve --mode development",
         "inspect": "vue inspect > output.js",
+        "lint": "vue-cli-service lint",
+        "preview": "env BUILD_MODE=preview vue-cli-service build",
+        "serve": "vue-cli-service serve --mode production",
         "update": "npm --registry https://registry.npmjs.org install @jx3box/jx3box-common-ui@latest @jx3box/jx3box-common@latest @jx3box/jx3box-data@latest @jx3box/jx3box-emotion@latest @jx3box/jx3box-comment-ui@latest @jx3box/jx3box-editor@latest"
     },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "eslintConfig": {
+        "env": {
+            "node": true
+        },
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "extends": [
+            "plugin:vue/essential"
+        ],
+        "rules": {},
+        "root": true
+    },
     "dependencies": {
+        "@ffmpeg/core": "^0.11.0",
+        "@ffmpeg/ffmpeg": "^0.11.6",
         "@jx3box/jx3box-bmap": "^0.1.15",
         "@jx3box/jx3box-comment-ui": "^2.0.4",
         "@jx3box/jx3box-common": "^8.6.7",
@@ -22,29 +41,37 @@
         "@jx3box/jx3box-emotion": "^1.2.8",
         "@jx3box/jx3box-facedat": "^2.6.2",
         "@jx3box/jx3box-talent2": "^1.5.9",
-        "axios": "^0.21.1",
+        "axios": "^1.6.1",
+        "chardet": "^2.0.0",
         "codemirror": "^5.65.11",
         "core-js": "^3.16.2",
-        "dayjs": "^1.10.6",
+        "crc": "^4.3.2",
+        "dayjs": "^1.11.10",
         "echarts": "^5.6.0",
         "element-china-area-data": "^5.0.2",
         "element-ui": "^2.15.5",
         "file-saver": "^2.0.5",
         "hevue-img-preview": "^5.0.0",
         "html2canvas": "^1.4.1",
+        "iconv-lite": "^0.6.3",
         "jquery": "^3.7.1",
         "localforage": "^1.7.3",
         "lodash": "^4.17.19",
         "lottie-web": "^5.12.2",
+        "luadata": "^1.0.1",
+        "lzfjs": "^1.0.1",
         "mitt": "^3.0.1",
         "pinyin-pro": "^3.26.0",
+        "recorder-core": "^1.2.23070100",
         "sterilizer": "^0.1.1",
         "vue": "^2.6.14",
         "vue-clipboard2": "^0.3.3",
         "vue-codemirror": "^4.0.6",
         "vue-context-menu": "^2.0.6",
+        "vue-prism-component": "^2.0.0",
         "vue-router": "^3.5.2",
         "vue-svg-inline-plugin": "^2.2.3",
+        "vuedraggable": "^2.24.3",
         "vuex": "^3.1.2"
     },
     "devDependencies": {
@@ -56,6 +83,7 @@
         "@vue/cli-plugin-vuex": "^4.0.0",
         "@vue/cli-service": "^4.1.2",
         "babel-eslint": "^10.0.3",
+        "cross-env": "^7.0.3",
         "csslab": "^4.0.3",
         "eslint": "^5.16.0",
         "eslint-plugin-vue": "^5.0.0",
@@ -67,22 +95,5 @@
         "vue-svg-inline-loader": "^1.4.6",
         "vue-template-compiler": "^2.6.14",
         "worker-loader": "^3.0.8"
-    },
-    "eslintConfig": {
-        "root": true,
-        "env": {
-            "node": true
-        },
-        "extends": [
-            "plugin:vue/essential"
-        ],
-        "rules": {},
-        "parserOptions": {
-            "parser": "babel-eslint"
-        }
-    },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions"
-    ]
+    }
 }

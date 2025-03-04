@@ -1,0 +1,87 @@
+.p-pkg-rank {
+    .u-type-radio {
+        .flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+.m-pkg-rank__table {
+    .mt(20px);
+    .u-order {
+        .db;
+        .size(20px);
+        .r(50%);
+        .auto(x);
+        .fz(12px,20px);
+        color: #fff;
+        .set-color-loop(1, 100);
+    }
+    // 定义递归 mixin，设置颜色
+    .set-color-loop(@start, @end) when (@start =< @end) {
+        &.u-order-@{start} {
+            .set-color(@start);
+        }
+        .set-color-loop((@start + 1), @end);
+    }
+    // 根据 order 值设置颜色
+    .set-color(@order) when (@order >= 1) and (@order <= 3) {
+        background-color: #f56c6c;
+    }
+    .set-color(@order) when (@order > 3) and (@order <= 10) {
+        background-color: #fba524;
+    }
+    .set-color(@order) when (@order > 10) and (@order <= 20) {
+        background-color: #0366d6;
+    }
+    .set-color(@order) when (@order > 20) {
+        background-color: #aaa;
+    }
+    .u-key {
+        cursor: pointer;
+        i {
+            .ml(5px);
+        }
+    }
+    .u-client {
+        padding: 1px 4px;
+        border-radius: 2px;
+        font-weight: normal;
+        font-size: 12px;
+        height: 20px;
+        box-sizing: border-box;
+        &.std {
+            border: 1px solid #f0b400;
+            color: #f0b400;
+        }
+        &.origin {
+            border: 1px solid #0eb7ce;
+            color: #0eb7ce;
+        }
+        &.cn {
+            border: 1px solid #666;
+            color: #666;
+        }
+        &.tr {
+            border: 1px solid #fa80a2;
+            color: #fa80a2;
+        }
+    }
+    .m-user {
+        display: flex;
+        align-items: center;
+        .u-avatar {
+            .size(24px);
+            .r(100%);
+            .mr(5px);
+        }
+        .el-avatar > img {
+            .w(100%);
+        }
+
+        .u-user-id {
+            margin-left: 5px;
+            color: #999;
+        }
+    }
+}

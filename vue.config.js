@@ -31,6 +31,12 @@ module.exports = {
             template: "public/index.html",
             filename: "bps/index.html",
         },
+        dbm: {
+            title: "数据构建 - JX3BOX",
+            entry: "src/pages/dbm/index.js",
+            template: "public/index.html",
+            filename: "dbm/index.html",
+        },
         fb: {
             title: "副本专栏 - JX3BOX",
             entry: "src/pages/fb/index.js",
@@ -48,6 +54,18 @@ module.exports = {
     //❤️ Proxy ~
     devServer: {
         proxy: {
+            "/api/dbm/voice": {
+                target: "https://pull.jx3box.com",
+                onProxyReq: function (request) {
+                    request.setHeader("origin", "");
+                },
+            },
+            "/api/plugins/my-team-mon": {
+                target: "https://pull.jx3box.com",
+                onProxyReq: function (request) {
+                    request.setHeader("origin", "");
+                },
+            },
             "/api/horn": {
                 target: "https://pay.jx3box.com",
                 onProxyReq: function (request) {
@@ -202,9 +220,11 @@ module.exports = {
             .test(/\.worker\.js$/)
             .use("worker-loader")
             .loader("worker-loader")
-            .options({
-                inline: "no-fallback",
-            });
+            .options({ inline: "fallback" })
+            .end()
+            .use("babel-loader")
+            .loader("babel-loader")
+            .end();
 
         //💖 import common less var * mixin ~
         const types = ["vue-modules", "vue", "normal-modules", "normal"];

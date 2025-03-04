@@ -1,0 +1,138 @@
+.m-pkg-subscribe {
+    .u-tip {
+        color: #999;
+        .ml(10px);
+    }
+    .el-input__inner{
+        padding-right: 30px;
+    }
+    .u-check{
+        .h(40px);
+        .flex;
+        align-items: center;
+        font-size: 20px;
+        padding:0 5px;
+    }
+    .el-input__validateIcon {
+        &.el-icon-circle-check {
+            color: green;
+        }
+    }
+
+    .m-raw-file {
+        .u-fileurl {
+            .mt(10px);
+
+            transition: 0.2s ease-in-out;
+            &.isUploaded {
+                border: 1px solid #49c10f;
+                .r(4px);
+            }
+        }
+        .u-data-input {
+            .pointer;
+            .none;
+        }
+        .u-data-remark {
+            .fz(14px);
+            .ml(5px);
+        }
+        .u-warning {
+            .fz(12px);
+            .mb(10px);
+            b {
+                color: #c00;
+            }
+            background-color: #fdf6ec;
+            color: #f79401;
+            padding: 0px 10px;
+            border-radius: 5px;
+        }
+        .u-file {
+            .u-file__label {
+                font-size: 13px;
+            }
+            .u-file__download {
+                .pointer;
+                &:hover {
+                    color: @primary;
+                }
+            }
+            i {
+                margin: 0 4px 0 2px;
+            }
+        }
+    }
+}
+
+.m-data-form {
+    .u-icon {
+        .el-input-group__prepend,
+        .el-input-group__prepend {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .u-pic {
+            .size(32px);
+            .db;
+            margin: 0 5px;
+            img {
+                .db;
+                .r(3px);
+            }
+        }
+        .u-tip {
+            .fz(12px);
+        }
+    }
+
+    .mb(20px);
+}
+
+.p-pkg-build {
+    .u-tab-name {
+        margin-left: 2px;
+    }
+
+    .m-pkg-basic {
+        .m-env-row {
+            .flex;
+            align-items: center;
+            gap: 100px;
+            .el-form-item {
+                .flex;
+            }
+            .el-form-item__content {
+                margin-left: 0 !important;
+            }
+        }
+    }
+
+    .m-pkg-extend {
+        .m-comment {
+            .flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+
+    .m-pkg-data {
+        .u-data-input {
+            .none;
+        }
+        .u-data-remark {
+            margin-left: 10px;
+        }
+    }
+    .m-pkg-module {
+        .u-module-add {
+            width: 100%;
+            .mt(10px);
+        }
+    }
+}
+
+.u-name__tooltip {
+    max-width: 200px;
+    line-height: 1.5;
+}

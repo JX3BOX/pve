@@ -1,0 +1,67 @@
+{
+    "BUFF": {
+        "bCenterAlarm": ["1", "2"],
+        "bTeamChannel": ["1", "2"],
+        "bWhisperChannel": ["1", "2"],
+        "bBuffList": ["1"],
+        "bPartyBuffList": ["1"],
+        "tMark": ["1"],
+        "bScreenHead": ["1"],
+        "bTeamPanel": ["1"],
+        "bOnlySelfSrc": ["1"],
+        "szVoice": ["1", "2"],
+        "bFullScreen": ["1"]
+    },
+    "DEBUFF": {
+        "bCenterAlarm": ["1", "2"],
+        "bTeamChannel": ["1", "2"],
+        "bWhisperChannel": ["1", "2"],
+        "bBuffList": ["1"],
+        "bPartyBuffList": ["1"],
+        "tMark": ["1"],
+        "bScreenHead": ["1"],
+        "bTeamPanel": ["1"],
+        "bOnlySelfSrc": ["1"],
+        "szVoice": ["1", "2"],
+        "bFullScreen": ["1"]
+    },
+    "CASTING": {
+        "bCenterAlarm": ["8", "9"],
+        "bTeamChannel": ["8", "9"],
+        "bWhisperChannel": ["8", "9"],
+        "tMark": ["8", "9"],
+        "bScreenHead": ["8"],
+        "szVoice": ["8", "9"],
+        "bFullScreen": ["9"]
+    },
+    "NPC": {
+        "bCenterAlarm": ["3", "4"],
+        "bTeamChannel": ["3", "4"],
+        "bWhisperChannel": ["3", "4"],
+        "tMark": ["3"],
+        "bScreenHead": ["3"],
+        "szVoice": ["3", "4"],
+        "bFullScreen": ["3"]
+    },
+    "DOODAD": {
+        "bCenterAlarm": ["17", "18"],
+        "bTeamChannel": ["17", "18"],
+        "bWhisperChannel": ["17", "18"],
+        "szVoice": ["17", "18"],
+        "bFullScreen": ["17"]
+    },
+    "TALK": {
+        "bCenterAlarm": ["14"],
+        "bTeamChannel": ["14"],
+        "bWhisperChannel": ["14"],
+        "szVoice": ["14"],
+        "bFullScreen": ["14"]
+    },
+    "CHAT": {
+        "bCenterAlarm": ["20"],
+        "bTeamChannel": ["20"],
+        "bWhisperChannel": ["20"],
+        "szVoice": ["20"],
+        "bFullScreen": ["20"]
+    }
+}

@@ -1,0 +1,57 @@
+.m-pkg-append__dialog {
+    .el-dialog__body {
+        padding-top: 10px;
+    }
+    .m-append-content {
+        margin-top: 10px;
+        height: 266px;
+        overflow-y: auto;
+        // .scrollbar();
+
+        .u-empty {
+            .flex;
+            align-items: center;
+            height: 90%;
+            justify-content: center;
+            color: #888;
+            i {
+                margin-right: 2px;
+            }
+            a {
+                box-shadow: 0 1px 0 @color-link;
+            }
+        }
+    }
+    .u-pagination {
+        .x;
+        margin-top: 10px;
+    }
+    .m-pkg-item {
+        .pr;
+        padding: 10px;
+        .flex;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        .u-key {
+            .mr(10px);
+        }
+        .u-op {
+            .pa;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .u-tip {
+            color: orange;
+            .fz(12px);
+            .bold;
+        }
+        .u-title{
+            .nobreak;
+            max-width: 260px;
+        }
+    }
+    .u-refresh {
+        .pointer;
+    }
+}

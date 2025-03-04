@@ -1,0 +1,44 @@
+.m-header {
+    .pr;
+    .u-title {
+        // font-weight: 300;
+        margin: 0 0 5px 0;
+    }
+    .u-desc {
+        .fz(14px);
+        margin: 0;
+        color: #888;
+        padding: 0 2px;
+        a:hover {
+            color: @pink;
+        }
+    }
+    border-bottom: 1px solid @border;
+
+    .pb(8px);
+    .mb(30px);
+
+    .u-ops {
+        .pa;
+        right: 0;
+        bottom: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: @ipad) {
+    .m-header {
+        .u-title {
+            .fz(1.5rem);
+        }
+        .u-buttons {
+            .none;
+        }
+
+        .u-ops {
+            top: 0;
+            bottom: auto;
+        }
+    }
+}

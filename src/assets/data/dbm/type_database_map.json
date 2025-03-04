@@ -1,0 +1,7 @@
+{
+    "BUFF": "buff",
+    "DEBUFF": "buff",
+    "CASTING": "skill",
+    "NPC": "npc",
+    "DOODAD": "doodad"
+}
