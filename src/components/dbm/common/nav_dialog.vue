@@ -6,7 +6,7 @@
         </a>
         <a class="u-btn u-btn-database el-button el-button--primary is-plain" href="/app/database" target="_blank"><i class="el-icon-receiving"></i><span>剑三数据库</span></a>
 
-        <el-dialog :visible.sync="show" append-to-body @close="onClose" title="创建">
+        <el-dialog :visible.sync="show" append-to-body @close="onClose" title="创建" class="m-dbm-create">
             <div class="m-nav__dialog">
                 <h6 class="m-router-title">DBM</h6>
                 <div class="m-router" @click="onItemClick">
