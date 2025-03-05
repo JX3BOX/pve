@@ -5,6 +5,7 @@
             <template v-slot:logo>
                 <img :src="logo" alt="logo" />
             </template>
+            <slot name="breadcrumb-content"></slot>
         </Breadcrumb>
         <LeftSidebar v-if="hasLeft">
             <slot name="left"></slot>

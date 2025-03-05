@@ -11,7 +11,7 @@
             :feedbackEnable="true"
             :crumbEnable="true"
         >
-        <template #logo>
+            <template #logo>
                 <img svg-inline :src="logo" />
             </template>
             <Info />
@@ -39,7 +39,7 @@ import Nav from "@/components/tool/list/list_nav.vue";
 import Side from "@/components/tool/list/list_side.vue";
 import Tabs from "@/components/tool/list/list_tabs.vue";
 import ListTop from "@/components/tool/list/list_top.vue";
-import {__cdn} from "@jx3box/jx3box-common/data/jx3box.json";
+import { __cdn } from "@jx3box/jx3box-common/data/jx3box.json";
 export default {
     name: "App",
     props: {
@@ -63,8 +63,8 @@ export default {
     },
     computed: {
         showListTop() {
-            return this.$route.name === 'index' && !this.$route.query?.subtype;
-        }
+            return this.$route.name === "index" && !this.$route.query?.subtype;
+        },
     },
     methods: {},
     components: {

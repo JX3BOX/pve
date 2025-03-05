@@ -3,6 +3,9 @@
         <template #left>
             <Nav ></Nav>
         </template>
+        <template #breadcrumb-content>
+            <Info></Info>
+        </template>
         <div class="m-archive-box">
             <router-view></router-view>
         </div>
@@ -16,11 +19,13 @@
 import AppLayout from "@/layouts/tool/AppLayout.vue";
 import Nav from "@/components/tool/design/nav.vue";
 import favVue from "@/components/tool/design/fav.vue";
+import Info from "@/components/tool/design/Info.vue";
 export default {
     name: "Design",
     components: {
         AppLayout,
         Nav,
+        Info,
         favVue,
     },
     data() {
