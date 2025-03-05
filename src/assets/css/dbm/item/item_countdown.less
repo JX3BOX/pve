@@ -1,0 +1,131 @@
+.m-countdown {
+    .u-countdown-table {
+        width: 100%;
+        // margin: -10px 0 10px 0;
+        border-collapse: collapse;
+        border-spacing: 0;
+        thead {
+            background-color: @bg-light;
+        }
+
+        th {
+            .fz(12px, 2.5);
+            color: #666;
+            // color: @darkblue;
+            // border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            padding: 5px 10px;
+        }
+        td {
+            padding: 10px;
+            .x;
+        }
+
+        th:first-child,
+        td:first-child {
+            padding-left: 0;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #eee;
+        }
+
+        .u-condition,
+        .u-condition .el-input {
+            .w(180px);
+        }
+        .u-refresh {
+            .w(80px) !important;
+        }
+        .u-key {
+            .w(125px) !important;
+        }
+        .u-icon {
+            .w(70px) !important;
+            .el-input__inner {
+                .w(40px);
+            }
+            .el-input-group__prepend {
+                .w(30px);
+            }
+            .u-pic {
+                .size(20px) !important;
+                .r(2px);
+            }
+            .el-input-group__append,
+            .el-input-group__prepend {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .el-input__inner {
+                padding: 0 5px;
+            }
+            .u-color-block {
+                .db;
+                .size(20px);
+                margin: 5px;
+            }
+        }
+        .u-color-select {
+            .size(40px);
+            .el-input {
+                .pr;
+            }
+            .el-input__inner {
+                padding: 0;
+                color: transparent;
+            }
+            .el-input__suffix {
+                .size(100%);
+                left: 0;
+                top: 0;
+            }
+            .el-input__prefix {
+                .pa;
+                .size(100%);
+                left: 0;
+                top: 0;
+                .flex-center;
+            }
+            .u-color-block {
+                .db;
+                .size(28px);
+            }
+        }
+
+        .el-input {
+            max-width: none;
+            width: 100%;
+        }
+    }
+    .u-drag-arrow {
+        cursor: pointer;
+    }
+    .u-color-select {
+        width: 40px;
+    }
+}
+.u-countdown-condition-item {
+    .none;
+    &.on {
+        .db;
+    }
+}
+.el-tooltip__popper {
+    .u-tips {
+        .lh(1.6);
+    }
+}
+.m-color-select-popper {
+    .el-select-dropdown__item {
+        padding: 0;
+    }
+    .u-color-option {
+        .size(120px, 100%);
+        .mr(10px);
+        .flex-center;
+        color: white;
+    }
+}

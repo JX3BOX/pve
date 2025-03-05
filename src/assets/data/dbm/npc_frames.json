@@ -1,0 +1,11 @@
+[
+    { "value": 47, "label": "人形" },
+    { "value": 50, "label": "野怪" },
+    { "value": 57, "label": "人形" },
+    { "value": 52, "label": "机甲" },
+    { "value": 54, "label": "傀儡" },
+    { "value": 60, "label": "特殊" },
+    { "value": 64, "label": "未知" },
+    { "value": 65, "label": "特殊" },
+    { "value": 67, "label": "灵体" }
+]

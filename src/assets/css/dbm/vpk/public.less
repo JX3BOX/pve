@@ -1,0 +1,66 @@
+.m-vpk-filter {
+    .flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    .fz(13px,2);
+
+    .u-label {
+        .mr(3px);
+        color: #606266;
+    }
+
+    .w-filter-client {
+        ul {
+            height: 32px;
+            border-color: #dcdfe6;
+            box-sizing: border-box;
+        }
+        li {
+            height: 100%;
+            line-height: 1.5;
+            box-sizing: border-box;
+        }
+    }
+
+    .w-filter-topic {
+        height: 32px;
+    }
+
+    .u-checkbox {
+        .flex;
+        align-items: center;
+        box-sizing: border-box;
+        margin: 0 !important;
+
+        .el-checkbox__input {
+            .db;
+            .size(12px);
+        }
+    }
+
+    .m-tags {
+        .flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    .u-tag {
+        .fz(12px,14px);
+        padding: 4px 10px;
+        color: @color-link;
+        background-color: #eff7ff;
+        font-style: normal;
+        border: 1px solid transparent;
+        .r(2px);
+        .pointer;
+
+        &:hover {
+            border: 1px solid @color-link;
+        }
+
+        &.active {
+            border: 1px solid @color-link;
+        }
+    }
+}

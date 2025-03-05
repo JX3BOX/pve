@@ -31,6 +31,18 @@ module.exports = {
             template: "public/index.html",
             filename: "bps/index.html",
         },
+        dbm: {
+            title: "数据构建 - JX3BOX",
+            entry: "src/pages/dbm/index.js",
+            template: "public/index.html",
+            filename: "dbm/index.html",
+        },
+        battle: {
+            title: "战斗统计 - JX3BOX",
+            entry: "src/pages/battle/index.js",
+            template: "public/index.html",
+            filename: "battle/index.html",
+        },
         fb: {
             title: "副本专栏 - JX3BOX",
             entry: "src/pages/fb/index.js",
@@ -42,7 +54,7 @@ module.exports = {
             entry: "src/pages/team/index.js",
             template: "public/index.html",
             filename: "team/index.html",
-        }
+        },
     },
 
     //❤️ Proxy ~
@@ -86,7 +98,7 @@ module.exports = {
             },
             "/api/cms": {
                 // target: process.env["DEV_SERVER"] == "true" ? "http://localhost:7100" : "https://cms.jx3box.com",
-                target: "https://cms.jx3box.com"
+                target: "https://cms.jx3box.com",
             },
             "/api/summary-any": {
                 target: "https://next2.jx3box.com",
@@ -134,9 +146,9 @@ module.exports = {
                     request.setHeader("origin", "");
                 },
             },
-            "/api/lua":{
+            "/api/lua": {
                 target: "https://lua.jx3box.com/",
-                onProxyReq: function(request) {
+                onProxyReq: function (request) {
                     request.setHeader("origin", "");
                 },
             },
@@ -173,6 +185,9 @@ module.exports = {
         //for lost
         "/",
 
+    // 奇怪的打包错误 ThreadLoader 会和 WorkerLoader 冲突
+    // 禁用并行打包
+    parallel: false,
     chainWebpack: (config) => {
         //💘 html-webpack-plugin ~
         // Multiple pages disable the block below
@@ -202,9 +217,11 @@ module.exports = {
             .test(/\.worker\.js$/)
             .use("worker-loader")
             .loader("worker-loader")
-            .options({
-                inline: "no-fallback",
-            });
+            .options({ inline: "fallback" })
+            .end()
+            .use("babel-loader")
+            .loader("babel-loader")
+            .end();
 
         //💖 import common less var * mixin ~
         const types = ["vue-modules", "vue", "normal-modules", "normal"];

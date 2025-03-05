@@ -1,0 +1,109 @@
+.m-conditions {
+    // .mb(10px);
+    .flex;
+    flex-wrap: wrap;
+    gap:10px;
+
+    .u-label {
+        .fl;
+        .fz(12px,32px);
+        color: #888;
+    }
+    .u-condition {
+        .el-input-group__prepend {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    .u-author{
+        .el-select{
+            .w(auto);
+        }
+        .el-input__inner{
+            .w(120px);
+        }
+    }
+    .u-map {
+        .u-prepend {
+            .fl;
+            width: auto;
+            min-width: 50px;
+            box-sizing: border-box;
+            .fz(12px,30px);
+            text-align: center;
+        }
+        .el-select {
+            .db;
+            .ml(50px);
+        }
+        .el-input__inner {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+    .el-col-6 {
+        max-width: 250px;
+    }
+    .u-clear {
+        background-color: #f7f7f7;
+    }
+
+    // .u-create {
+    //     .pa;
+    //     .rt(10px,0);
+    // }
+    .u-fork-switch{
+        flex-shrink: 0
+    }
+
+    .u-fork-switch {
+        .mt(5px);
+        .el-switch__label {
+            color: #888;
+            &.is-active {
+                color: @color-link;
+            }
+        }
+    }
+
+    .el-switch__label *{
+        font-weight: normal;
+        .fz(12px) !important;
+    }
+
+    .el-form-item:not(.is-error) {
+        margin-bottom: 0;
+    }
+}
+.u-author-pop {
+    .u-author-option {
+        .flex;
+        align-items: center;
+        gap: 10px;
+        img {
+            .size(24px);
+            border-radius: 50%;
+        }
+    }
+}
+@media screen and (max-width: @ipad) {
+    .m-conditions {
+        .u-create {
+            .none;
+        }
+    }
+}
+@media screen and (max-width: @phone) {
+    .m-conditions {
+        .el-col-6 {
+            max-width: none;
+            .w(100%);
+            .mb(10px);
+        }
+        .u-create {
+            .ps;
+            .db;
+            margin: 0 10px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "tRelation": {
+        "bAll": true,
+        "bAlly": false,
+        "bEnemy": false
+    },
+    "tLife": {
+        "szOperator": "",
+        "nValue": "",
+        "bEnable": false
+    },
+    "nMaxDistance": "",
+    "szDisplay": ""
+}

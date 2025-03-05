@@ -1,0 +1,124 @@
+.m-parse-result__header {
+    .pr;
+    .u-header-buttons {
+        .pa;
+        right: 10px;
+        top: 0px;
+    }
+}
+.m-parse-title {
+    .fz(20px);
+    .bold;
+    margin: 10px auto 20px auto;
+    .x;
+    .nobreak;
+}
+
+.m-parse-result__tabs {
+    .el-tabs__header {
+        .mb(0);
+    }
+}
+.m-parse-result__content {
+    border: 1px solid #e4e7ed;
+    padding: 20px;
+    border-top: none;
+
+    .u-btn--save {
+        .auto(x);
+        .db;
+    }
+}
+
+.m-parse-result__list {
+    overflow: auto;
+    height: calc(100vh - 260px - @header-height - @bread-height);
+}
+.m-parse-result__dialog {
+    .el-dialog {
+        height: 80vh;
+        overflow: auto;
+        .u-btn--confirm {
+            .w(120px);
+        }
+    }
+}
+
+.m-parse-item__title {
+    .flex-center;
+    gap: 10px;
+    .bold;
+    .fz(20px);
+    // color:@color-link;
+}
+
+.m-parse-result__op {
+    display: flex;
+    align-items: center;
+    .mb(15px);
+    overflow: auto;
+
+    gap: 20px;
+
+    .u-gap {
+        flex: 1;
+    }
+
+    .u-all {
+        .el-checkbox__label {
+            .fz(12px,19px) !important;
+        }
+    }
+
+    .u-switch {
+        .el-switch__label {
+            .nobreak;
+        }
+    }
+
+    .u-pagination {
+        background: #fafbfc;
+        border-radius: 3px;
+        padding: 3px 8px;
+        border: 1px solid #eee;
+        .el-input__inner {
+            .h(22px);
+            .fz(12px,22px);
+        }
+        .el-pagination__jump {
+            .ml(0);
+        }
+        .btn-prev,
+        .btn-next,
+        .el-pager li {
+            background: none;
+        }
+    }
+}
+
+.m-parse-result {
+    .m-op {
+        .x;
+        .mt(15px);
+
+        .el-button {
+            .w(300px);
+        }
+    }
+
+    .u-pagination {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .m-parse-result__header {
+        .u-btn--reset {
+            .rt(0);
+        }
+    }
+    .m-parse-title {
+        .mr(110px);
+    }
+}

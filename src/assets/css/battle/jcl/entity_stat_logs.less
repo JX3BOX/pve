@@ -1,0 +1,46 @@
+.m-stat-logs {
+    width: 100%;
+
+    .vxe-header--row {
+        padding: 6px 0;
+    }
+
+    .vxe-resizable.is--line {
+        display: none;
+    }
+
+    .el-table--border {
+        border: none;
+    }
+
+    .u-buff-cell {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .u-buff-cell-text {
+        margin-left: 4px;
+    }
+}
+
+.m-stat-logs-buff {
+    .u-buffs-list {
+        max-height: 400px;
+        overflow-y: auto;
+
+        .u-buffs-item {
+            margin-bottom: 4px;
+        }
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: #e0d3d3;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background: #0000;
+        }
+    }
+}

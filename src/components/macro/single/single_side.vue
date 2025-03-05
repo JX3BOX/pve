@@ -36,6 +36,7 @@ export default {
         PostCollection,
         PostTopic,
         feed,
+        PostVersion,
     },
     computed: {
         hasDirectory: function () {

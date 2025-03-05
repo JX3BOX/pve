@@ -1,0 +1,153 @@
+{
+    "dwID": "",
+    "nLevel": 1,
+    "bCheckLevel": false,
+    "szName": "",
+    "nIcon": "",
+    "nFrame": 47,
+    "nScrutinyType": 0,
+    "tKungFu": [],
+    "nCount": "",
+    "bMonTarget": false,
+    "bAllLeave": false,
+    "szTarget": "",
+    "szContent": "",
+    "bSearch": false,
+    "bReg": false,
+    "col": "",
+    "szNote": "",
+    "tCountdown": [],
+    "1": {
+        "tMark": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "bScreenHead": false,
+        "bPartyBuffList": false,
+        "bBuffList": false,
+        "bTeamPanel": false,
+        "bOnlySelfSrc": false,
+        "szVoice": "",
+        "bFullScreen": false,
+        "bVoiceSelfOnly": false
+    },
+    "2": {
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "szVoice": "",
+        "bVoiceSelfOnly": false
+    },
+    "8": {
+        "tMark": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "bScreenHead": false,
+        "szVoice": "",
+        "bVoiceSelfOnly": false
+    },
+    "9": {
+        "tMark": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "szVoice": "",
+        "bFullScreen": false,
+        "bVoiceSelfOnly": false
+    },
+    "3": {
+        "tMark": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "bScreenHead": false,
+        "szVoice": "",
+        "bFullScreen": false,
+        "bVoiceSelfOnly": false
+    },
+    "4": {
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "szVoice": "",
+        "bVoiceSelfOnly": false
+    },
+    "17": {
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "szVoice": "",
+        "bFullScreen": false,
+        "bVoiceSelfOnly": false
+    },
+    "18": {
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "szVoice": "",
+        "bVoiceSelfOnly": false
+    },
+    "14": {
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "szVoice": "",
+        "bFullScreen": false,
+        "bVoiceSelfOnly": false
+    },
+    "20": {
+        "bTeamChannel": false,
+        "bWhisperChannel": false,
+        "bCenterAlarm": false,
+        "szVoice": "",
+        "bFullScreen": false,
+        "bVoiceSelfOnly": false
+    },
+    "aFocus": [],
+    "aCataclysmBuff": []
+}

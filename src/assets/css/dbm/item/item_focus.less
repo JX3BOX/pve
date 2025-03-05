@@ -1,0 +1,49 @@
+.m-focus-item {
+    .fz(13px);
+    color: #888;
+
+    .u-op {
+        .el-select,
+        .el-input {
+            .y;
+        }
+        .el-select {
+            .pr;
+            // top:1px;
+        }
+        .el-input {
+            .ml(10px);
+        }
+        .u-op-opr .el-input {
+            .w(155px);
+        }
+        .u-op-value.el-input {
+            .w(100px);
+            .el-input-group__append {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+
+    border-bottom:1px solid @border;
+    .mb(5px);
+    padding-bottom:5px;
+
+    .u-del{
+        .x(right);
+    }
+}
+@media screen and (max-width:@phone){
+    .m-focus-item{
+        .u-label{
+            .db;
+        }
+        .u-relation .el-checkbox{
+            .mr(10px);
+        }
+        .u-op .u-op-opr .el-input{
+            .w(125px);
+        }
+    }
+}

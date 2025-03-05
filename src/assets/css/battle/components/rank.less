@@ -1,0 +1,33 @@
+.m-battle-rank {
+  padding: 0 20px 20px;
+  flex: 1;
+  box-sizing: border-box;
+  .m-title {
+    .x;
+    .fz(16px, 50px);
+  }
+  .m-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    .u-link {
+      flex: 1;
+      box-sizing: border-box;
+      margin: 0 30px;
+      padding:0 5px 5px; 
+      .fz(14px,40px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      .u-pic {
+        .size(30px);
+      }
+      &:last-child{
+          border: 0;
+      }
+    }
+  }
+}

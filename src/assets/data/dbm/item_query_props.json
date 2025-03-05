@@ -1,0 +1,11 @@
+{
+    "ALL": ["type", "map", "user_id", "fork"],
+    "BUFF": ["type", "map", "dwID", "nLevel", "user_id", "fork"],
+    "DEBUFF": ["type", "map", "dwID", "nLevel", "user_id", "fork"],
+    "CASTING": ["type", "map", "dwID", "nLevel", "user_id", "fork"],
+    "NPC": ["type", "map", "dwID", "nLevel", "user_id", "fork"],
+    "DOODAD": ["type", "map", "dwID", "nLevel", "user_id", "fork"],
+    "TALK": ["type", "map", "user_id", "szTarget", "szContent", "fork"],
+    "CHAT": ["type", "map", "user_id", "szContent", "fork"],
+    "EXTERNAL": ["type", "map", "user_id", "szContent", "fork"]
+}

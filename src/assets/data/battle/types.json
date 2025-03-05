@@ -1,0 +1,24 @@
+{
+    "stat": {
+        "subject": "stat",
+        "type": "tinymins",
+        "ext": ".jx3dat",
+        "name": "团队统计分析【茗伊】",
+        "desc": "对团队/首领/个人的各项统计数据进行全面分析",
+        "remark": "仅支持茗伊战斗统计数据",
+        "doc": "/tool/22318",
+        "icon": "el-icon-data-analysis",
+        "enable": true
+    },
+    "official": {
+        "subject": "official",
+        "type": "official",
+        "ext": ".jx3dat",
+        "name": "团队统计分析【官方】",
+        "desc": "对团队/首领/个人的各项统计数据进行分析",
+        "remark": "仅支持官方战斗统计数据",
+        "doc": "/tool/22458",
+        "icon": "el-icon-data-analysis",
+        "enable": true
+    }
+}

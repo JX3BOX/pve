@@ -1,0 +1,9 @@
+{
+    "0": "hit",
+    "1": "block",
+    "2": "shield",
+    "3": "miss",
+    "4": "dodge",
+    "5": "critical",
+    "6": "insight"
+}
