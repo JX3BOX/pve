@@ -10,8 +10,8 @@
     .m-main{
         padding:10px 15px;
     }
-
 }
+
 .v-miniprogram {
     .c-breadcrumb {
         position: sticky;
@@ -38,5 +38,38 @@
 .p-layout--app{
     .c-footer{
         .none;
+    }
+}
+
+
+// select
+.w-select {
+    position: relative;
+    .flex;
+    align-items: center;
+    .u-select-label {
+        background-color: #f5f7fa;
+        color: #909399;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 4px;
+        padding: 0 20px;
+        white-space: nowrap;
+        border-right: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        box-shadow: 1px 0 0 0 #dcdfe6 inset, 0 1px 0 0 #dcdfe6 inset, 0 -1px 0 0 #dcdfe6 inset;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+    .el-select {
+        .el-input__inner {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
     }
 }

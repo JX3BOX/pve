@@ -9,6 +9,6 @@ export default {
 </script>
 
 <style lang="less">
-@import "~@/assets/css/tool/app.less";
+@import "~@/assets/css/app.less";
 @import "~@/assets/css/tool/miniprogram.less";
 </style>
