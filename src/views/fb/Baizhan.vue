@@ -35,6 +35,7 @@
 </template>
 
 <script>
+import AppLayout from "@/layouts/fb/AppLayout.vue";
 import MainTabs from "@/components/fb/baizhan/main_tabs.vue";
 import MapFilter from "@/components/fb/baizhan/map_filter.vue";
 import SkillFilter from "@/components/fb/baizhan/skill_filter.vue";
@@ -56,6 +57,7 @@ export default {
         __imgRoot: __imgPath + "pve/baizhan/",
     },
     components: {
+        AppLayout,
         MainTabs,
         MapFilter,
         SkillFilter,

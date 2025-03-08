@@ -51,6 +51,9 @@
             <div class="u-list">
                 <div class="u-info" v-for="item in skill.types" :key="item">{{ item }}</div>
             </div>
+            <div class="u-list">
+                <div v-for="(item, i) in skill.others" :key="i" class="u-info" v-html="item"></div>
+            </div>
         </div>
         <div class="u-skill-item">
             <div class="u-item-title u-skill-title">
@@ -68,6 +71,7 @@
 import { mapState } from "vuex";
 import { iconLink } from "@jx3box/jx3box-common/js/utils";
 import { __Root } from "@jx3box/jx3box-common/data/jx3box.json";
+import { flatten } from "lodash";
 export default {
     name: "SkillInfo",
     inject: ["__imgRoot"],
@@ -90,6 +94,18 @@ export default {
                 ...this.currentSkill,
                 isPassive: ~~this.currentSkill?.Skill?.IsPassiveSkill,
                 types: this.currentSkill.szType.map((item) => this.skillTypes.find((type) => type.id === item)?.name),
+                others: flatten(
+                    (this.currentSkill?.ParsedSkill?.tooltip || []).filter((item) => {
+                        return item?.[0]?.indexOf(this.currentSkill?.szSkillName) === -1;
+                    })
+                ).filter((item) => {
+                    return (
+                        item &&
+                        item.indexOf("任意兵器") === -1 &&
+                        item.indexOf("内功：无") === -1 &&
+                        item.indexOf("不消耗内力") === -1
+                    );
+                }),
             };
         },
         skillDesc() {

@@ -37,6 +37,11 @@
                     {{ getColor(row.nColor) }}
                 </template>
             </el-table-column>
+            <el-table-column v-if="!isIpad()" prop="cd" label="调息" sortable min-width="150">
+                <template #default="{ row }">
+                    <span v-html="row.cd"></span>
+                </template>
+            </el-table-column>
             <el-table-column prop="szType" label="效果" min-width="150">
                 <template #default="{ row }">
                     <div class="u-types">
@@ -92,7 +97,12 @@ export default {
             immediate: true,
             deep: true,
             handler(list) {
-                this.skills = list;
+                this.skills = list.map((item) => {
+                    return {
+                        ...item,
+                        cd: item.ParsedSkill?.tooltip?.[3]?.[1] || "-",
+                    };
+                });
             },
         },
         params: {
@@ -100,17 +110,31 @@ export default {
             handler(params) {
                 const { color, cost, type, name, bossName } = params;
                 if (!color && !cost && !name && !type && !bossName) {
-                    return (this.skills = this.skillList);
+                    return (this.skills = this.skillList.map((item) => {
+                        return {
+                            ...item,
+                            cd: item.ParsedSkill?.tooltip?.[3]?.[1] || "-",
+                        };
+                    }));
                 }
-                this.skills = this.skillList.filter((item) => {
-                    return (
-                        (!color || item.nColor === color) &&
-                        (!cost || item.nCost === cost) &&
-                        (!bossName || item.szBossName === bossName || (bossName === "未知" && !item.szBossName)) &&
-                        (!type || (item.szType && item.szType.includes(type))) &&
-                        (!name || item?.szSkillName?.indexOf(name) > -1)
-                    );
-                });
+                this.skills = this.skillList
+                    .filter((item) => {
+                        return (
+                            (!color || item.nColor === color) &&
+                            (!cost || item.nCost === cost) &&
+                            (!bossName ||
+                                item.szBossName.indexOf(bossName) > -1 ||
+                                (bossName === "未知" && !item.szBossName)) &&
+                            (!type || (item.szType && item.szType.includes(type))) &&
+                            (!name || item?.szSkillName?.indexOf(name) > -1)
+                        );
+                    })
+                    .map((item) => {
+                        return {
+                            ...item,
+                            cd: item.ParsedSkill?.tooltip?.[3]?.[1] || "-",
+                        };
+                    });
                 this.$store.commit("baizhan/setState", {
                     key: "currentSkill",
                     val: this.skills?.[0] || {},
