@@ -152,12 +152,20 @@ export default {
             handler(query) {
                 if (query.skill) {
                     this.name = query.skill;
-                    this.currentBossName = "";
+                } else {
+                    this.name = "";
                 }
+                this.reset();
             },
         },
     },
     methods: {
+        reset() {
+            this.currentBossName = "";
+            this.currentType = 0;
+            this.currentColor = 0;
+            this.currentCost = 0;
+        },
         setSkill(id, type) {
             if (this[type] === id) {
                 return (this[type] = null);

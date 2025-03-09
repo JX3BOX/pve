@@ -170,7 +170,21 @@ export default {
                 key: "currentBoss",
                 val: {},
             });
-            // return this.$router.push({ query: {} });
+            const query = {};
+            const routeQuery = this.$route.query;
+            if (routeQuery?.tab) {
+                query.tab = routeQuery.tab;
+            }
+            if (query.tab === "map" && routeQuery.floor) {
+                query.floor = routeQuery.floor;
+            }
+            if (query.tab === "skill" && routeQuery.skill) {
+                query.skill = routeQuery.skill;
+            }
+            if (query.tab === "boss" && routeQuery.boss) {
+                query.boss = routeQuery.boss;
+            }
+            return this.$router.push({ query });
         },
     },
     mounted() {
