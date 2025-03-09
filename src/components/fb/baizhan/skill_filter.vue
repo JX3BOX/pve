@@ -152,6 +152,7 @@ export default {
             handler(query) {
                 if (query.skill) {
                     this.name = query.skill;
+                    this.currentBossName = "";
                 }
             },
         },
