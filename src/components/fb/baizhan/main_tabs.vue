@@ -94,14 +94,19 @@ export default {
             immediate: true,
             deep: true,
             handler(query) {
-                if (query?.floor) {
-                    this.setActiveTab("map");
-                }
-                if (query?.skill) {
-                    this.setActiveTab("skill");
-                }
-                if (query?.boss) {
-                    this.setActiveTab("boss");
+                const { tab } = query;
+                if (tab) {
+                    this.setActiveTab(tab);
+                } else {
+                    if (query?.floor) {
+                        this.setActiveTab("map");
+                    }
+                    if (query?.skill) {
+                        this.setActiveTab("skill");
+                    }
+                    if (query?.boss) {
+                        this.setActiveTab("boss");
+                    }
                 }
             },
         },
@@ -111,6 +116,22 @@ export default {
             this.$store.commit("baizhan/setState", {
                 key: "activeTab",
                 val: tab,
+            });
+            const query = {
+                tab,
+            };
+            const routeQuery = this.$route.query;
+            if (tab === "map" && routeQuery.floor) {
+                query.floor = routeQuery.floor;
+            }
+            if (tab === "skill" && routeQuery.skill) {
+                query.skill = routeQuery.skill;
+            }
+            if (tab === "boss" && routeQuery.boss) {
+                query.boss = routeQuery.boss;
+            }
+            this.$router.push({
+                query,
             });
         },
         toDownImg() {

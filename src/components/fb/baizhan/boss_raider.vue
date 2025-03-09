@@ -49,7 +49,7 @@
 </template>
 
 <script>
-const appKey = "fb"
+const appKey = "fb";
 import { mapState } from "vuex";
 import listItem from "@/components/fb/list/list_item.vue";
 import { getPosts } from "@/service/fb/post";
@@ -182,3 +182,10 @@ export default {
     },
 };
 </script>
+<style lang="less">
+.m-raiders {
+    .m-archive-list .u-post .u-push {
+        .none;
+    }
+}
+</style>

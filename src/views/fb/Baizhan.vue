@@ -170,7 +170,7 @@ export default {
                 key: "currentBoss",
                 val: {},
             });
-            return this.$router.push({ query: {} });
+            // return this.$router.push({ query: {} });
         },
     },
     mounted() {
