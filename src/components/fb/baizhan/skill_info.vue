@@ -93,7 +93,7 @@ export default {
             return {
                 ...this.currentSkill,
                 isPassive: ~~this.currentSkill?.Skill?.IsPassiveSkill,
-                types: this.currentSkill.szType.map((item) => this.skillTypes.find((type) => type.id === item)?.name),
+                types: this.currentSkill?.szType?.map((item) => this.skillTypes?.find((type) => type.id === item)?.name),
                 others: flatten(
                     (this.currentSkill?.ParsedSkill?.tooltip || []).filter((item) => {
                         return item?.[0]?.indexOf(this.currentSkill?.szSkillName) === -1;
