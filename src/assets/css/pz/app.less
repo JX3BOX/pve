@@ -1,0 +1,100 @@
+.m-main {
+    padding: 20px 30px;
+}
+@media screen and (max-width: @ipad) {
+    .m-main {
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width: @phone) {
+    .m-main {
+        padding: 10px 15px;
+    }
+}
+
+.v-pz {
+    .u-op {
+        .flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+// 未登录提醒
+.m-pz-login {
+    .x;
+    padding: 100px;
+    .el-empty__image {
+        .auto(x);
+    }
+    height: calc(100vh - 600px);
+}
+
+// 标题
+.m-pz-title {
+    margin: 0;
+    .mb(15px);
+    .pr;
+    font-weight: normal;
+
+    .u-misc {
+        .pa;
+        .rb(0);
+    }
+
+    .u-total {
+        .fz(14px);
+        b {
+            padding: 0 2px;
+            color: @color-link;
+        }
+    }
+}
+
+// 客户端
+.i-client {
+    font-style: normal;
+    .fz(12px);
+    padding: 2px 5px;
+    .r(3px);
+    // .mr(5px);
+
+    &.std {
+        border: 1px solid @std;
+        color: @std;
+    }
+
+    &.origin {
+        border: 1px solid @origin;
+        color: @origin;
+    }
+}
+
+.c-breadcrumb .u-feedback.u-doc {
+    .mr(0);
+}
+@media screen and (max-width: @ipad) {
+    .c-breadcrumb {
+        .u-op-public {
+            .db;
+        }
+        .c-crumb {
+            .none;
+        }
+    }
+
+    .wechat-miniprogram {
+        .c-breadcrumb {
+            position: sticky;
+            top: 0;
+        }
+
+        .c-main {
+            margin-top: 0;
+        }
+
+        .c-sidebar-left,.c-sidebar-right {
+            top: 48px;
+        }
+    }
+}

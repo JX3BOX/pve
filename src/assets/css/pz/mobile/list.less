@@ -1,0 +1,193 @@
+.m-pzlist{
+    .h(100%);
+    .pt(47px);
+
+    &.m-mine-list {
+        .pt(57px);
+    }
+}
+
+.p-mobile-list {
+    height: calc(100vh - 30px);
+    overflow: hidden;
+
+    .m-list-content {
+        padding-bottom: 10px;
+        height: 100%;
+    }
+
+    .u-cell-btn-group {
+        height: 100%;
+        .u-cell-btn {
+            height: 100%;
+            margin-right: 0;
+            margin-left: 0;
+            .flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-color: transparent;
+
+            span {
+                writing-mode: vertical-rl;
+                // text-orientation: upright;
+                .pr;
+                left: -3px;
+                letter-spacing: 2px;
+                margin-top: 4px;
+            }
+
+            &:first-of-type {
+                border-radius: 0;
+            }
+        }
+    }
+
+    .van-pull-refresh {
+        overflow: auto !important;
+        // margin-top: 10px;
+        // margin: 10px -10px 0 -10px;
+    }
+}
+
+.m-list-item {
+    height: 190px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin: 10px 0;
+    .flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    gap: 10px;
+    background-position: left;
+
+    &.is-open {
+        border-radius: 8px 0 0 8px;
+    }
+
+    .u-bg {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        .pa;
+        top: 0;
+        right: 0;
+        height: 100%;
+        opacity: 0.05;
+    }
+
+    .pr;
+    .m-pz-tags {
+        // .pa;.rt(10px);
+        text-align: right;
+        .u-client {
+            font-style: normal;
+            .fz(12px);
+            padding: 3px 6px;
+            .r(3px);
+            color: #fff;
+
+            &.std {
+                border: 1px solid @std;
+                background-color: @std;
+            }
+
+            &.origin {
+                border: 1px solid @origin;
+                background-color: @origin;
+            }
+        }
+
+        .u-mark,
+        .u-sticky {
+            font-style: normal;
+            font-size: 12px;
+            padding: 4px 6px;
+            border-radius: 3px;
+            background-color: #fc3c3c;
+            color: #fff;
+            margin-left: 5px;
+            .mr(5px);
+            i {
+                .dbi;
+                transform: rotate(180deg);
+                .pr;
+            }
+        }
+    }
+
+    .m-pz-header {
+        .flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .u-author-avatar {
+            .size(32px);
+            border-radius: 50%;
+            background-color:#fff;
+        }
+
+        .u-xf-icon {
+            .size(24px, 24px);
+            margin-right: 5px;
+        }
+
+        .u-pz-name {
+            color: #fff;
+            font-size: 1rem;
+            flex: 1;
+            margin-left: 6px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+            .flex;
+            align-items: center;
+
+        }
+    }
+    .m-pz-info {
+        // padding-left: 10px;
+        .flex;
+        align-items: center;
+        .u-xf-icon {
+            .size(24px, 24px);
+            margin-right: 5px;
+        }
+        .u-tag {
+            border-color: transparent;
+            &:not(:last-child) {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.m-pz-attrs {
+    color: #fff;
+    .flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .u-attr {
+        .flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .w(25%);
+        flex-shrink: 0;
+        .mt(10px);
+
+        .u-attr-name {
+            font-size: 12px;
+            line-height: 2.5;
+        }
+        .u-attr-value {
+            font-size: 14px;
+        }
+        .u-percent {
+            font-size: 12px;
+        }
+    }
+}

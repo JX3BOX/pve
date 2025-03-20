@@ -1,0 +1,148 @@
+.c-sidebar-left {
+    padding-left: 0;
+    padding-right: 0;
+}
+.m-equip-anchor {
+    .u-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .m-equip-item {
+        display: flex;
+        position: relative;
+        align-items: center;
+        cursor: pointer;
+        padding: 12px 12px 12px 18px;
+
+        // 心法
+        .u-mount {
+            display: flex;
+            align-items: center;
+            .ml(12px);
+
+            .u-pic {
+                .size(24px);
+            }
+        }
+
+        // 文字
+        .u-text {
+            margin-left: 12px;
+            flex: 1;
+        }
+        .u-equip-type {
+            color: #888;
+            display: inline-flex;
+        }
+        .u-equip-type,
+        .u-equip-name {
+            .db;
+        }
+        .u-equip-name {
+            display: flex;
+            justify-content: space-between;
+        }
+        .u-equip-strength {
+            .fz(12px);
+            color: #aaa;
+            font-weight: normal;
+        }
+        .u-equip-enhance,
+        .u-equip-enchant {
+            // .tm(0.5);
+            // i{
+            // .dbi;.size(4px);.y;
+            // }
+            img {
+                .size(12px);
+            }
+        }
+        // .u-equip-enhance {background-color:#16b7bf;.mr(3px);}
+        .u-equip-enchant {
+            // background-color:#f95a9c;
+            .ml(2px);
+        }
+        .hasEquip {
+            font-size: 12px;
+        }
+
+        &:hover {
+            background-color: #f2f6fc;
+        }
+
+        &.active {
+            background: #e6f0fb;
+            color: #a31521;
+            font-weight: 600;
+        }
+
+        // 图标
+        .u-icon-box {
+            .size(42px);
+            .db;
+            .pr;
+            &::after {
+                .db;
+                content: "";
+                .pa;
+                .size(100%);
+                top: 0;
+                left: 0;
+                background-repeat: no-repeat;
+            }
+        }
+        .u-icon {
+            .size(100%);
+            border-radius: 4px;
+        }
+        .quality-3 {
+            &::after {
+                background-image: url("../../img/pz/quality/3.png");
+            }
+        }
+        .quality-4 {
+            &::after {
+                background-image: url("../../img/pz/quality/4.png");
+            }
+        }
+        .quality-4-max {
+            &::after {
+                background-image: url("../../img/pz/quality/4-max.png");
+            }
+        }
+        .quality-5,
+        .quality-5-max {
+            &::after {
+                background-image: url("../../img/pz/quality/5.gif");
+                background-size: 100% 100%;
+            }
+        }
+    }
+}
+
+.m-equip-anchor-root {
+    // .clearfix;
+    justify-content: space-between;
+
+    .u-title {
+        .bold;
+        i {
+            .mr(10px);
+        }
+    }
+
+    .u-mount-pic {
+        // background-color:#111;
+        .r(4px);
+        .size(24px);
+        .mr(5px);
+        // box-sizing: border-box;
+        // padding:2px;
+    }
+    .u-mount-name {
+        .fz(14px);
+        color: @color !important;
+        .bold !important;
+    }
+}

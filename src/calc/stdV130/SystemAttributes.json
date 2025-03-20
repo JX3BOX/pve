@@ -1,0 +1,21 @@
+{
+    "atSystemSpiritToSolarCriticalStrikeCof": 921.6,
+    "atSystemSpiritToLunarCriticalStrikeCof": 921.6,
+    "atSystemSpiritToNeutralCriticalStrikeCof": 921.6,
+    "atSystemSpiritToPoisonCriticalStrikeCof": 921.6,
+
+    "atSystemStrengthToPhysicsOvercomeCof": 307.2,
+    "atSystemStrengthToPhysicsAttackPowerCof": 166.912,
+
+    "atSystemAgilityToPhysicsCriticalStrikeCof": 921.6,
+
+    "atSystemSpunkToSolarAttackPowerCof": 185.344,
+    "atSystemSpunkToLunarAttackPowerCof": 185.344,
+    "atSystemSpunkToNeutralAttackPowerCof": 185.344,
+    "atSystemSpunkToPoisonAttackPowerCof": 185.344,
+
+    "atSystemSpunkToNeutralOvercomeCof": 307.2,
+    "atSystemSpunkToSolarOvercomeCof": 307.2,
+    "atSystemSpunkToLunarOvercomeCof": 307.2,
+    "atSystemSpunkToPoisonOvercomeCof": 307.2
+}

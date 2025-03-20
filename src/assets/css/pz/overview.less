@@ -1,0 +1,140 @@
+.m-pz-box {
+    padding-bottom: 20px;
+}
+
+.m-pz {
+    padding: 20px;
+}
+@media screen and (max-width: @phone) {
+    .m-pz {
+        padding: 10px;
+    }
+}
+
+.m-pz-overview {
+    padding: 0 20px;
+}
+
+.m-pz-info {
+    // &.isEditMode {
+    //     background-color: @bg-light;
+    //     padding: 20px;
+    //     .r(3px);
+    //     border: 4px solid @border-hr;
+    //     .mb(40px);
+    // }
+    .u-avatar {
+        .auto(x);
+        .size(88px);
+        .db;
+        margin:20px auto;
+    }
+    .u-title {
+        font-weight: 300;
+        margin: 0;
+        .x;
+        .db;
+        .break(2);
+
+        .u-status {
+            color: #fba524;
+        }
+    }
+    .u-textarea {
+        .mt(10px);
+    }
+    .u-desc {
+        border: 1px dashed #e1e4e8;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: #fafbfc;
+        font-size: 14px;
+        line-height: 2;
+        margin: 10px 0;
+        white-space: pre-line;
+        box-sizing: border-box;
+        color: #555;
+    }
+    .u-fork {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-icon {
+            fill: #57606a;
+            margin-right: 2px;
+        }
+
+        .u-link {
+            margin-left: 2px;
+        }
+    }
+    .u-meta {
+        .x;
+        .fz(12px, 2);
+        color: #888;
+        a {
+            .underline(@color-link);
+        }
+    }
+    .u-time {
+        .ml(5px);
+    }
+
+    .u-level,.u-client{
+        font-weight: normal;
+        .ml(5px);
+    }
+
+    .u-mark {
+        font-style: normal;
+        font-size: 12px;
+        padding: 2px 5px 2px 5px;
+        border-radius: 2px;
+        background-color: #6f42c1;
+        border:1px solid #6f42c1;
+        color: #fff;
+        .ml(5px);
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .m-pz-info {
+        .u-title {
+            .fz(1rem);
+        }
+    }
+}
+
+.m-pz-setting{
+    .mt(40px);
+    .u-pending{
+        color:orange;
+    }
+}
+
+.m-pz-box {
+    .m-pz-canvas {
+        padding: 20px;
+        border: 1px solid #eee;
+        background-color: @bg-light;
+        .r(4px);
+        min-height: 300px;
+    }
+}
+
+.m-pz-thx {
+    .mt(20px);
+}
+
+// canvas
+.m-pz-canvas {
+    overflow-x: auto;
+}
+.m-overview-canvas-box {
+    .x;
+}
+.m-overview-save{
+    .db;
+    .auto(x);
+    .mt(20px);
+}

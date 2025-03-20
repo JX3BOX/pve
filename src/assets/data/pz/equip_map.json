@@ -1,0 +1,197 @@
+{
+    "HAT":{
+        "label":"帽子",
+        "remark":"头部",
+        "position":3,
+        "type":"armor",
+        "tab_type":7,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": true,
+            "origin": false
+        }
+    },
+    "JACKET":{
+        "label":"上衣",
+        "remark":"上衣",
+        "position":2,
+        "type":"armor",
+        "tab_type":7,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": true,
+            "origin": true
+        }
+    },
+    "BELT":{
+        "label":"腰带",
+        "remark":"腰带",
+        "position":6,
+        "type":"armor",
+        "tab_type":7,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": true,
+            "origin": true
+        }
+    },
+    "WRIST":{
+        "label":"护腕",
+        "remark":"护手",
+        "position":10,
+        "type":"armor",
+        "tab_type":7,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": true,
+            "origin": false
+        }
+    },
+    "BOTTOMS":{
+        "label":"下装",
+        "remark":"裤子",
+        "position":8,
+        "type":"armor",
+        "tab_type":7,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": false,
+            "origin": false
+        }
+    },
+    "SHOES":{
+        "label":"鞋子",
+        "remark":"鞋子",
+        "position":9,
+        "type":"armor",
+        "tab_type":7,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": true,
+            "origin": true
+        }
+    },
+    "NECKLACE":{
+        "label":"项链",
+        "remark":"项链",
+        "position":4,
+        "type":"trinket",
+        "tab_type":8,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": false,
+            "origin": true
+        }
+    },
+    "PENDANT":{
+        "label":"腰坠",
+        "remark":"腰坠",
+        "position":7,
+        "type":"trinket",
+        "tab_type":8,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": false,
+            "origin": true
+        }
+    },
+    "RING_1":{
+        "label":"戒指",
+        "remark":"戒指1",
+        "position":5,
+        "type":"trinket",
+        "tab_type":8,
+        "enhance":{
+            "std": true,
+            "origin": true
+        },
+        "enchant":{
+            "std": false,
+            "origin": true
+        }
+    },
+    "RING_2":{
+        "label":"戒指",
+        "remark":"戒指2",
+        "position":5,
+        "type":"trinket",
+        "tab_type":8,
+        "enhance":{
+            "std": true,
+            "origin": true
+        },
+        "enchant":{
+            "std": false,
+            "origin": true
+        }
+    },
+    "PRIMARY_WEAPON":{
+        "label":"武器",
+        "remark":"主武器",
+        "position":0,
+        "type":"weapon",
+        "tab_type":6,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": false,
+            "origin": true
+        }
+    },
+    "TERTIARY_WEAPON":{
+        "label":"武器（重兵）",
+        "remark":"副武器",
+        "position":0,
+        "type":"weapon",
+        "tab_type":6,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": false,
+            "origin": true
+        }
+    },
+    "SECONDARY_WEAPON":{
+        "label":"暗器",
+        "remark":"暗器",
+        "position":1,
+        "type":"weapon",
+        "tab_type":6,
+        "enhance":{
+            "std": true,
+            "origin": false
+        },
+        "enchant":{
+            "std": false,
+            "origin": false
+        }
+    }
+}

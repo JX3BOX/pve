@@ -1,0 +1,601 @@
+[
+    {
+        "type": 1,
+        "value": 500,
+        "from": "atPhysicsCriticalStrike",
+        "targets": [
+            "atPhysicsHitValue",
+            "atStrainBase",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atPhysicsCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 1,
+        "value": 500,
+        "from": "atMagicCriticalStrike",
+        "targets": [
+            "atStrainBase",
+            "atMagicOvercome",
+            "atMagicCriticalDamagePowerBase",
+            "atMagicHitValue",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 1,
+        "value": 500,
+        "from": "atSolarCriticalStrike",
+        "targets": [
+            "atSolarHitValue",
+            "atStrainBase",
+            "atSolarOvercomeBase",
+            "atSolarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 1,
+        "value": 500,
+        "from": "atNeutralCriticalStrike",
+        "targets": [
+            "atNeutralHitValue",
+            "atStrainBase",
+            "atNeutralOvercomeBase",
+            "atNeutralCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 1,
+        "value": 500,
+        "from": "atLunarCriticalStrike",
+        "targets": [
+            "atLunarHitValue",
+            "atStrainBase",
+            "atLunarOvercomeBase",
+            "atLunarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 1,
+        "value": 500,
+        "from": "atPoisonCriticalStrike",
+        "targets": [
+            "atPoisonHitValue",
+            "atStrainBase",
+            "atPoisonOvercomeBase",
+            "atPoisonCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 2,
+        "value": 1000,
+        "from": "atDodge",
+        "targets": ["atParryBase", "atParryValueBase", "atToughnessBase", "atManaReplenishExt"]
+    },
+    {
+        "type": 3,
+        "value": 500,
+        "from": "atPhysicsHitValue",
+        "targets": [
+            "atPhysicsCriticalStrike",
+            "atStrainBase",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atPhysicsCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 3,
+        "value": 500,
+        "from": "atSolarHitValue",
+        "targets": [
+            "atSolarCriticalStrike",
+            "atStrainBase",
+            "atSolarOvercomeBase",
+            "atSolarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 3,
+        "value": 500,
+        "from": "atNeutralHitValue",
+        "targets": [
+            "atNeutralCriticalStrike",
+            "atStrainBase",
+            "atNeutralOvercomeBase",
+            "atNeutralCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 3,
+        "value": 500,
+        "from": "atLunarHitValue",
+        "targets": [
+            "atLunarCriticalStrike",
+            "atStrainBase",
+            "atLunarOvercomeBase",
+            "atLunarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 3,
+        "value": 500,
+        "from": "atPoisonHitValue",
+        "targets": [
+            "atPoisonCriticalStrike",
+            "atStrainBase",
+            "atPoisonOvercomeBase",
+            "atPoisonCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 4,
+        "value": 1000,
+        "from": "atParryBase",
+        "targets": ["atDodge", "atParryValueBase", "atToughnessBase", "atManaReplenishExt"]
+    },
+    {
+        "type": 5,
+        "value": 26,
+        "from": "atParryValueBase",
+        "targets": ["atDodge", "atParryBase", "atToughnessBase", "atManaReplenishExt"]
+    },
+    {
+        "type": 6,
+        "value": 500,
+        "from": "atStrainBase",
+        "targets": [
+            "atAllTypeCriticalStrike",
+            "atAllTypeHitValue",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atAllTypeCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 7,
+        "value": 500,
+        "from": "atPhysicsOvercomeBase",
+        "targets": [
+            "atPhysicsCriticalStrike",
+            "atPhysicsHitValue",
+            "atStrainBase",
+            "atPhysicsCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 7,
+        "value": 500,
+        "from": "atSolarOvercomeBase",
+        "targets": [
+            "atSolarCriticalStrike",
+            "atSolarHitValue",
+            "atStrainBase",
+            "atSolarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 7,
+        "value": 500,
+        "from": "atNeutralOvercomeBase",
+        "targets": [
+            "atNeutralCriticalStrike",
+            "atNeutralHitValue",
+            "atStrainBase",
+            "atNeutralCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 7,
+        "value": 500,
+        "from": "atLunarOvercomeBase",
+        "targets": [
+            "atLunarCriticalStrike",
+            "atLunarHitValue",
+            "atStrainBase",
+            "atLunarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 7,
+        "value": 500,
+        "from": "atPoisonOvercomeBase",
+        "targets": [
+            "atAllTypeCriticalStrike",
+            "atAllTypeHitValue",
+            "atStrainBase",
+            "atAllTypeCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 7,
+        "value": 500,
+        "from": "atMagicOvercome",
+        "targets": [
+            "atAllTypeCriticalStrike",
+            "atAllTypeHitValue",
+            "atStrainBase",
+            "atAllTypeCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 8,
+        "value": 1000,
+        "from": "atToughnessBase",
+        "targets": ["atDodge", "atParryBase", "atParryValueBase", "atManaReplenishExt"]
+    },
+    {
+        "type": 9,
+        "value": 500,
+        "from": "atMagicCriticalDamagePowerBase",
+        "targets": [
+            "atMagicCriticalStrike",
+            "atStrainBase",
+            "atMagicOvercome",
+            "atMagicHitValue",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 9,
+        "value": 500,
+        "from": "atPhysicsCriticalDamagePowerBase",
+        "targets": [
+            "atPhysicsCriticalStrike",
+            "atStrainBase",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atPhysicsHitValue",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 9,
+        "value": 500,
+        "from": "atSolarCriticalDamagePowerBase",
+        "targets": [
+            "atSolarCriticalStrike",
+            "atSolarHitValue",
+            "atStrainBase",
+            "atSolarOvercomeBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 9,
+        "value": 500,
+        "from": "atNeutralCriticalDamagePowerBase",
+        "targets": [
+            "atNeutralCriticalStrike",
+            "atNeutralHitValue",
+            "atStrainBase",
+            "atNeutralOvercomeBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 9,
+        "value": 500,
+        "from": "atLunarCriticalDamagePowerBase",
+        "targets": [
+            "atLunarCriticalStrike",
+            "atLunarHitValue",
+            "atStrainBase",
+            "atLunarOvercomeBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 9,
+        "value": 500,
+        "from": "atPoisonCriticalDamagePowerBase",
+        "targets": [
+            "atPoisonCriticalStrike",
+            "atPoisonHitValue",
+            "atStrainBase",
+            "atPoisonOvercomeBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 3,
+        "value": 500,
+        "from": "atMagicHitValue",
+        "targets": [
+            "atMagicCriticalStrike",
+            "atStrainBase",
+            "atMagicOvercome",
+            "atMagicCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 3,
+        "value": 500,
+        "from": "atAllTypeHitValue",
+        "targets": [
+            "atAllTypeCriticalStrike",
+            "atStrainBase",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atAllTypeCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 1,
+        "value": 500,
+        "from": "atAllTypeCriticalStrike",
+        "targets": [
+            "atAllTypeHitValue",
+            "atStrainBase",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atAllTypeCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 9,
+        "value": 500,
+        "from": "atAllTypeCriticalDamagePowerBase",
+        "targets": [
+            "atAllTypeHitValue",
+            "atAllTypeCriticalStrike",
+            "atStrainBase",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 3,
+        "value": 500,
+        "from": "atSolarAndLunarHitValue",
+        "targets": [
+            "atSolarAndLunarCriticalStrike",
+            "atStrainBase",
+            "atSolarAndLunarOvercomeBase",
+            "atSolarAndLunarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 1,
+        "value": 500,
+        "from": "atSolarAndLunarCriticalStrike",
+        "targets": [
+            "atSolarAndLunarHitValue",
+            "atStrainBase",
+            "atSolarAndLunarOvercomeBase",
+            "atSolarAndLunarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 9,
+        "value": 500,
+        "from": "atSolarAndLunarCriticalDamagePowerBase",
+        "targets": [
+            "atSolarAndLunarCriticalStrike",
+            "atSolarAndLunarHitValue",
+            "atStrainBase",
+            "atSolarAndLunarOvercomeBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 7,
+        "value": 500,
+        "from": "atSolarAndLunarOvercomeBase",
+        "targets": [
+            "atSolarAndLunarCriticalStrike",
+            "atSolarAndLunarHitValue",
+            "atStrainBase",
+            "atSolarAndLunarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 10,
+        "value": 500,
+        "from": "atHasteBase",
+        "targets": [
+            "atStrainBase",
+            "atAllTypeCriticalStrike",
+            "atAllTypeHitValue",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atAllTypeCriticalDamagePowerBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 11,
+        "value": 153,
+        "from": "atPhysicsAttackPowerBase",
+        "targets": [
+            "atPhysicsHitValue",
+            "atPhysicsCriticalStrike",
+            "atStrainBase",
+            "atPhysicsOvercomeBase",
+            "atPhysicsCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 12,
+        "value": 85,
+        "from": "atMagicAttackPowerBase",
+        "targets": [
+            "atAllTypeHitValue",
+            "atAllTypeCriticalStrike",
+            "atStrainBase",
+            "atMagicOvercome",
+            "atAllTypeCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 12,
+        "value": 85,
+        "from": "atSolarAttackPowerBase",
+        "targets": [
+            "atSolarCriticalStrike",
+            "atSolarHitValue",
+            "atStrainBase",
+            "atSolarOvercomeBase",
+            "atSolarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 12,
+        "value": 85,
+        "from": "atNeutralAttackPowerBase",
+        "targets": [
+            "atNeutralCriticalStrike",
+            "atNeutralHitValue",
+            "atStrainBase",
+            "atNeutralOvercomeBase",
+            "atNeutralCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 12,
+        "value": 85,
+        "from": "atLunarAttackPowerBase",
+        "targets": [
+            "atLunarCriticalStrike",
+            "atLunarHitValue",
+            "atStrainBase",
+            "atLunarOvercomeBase",
+            "atLunarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 12,
+        "value": 85,
+        "from": "atPoisonAttackPowerBase",
+        "targets": [
+            "atAllTypeCriticalStrike",
+            "atAllTypeHitValue",
+            "atStrainBase",
+            "atPoisonOvercomeBase",
+            "atAllTypeCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 13,
+        "value": 57,
+        "from": "atTherapyPowerBase",
+        "targets": [
+            "atAllTypeCriticalStrike",
+            "atAllTypeHitValue",
+            "atAllTypeCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 12,
+        "value": 85,
+        "from": "atSolarAndLunarAttackPowerBase",
+        "targets": [
+            "atSolarAndLunarCriticalStrike",
+            "atSolarAndLunarHitValue",
+            "atStrainBase",
+            "atSolarAndLunarOvercomeBase",
+            "atSolarAndLunarCriticalDamagePowerBase",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 14,
+        "value": 400,
+        "from": "atVitalityBase",
+        "targets": [
+            "atAllTypeHitValue",
+            "atAllTypeCriticalStrike",
+            "atStrainBase",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atHasteBase",
+            "atManaReplenishExt"
+        ]
+    },
+    {
+        "type": 15,
+        "value": 500,
+        "from": "atManaReplenishExt",
+        "targets": [
+            "atAllTypeHitValue",
+            "atStrainBase",
+            "atPhysicsOvercomeBase",
+            "atMagicOvercome",
+            "atAllTypeCriticalStrike",
+            "atAllTypeCriticalDamagePowerBase",
+            "atHasteBase"
+        ]
+    }
+]

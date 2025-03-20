@@ -1,0 +1,34 @@
+{
+    "m1": {
+        "atStrengthBase": 76,
+        "atAgilityBase": 78,
+        "atVitalityBase": 76,
+        "atSpiritBase": 79,
+        "atSpunkBase": 76,
+        "atMaxLifeBase": 2260
+    },
+    "m2": {
+        "atStrengthBase": 78,
+        "atAgilityBase": 77,
+        "atVitalityBase": 79,
+        "atSpiritBase": 76,
+        "atSpunkBase": 75,
+        "atMaxLifeBase": 2260
+    },
+    "f1": {
+        "atStrengthBase": 76,
+        "atAgilityBase": 79,
+        "atVitalityBase": 75,
+        "atSpiritBase": 78,
+        "atSpunkBase": 77,
+        "atMaxLifeBase": 2260
+    },
+    "f2": {
+        "atStrengthBase": 77,
+        "atAgilityBase": 78,
+        "atVitalityBase": 76,
+        "atSpiritBase": 78,
+        "atSpunkBase": 76,
+        "atMaxLifeBase": 2260
+    }
+}

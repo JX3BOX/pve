@@ -1,0 +1,20 @@
+export const levelConst = {
+    //ui\config\default\charinfomore.lua
+    "fPlayerCriticalCof": 0.50,
+    "fCriticalStrikeParam": 11.773,
+    "fCriticalStrikePowerParam": 4.709,
+    "fDefCriticalStrikeParam": 11.773,
+    "fToughnessDecirDamageCof": 3.889,
+    "fDecriticalStrikePowerParam": 5.813,
+    "fHitValueParam": 11.773,
+    "fDodgeParam": 13.823,
+    "fParryParam": 10.005,
+    "fInsightParam": 11.526,
+    "fPhysicsShieldParam": 10.656,
+    "fMagicShieldParam": 10.656,
+    "fOvercomeParam": 11.773,
+    "fHasteRate": 12.486,
+    "fCurrentHasteRate": 0.325,
+    "nLevelCoefficient": 725,
+    "nMaxLevel": 90,
+}

@@ -1,0 +1,191 @@
+.m-pz-stone{
+    .u-active-stone{
+        .fl;
+        img{
+            .y;
+            .size(32px);
+            .mr(5px);
+        }
+        .mr(10px);
+    }
+    .u-stone-name{
+        &.stoneLevel-1{color:@q_green;}
+        &.stoneLevel-2{color:@q_green;}
+        &.stoneLevel-3{color:@q_blue;}
+        &.stoneLevel-4{color:@q_blue;}
+        &.stoneLevel-5{color:@q_purple;}
+        &.stoneLevel-6{color:@q_purple;}
+    }
+    .u-clear{
+        .ml(5px);
+        color:#888;
+        &:hover{
+            color:#c00;
+        }
+    }
+}
+
+// 弹窗
+.m-pz-stone-dialog {
+    width: 900px;
+    .el-dialog__body {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width:@phone){
+    .m-pz-stone-dialog{
+        .size(100%);
+        .mt(0) !important;
+        .mb(0) !important;
+        overflow-y: auto;
+    }
+}
+
+// 五彩石筛选
+.m-pz-stone-container {
+    .u-title{
+        background-color:@bg-gray;
+        .fz(14px,28px);
+        padding:0 5px;
+        .r(2px);
+    }
+
+    .u-list{
+        .h(340px);
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .u-stone-item {
+        display: flex;
+        align-items: center;
+        padding: 5px 8px;
+        cursor: pointer;
+        .h(30px);
+        // .mb(5px);
+
+        &:hover {
+            background-color: #f2f6fc;
+            .r(3px);
+        }
+        &.active {
+            font-weight: 600;
+            background-color:#e6f0fb;
+        }
+        .u-stone-icon {
+            .size(30px);
+            .mr(6px);
+            vertical-align: -10px;
+            // .y;
+            // .db;.fl;
+        }
+        .u-stone-name{
+            .fz(14px,30px);
+            // .db;
+        }
+        .pr;
+        .u-stone-clear{
+            // .fr;
+            // .mt(5px);
+            .pa;.rt(5px,5px);
+            color:#c00;
+            &:hover{
+                color:#f00;
+            }
+        }
+        .u-stone-remark{
+            .pa;.rt(30px,0);
+            font-weight: normal;
+            .fz(12px);
+            color:#aaa;
+        }
+    }
+}
+.m-pz-stone-container{
+    display: flex;
+    .m-stone-form {
+        .mr(20px);
+        flex:1;
+    }
+
+    .m-stone-list {
+        width: 360px;
+        .u-search{
+            .mt(5px);
+        }
+    }
+}
+@media screen and (max-width:@phone){
+    .m-pz-stone-container{
+        .db;
+        .m-stone-form{
+            .w(100%);
+        }
+        .m-stone-list{
+            .h(auto);
+        }
+    }
+}
+
+.m-stone-form{
+    .u-match{
+        .fr;
+    }
+}
+
+.m-stone-select-option{
+    .u-label{
+        font-weight: normal;
+        color:@color;
+    }
+    .u-remark{
+        // color:#669c4b;
+        .bold;
+        color:@color-link;
+        .ml(5px);
+        letter-spacing:0.5px;
+    }
+}
+
+.m-stone-qkmode{
+    .clearfix;
+    .mt(20px);
+    .u-stone-qkitem{
+        .lh(20px);
+        .db;
+        .fl;
+        padding:2px 8px;
+        background-color:#007eff;
+        color:#fff;
+        .r(3px);
+        .mb(10px);
+        .mr(10px);
+        .el-checkbox__input{
+            .none;
+        }
+        .el-checkbox__label{
+            padding-left:0;
+            .fz(12px);
+        }
+
+        &.is-checked{
+            .el-checkbox__label{color:#fff !important;}
+            background-color:#ffa500;
+        }
+        .pr;
+        &.is-disabled{
+            background-color:#aaa;
+            .el-checkbox__label{color:#fff;}
+        }
+    }
+    .u-placeholder{
+        clear:both;
+    }
+}
+
+.m-stone-list{
+    .el-pagination__total{
+        .fz(12px) !important;
+    }
+}

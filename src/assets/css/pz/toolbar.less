@@ -1,0 +1,154 @@
+.m-pz-toolbar {
+    .u-qk {
+        .fl;
+    }
+    .u-level{
+        font-weight: normal;
+    }
+    .u-title {
+        // .fz(12px);
+        // font-weight: normal;
+        .ml(5px);
+        i {
+            .mr(2px);
+        }
+        span{
+            // color:@color;
+            .bold;
+        }
+        &:hover{
+            span{
+                color:@color-link;
+                box-shadow: 0 1px 0 @color-link;
+            }
+        }
+    }
+    .u-misc {
+        .pa;
+        .rt(20px);
+    }
+    .u-back,
+    .u-edit {
+        .fl;
+        .db;
+    }
+
+    .u-name {
+        .fz(16px, 2);
+        white-space: nowrap;
+        .fl;
+        margin: 0;
+        margin-left: 10px;
+        max-width: 400px;
+        .nobreak;
+
+        .u-mark {
+            font-style: normal;
+            font-size: 12px;
+            padding: 1px 5px 2px 5px;
+            border-radius: 2px;
+            background-color: #6f42c1;
+            color: #fff;
+            margin-left: 5px;
+            .mr(5px);
+        }
+    }
+    .i-client {
+        .mr(5px);
+    }
+    .u-client{
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .m-pz-toolbar {
+        .u-misc.isEditMode,.u-qk{
+            .ps;
+            float:none;
+        }
+        .u-back {
+            .mb(10px);
+        }
+        .u-name {
+            float: none;
+            .clear;
+            .break;
+            max-width: none;
+            margin: 0 0 10px 0;
+        }
+    }
+}
+
+// STICKT逻辑
+.m-pz-toolbar {
+    position: sticky;
+    top: @header-height + @bread-height;
+    .z(100);
+    // box-shadow: 0 1px 0 rgba(0,0,0,.2);
+    background-color: #fff;
+    // padding-bottom:10px;
+    .clearfix;
+    padding: 20px;
+}
+
+.m-equip-view {
+    position: sticky;
+    top: @header-height + @bread-height + 75px;
+}
+
+// 导出窗口
+.m-pz-export-window {
+    .el-dialog {
+        // .mt(80px) !important;
+        max-height: calc(100vh - 100px - 30px);
+
+        .el-dialog__body {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+    .m-pz-canvas {
+        padding: 20px;
+        border: 1px solid #eee;
+        background-color: #fafbfc;
+        border-radius: 4px;
+        min-height: 300px;
+        overflow-y: auto;
+        max-height:  calc(100vh - 350px);
+    }
+
+    ::-webkit-scrollbar {
+        background-color: rgb(241,241,241);
+        border-radius: 3px;
+        width: 8px;
+        height: 10px;
+        background-clip: padding-box;
+    }
+        
+    /*滚动条两端方向按钮*/
+    ::-webkit-scrollbar-button {
+        // background-color: pink;
+    }
+    
+    /*滚动条中间滑动部分*/
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(193,193,193);
+        border-radius: 3px;
+        &:hover {
+            background-color: rgb(168,168,168);
+        }
+        &:active {
+            background-color: rgb(120,120,120);
+        }
+    }
+        
+    /*滚动条右下角区域*/
+    // ::-webkit-scrollbar-corner {
+    //     background-color: red;
+    // }
+
+    .dialog-footer{
+        padding-top:0;
+    }
+}

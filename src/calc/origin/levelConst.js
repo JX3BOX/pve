@@ -1,0 +1,15 @@
+export const levelConst = {
+    "fPlayerCriticalCof": 0.50,
+    "fCriticalStrikeParam": (74 * 70 + 320) / 5,
+    "fCriticalStrikePowerParam": (74 * 70 + 320) / 5 / 1.25,
+    "fDefCriticalStrikeParam": (74 * 70 + 320) / 0.55 / 3.9,
+    "fDecriticalStrikePowerParam": (74 * 70 + 320) / 0.9 / 3.5,
+    "fHitValueParam": 95 * 70 / 3.95,
+    "fDodgeParam": (59 * 70 + 380) / 3.25,
+    "fParryParam": (30 * 70 + 50) / 1.3,
+    "fInsightParam": 27 * 70 / 1.2,
+    "fPhysicsShieldParam": 270 * 70 / 12,
+    "fMagicShieldParam": 9 * 70 / 0.55,
+    "nLevelCoefficient": 1,
+    "nMaxLevel": 70,
+}
