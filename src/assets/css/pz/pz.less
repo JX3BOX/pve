@@ -1,0 +1,238 @@
+.m-pz {
+    padding: 0;
+    min-height: calc(100vh - 300px);
+
+    :deep(.el-collapse) {
+        border-top: none;
+    }
+
+    :deep(.el-rate) {
+        display: flex;
+        align-items: center;
+        height: 40px;
+    }
+
+    .u-between {
+        margin: 0 6px;
+    }
+}
+
+.m-pz-filter-select-item {
+    display: flex;
+    justify-content: space-between;
+
+    .u-equip-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .u-equip-simp {
+        .w(5px);
+        .h(26px);
+        .mr(5px);
+        .r(5px);
+        background-color: transparent;
+
+        &.isSimp {
+            background-color: @star;
+        }
+    }
+
+    .u-equip-school {
+        .fz(12px, 20px);
+        padding: 0 5px;
+        .r(2px);
+        color: #fff;
+        .h(20px);
+        .ml(5px);
+    }
+
+    .u-equip-camp {
+        .fz(12px, 20px);
+        padding: 0 5px;
+        .r(2px);
+        color: #fff;
+        .h(20px);
+        .ml(5px);
+    }
+
+    &:hover .u-equip-name {
+        color: @star;
+    }
+
+    .u-equip-pic {
+        .size(26px);
+        .mr(5px);
+        .r(2px);
+    }
+
+    .u-equip-tags {
+        .fz(12px) !important;
+        color: #888;
+        // .ml(10px);
+    }
+
+    .u-equip-lastChosen {
+        .fz(12px) !important;
+        color: #ff9900;
+    }
+}
+
+.m-pz-container {
+    display: flex;
+    padding: 0 20px;
+}
+
+.m-pz-equip-display {
+    width: 500px;
+    margin-right: 20px;
+
+    li {
+        list-style: none;
+    }
+}
+
+.m-pz-equip-select {
+    flex: 1;
+    border: 1px solid #ececec;
+    padding: 10px 20px 20px 20px;
+
+    .u-title {
+        .fz(16px);
+    }
+
+    .u-copy-icon {
+        .ml(10px);
+        cursor: pointer;
+        opacity: 0.5;
+
+        &.is-copy {
+            opacity: 1;
+        }
+    }
+
+    .m-pz-type {
+        margin-top: 16px;
+    }
+
+    .m-pz-quality-range {
+        width: 55%;
+        margin-left: 20px;
+    }
+
+    .u-level-slider {
+        display: flex;
+        padding-right: 15px;
+        flex-wrap: wrap;
+    }
+
+    .u-level-number {
+        .ml(10px);
+    }
+
+    .u-level-range {
+        flex-shrink: 0;
+        .mr(20px);
+    }
+}
+
+// .m-pz-enchant{
+//     color:#f00 !important;
+// }
+@media screen and (max-width: 1700px) {
+    .m-pz-equip-select {
+        .u-slider {
+            .db;
+        }
+
+        .m-pz-quality-range {
+            .w(100%);
+            .ml(0);
+        }
+    }
+}
+
+.m-pz-attribute {
+    width: 280px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1679px) {
+    .m-pz-container {
+        .db;
+    }
+
+    .m-pz-equip-display {
+        .fl;
+    }
+
+    .m-pz-attribute {
+        .w(auto);
+        .mt(10px);
+        .clear;
+        .ml(0);
+    }
+}
+
+@media screen and (max-width: @ipad-y) {
+    .m-pz-equip-display {
+        .w(auto);
+        .mr(0);
+        float: none;
+    }
+
+    .m-pz-equip-select {
+        .mt(10px);
+    }
+}
+
+// 装备选择select
+.m-pz-select-input {
+    .el-input__suffix .el-input__icon.el-icon- {
+        &:after {
+            // content:"\e6df";
+            content: "\e6e1";
+        }
+
+        padding: 0;
+        .w(15px);
+        line-height: 32px;
+        height: 34px;
+        box-sizing: border-box;
+        transform-origin: center;
+    }
+}
+
+// 装备选择下拉pop
+.m-pz-select {
+    .el-select-dropdown__item {
+        padding: 0;
+    }
+
+    .el-select-dropdown__item.hover {
+        background: none;
+    }
+
+    .m-pz-filter-select-item {
+        padding: 0 20px;
+    }
+
+    .m-pz-filter-select-item:hover {
+        background-color: #f5f7fa;
+    }
+
+    .isLast {
+        .h(auto);
+    }
+
+    .u-more {
+        .x;
+        .fz(13px);
+        .bold;
+        color: @color-link;
+    }
+}
+
+.el-slider__button-wrapper {
+    .z(1) !important;
+}

@@ -1,0 +1,19 @@
+{
+    "fPlayerCriticalCof": 0.75,
+    "fCriticalStrikeParam": 9.985,
+    "fCriticalStrikePowerParam": 3.679,
+    "fDefCriticalStrikeParam": 9.985,
+    "fDecriticalStrikePowerParam": 1.669,
+    "fHitValueParam": 7.644,
+    "fDodgeParam": 4.628,
+    "fParryParam": 5.432,
+    "fInsightParam": 6.734,
+    "fPhysicsShieldParam": 6.364,
+    "fMagicShieldParam": 6.364,
+    "fOvercomeParam": 11.412,
+    "fHasteRate": 10.610,
+    "fToughnessDecirDamageCof": 2.784,
+    "fSurplusParam": 7.421,
+    "nLevelCoefficient": 19800,
+    "nMaxLevel": 130
+}

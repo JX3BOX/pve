@@ -1,0 +1,176 @@
+.p-pz-detail {
+    .m-detail-info {
+        margin-top: 10px;
+        padding: 15px 0;
+        text-align: center;
+        color: #fff;
+        border-radius: 8px;
+        .pr;
+
+        .u-desc {
+            font-size: 14px;
+            padding: 15px;
+            // 首行缩进
+            text-indent: 2em;
+            text-align: left;
+        }
+
+        .u-pz-id {
+            .pa;
+            top: 4px;
+            right: 6px;
+            .fz(12px);
+            font-style: normal;
+            padding: 2px 4px;
+            background: rgba(175, 184, 193, 0.2);
+            border-radius: 3px;
+        }
+
+        .u-pz-title {
+            margin: 10px 0;
+        }
+
+        .u-hr-solid {
+            color: #fff;
+            border: 0;
+            font-size: 14px;
+            padding: 1em 0;
+            position: relative;
+            margin: 0 1em;
+
+            &::before {
+                content: attr(data-content);
+                position: absolute;
+                padding: 0 1ch;
+                line-height: 1px;
+                border: solid #fff;
+                border-width: 0 99vw;
+                width: fit-content;
+                /* for 不支持fit-content浏览器 */
+                white-space: nowrap;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .m-mid-attrs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            justify-content: space-between;
+            height: 100%;
+            column-gap: 10px;
+            row-gap: 20px;
+
+            .u-attr {
+                background-color: rgba(206, 206, 206, 0.2);
+                border-radius: 4px;
+                border-color: transparent;
+                .flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 12px;
+
+                .u-attr-name {
+                    font-size: 12px;
+                    line-height: 2.5;
+                }
+                .u-attr-value {
+                    font-size: 14px;
+                }
+                .u-percent {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .m-pz-talent {
+            .u-div,
+            .u-link-talent,
+            .u-tip,
+            .m-pz-talent-select {
+                .none;
+            }
+
+            .m-fold-body {
+                background: transparent;
+                border: none;
+                padding: 0;
+            }
+
+            .w-qixue-box {
+                background-color: unset;
+                border: none;
+                box-shadow: none;
+
+                .w-qixue-clist {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+
+                .w-qixue-clist-item {
+                    padding: 0 2px;
+                }
+            }
+
+            .m-talent-preview {
+                margin-top: 0;
+                transform: scale(0.8);
+
+                &.is-talent2 {
+                    transform: scale(0.9);
+                }
+            }
+        }
+
+        .m-pz-actions {
+            position: fixed;
+            z-index: 1000;
+            bottom: 40px;
+            display: flex;
+            justify-content: center;
+            width: calc(100% - 30px);
+            gap: 20px;
+
+            .u-icon {
+                .size(40px, 40px);
+                border-radius: 50%;
+                background: #fff;
+                box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.25);
+                .flex;
+                align-items: center;
+                justify-content: center;
+                color: #000;
+
+                &:active {
+                    background: #50AEF2;
+                    color: #fff;
+                }
+
+                &.favorite {
+                    background: #50AEF2;
+                    color: #fff;
+
+                    i {
+                        color: #ffff00e6;
+                    }
+                }
+            }
+        }
+
+        .m-pz-vertical {
+            .none;
+        }
+    }
+}
+
+@media screen and (max-width: @phone) {
+    .p-pz-detail {
+        .w-qixue-box {
+            padding: 8px 12px;
+        }
+    }
+}

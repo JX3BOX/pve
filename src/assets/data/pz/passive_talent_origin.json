@@ -1,0 +1,2542 @@
+{
+    "10080": [
+        {
+            "skill_id": 2700,
+            "level": 1,
+            "remark": "大寒",
+            "value": [
+                {
+                    "atSpunkToLunarAttackPowerCof": 512
+                },
+                {
+                    "atSpiritToLunarCriticalStrikeCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2700,
+            "level": 2,
+            "remark": "大寒",
+            "value": [
+                {
+                    "atSpunkToLunarAttackPowerCof": 1024
+                },
+                {
+                    "atSpiritToLunarCriticalStrikeCof": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2702,
+            "level": 1,
+            "remark": "阴日",
+            "value": [
+                {
+                    "atLunarCriticalStrikeBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2702,
+            "level": 2,
+            "remark": "阴日",
+            "value": [
+                {
+                    "atLunarCriticalStrikeBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2702,
+            "level": 3,
+            "remark": "阴日",
+            "value": [
+                {
+                    "atLunarCriticalStrikeBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2706,
+            "level": 1,
+            "remark": "冰肌",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 20
+                },
+                {
+                    "atLunarOvercomePercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2706,
+            "level": 2,
+            "remark": "冰肌",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 41
+                },
+                {
+                    "atLunarOvercomePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2706,
+            "level": 3,
+            "remark": "冰肌",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 61
+                },
+                {
+                    "atLunarOvercomePercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2710,
+            "level": 1,
+            "remark": "倾城",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 50
+                },
+                {
+                    "atTherapyPowerPercent": 50
+                }
+            ]
+        },
+        {
+            "skill_id": 2710,
+            "level": 2,
+            "remark": "倾城",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 100
+                },
+                {
+                    "atTherapyPowerPercent": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2713,
+            "level": 1,
+            "remark": "碎冰",
+            "value": [
+                {
+                    "atLunarHitBaseRate": 150
+                }
+            ]
+        },
+        {
+            "skill_id": 2713,
+            "level": 2,
+            "remark": "碎冰",
+            "value": [
+                {
+                    "atLunarHitBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2717,
+            "level": 1,
+            "remark": "香蕊",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 256
+                },
+                {
+                    "atSpunkToManaReplenishCof": 2
+                }
+            ]
+        },
+        {
+            "skill_id": 2717,
+            "level": 2,
+            "remark": "香蕊",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 512
+                },
+                {
+                    "atSpunkToManaReplenishCof": 4
+                }
+            ]
+        },
+        {
+            "skill_id": 2719,
+            "level": 1,
+            "remark": "化蝶",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2719,
+            "level": 2,
+            "remark": "化蝶",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2719,
+            "level": 3,
+            "remark": "化蝶",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2730,
+            "level": 1,
+            "remark": "晚阳",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2730,
+            "level": 2,
+            "remark": "晚阳",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2730,
+            "level": 3,
+            "remark": "晚阳",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 61
+                }
+            ]
+        }
+    ],
+    "10081": [
+        {
+            "skill_id": 2700,
+            "level": 1,
+            "remark": "大寒",
+            "value": [
+                {
+                    "atSpunkToLunarAttackPowerCof": 512
+                },
+                {
+                    "atSpiritToLunarCriticalStrikeCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2700,
+            "level": 2,
+            "remark": "大寒",
+            "value": [
+                {
+                    "atSpunkToLunarAttackPowerCof": 1024
+                },
+                {
+                    "atSpiritToLunarCriticalStrikeCof": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2702,
+            "level": 1,
+            "remark": "阴日",
+            "value": [
+                {
+                    "atLunarCriticalStrikeBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2702,
+            "level": 2,
+            "remark": "阴日",
+            "value": [
+                {
+                    "atLunarCriticalStrikeBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2702,
+            "level": 3,
+            "remark": "阴日",
+            "value": [
+                {
+                    "atLunarCriticalStrikeBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2706,
+            "level": 1,
+            "remark": "冰肌",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 20
+                },
+                {
+                    "atLunarOvercomePercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2706,
+            "level": 2,
+            "remark": "冰肌",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 41
+                },
+                {
+                    "atLunarOvercomePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2706,
+            "level": 3,
+            "remark": "冰肌",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 61
+                },
+                {
+                    "atLunarOvercomePercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2710,
+            "level": 1,
+            "remark": "倾城",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 50
+                },
+                {
+                    "atTherapyPowerPercent": 50
+                }
+            ]
+        },
+        {
+            "skill_id": 2710,
+            "level": 2,
+            "remark": "倾城",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 100
+                },
+                {
+                    "atTherapyPowerPercent": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2713,
+            "level": 1,
+            "remark": "碎冰",
+            "value": [
+                {
+                    "atLunarHitBaseRate": 150
+                }
+            ]
+        },
+        {
+            "skill_id": 2713,
+            "level": 2,
+            "remark": "碎冰",
+            "value": [
+                {
+                    "atLunarHitBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2717,
+            "level": 1,
+            "remark": "香蕊",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 256
+                },
+                {
+                    "atSpunkToManaReplenishCof": 2
+                }
+            ]
+        },
+        {
+            "skill_id": 2717,
+            "level": 2,
+            "remark": "香蕊",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 512
+                },
+                {
+                    "atSpunkToManaReplenishCof": 4
+                }
+            ]
+        },
+        {
+            "skill_id": 2719,
+            "level": 1,
+            "remark": "化蝶",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2719,
+            "level": 2,
+            "remark": "化蝶",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2719,
+            "level": 3,
+            "remark": "化蝶",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2730,
+            "level": 1,
+            "remark": "晚阳",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2730,
+            "level": 2,
+            "remark": "晚阳",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2730,
+            "level": 3,
+            "remark": "晚阳",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 61
+                }
+            ]
+        }
+    ],
+    "10021": [
+        {
+            "skill_id": 2629,
+            "level": 1,
+            "remark": "潜催",
+            "value": [
+                {
+                    "atSpunkToManaReplenishCof": 2
+                },
+                {
+                    "atSpunkToNeutralAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2629,
+            "level": 2,
+            "remark": "潜催",
+            "value": [
+                {
+                    "atSpunkToManaReplenishCof": 4
+                },
+                {
+                    "atSpunkToNeutralAttackPowerCof": 1024
+                }
+            ]
+        },
+        {
+            "skill_id": 2631,
+            "level": 1,
+            "remark": "观露",
+            "value": [
+                {
+                    "atModifyCostManaPercent": -51
+                },
+                {
+                    "atNeutralHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2631,
+            "level": 2,
+            "remark": "观露",
+            "value": [
+                {
+                    "atModifyCostManaPercent": -102
+                },
+                {
+                    "atNeutralHitBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2635,
+            "level": 1,
+            "remark": "烟霞",
+            "value": [
+                {
+                    "atNeutralCriticalStrikeBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2635,
+            "level": 2,
+            "remark": "烟霞",
+            "value": [
+                {
+                    "atNeutralCriticalStrikeBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2635,
+            "level": 3,
+            "remark": "烟霞",
+            "value": [
+                {
+                    "atNeutralCriticalStrikeBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2647,
+            "level": 1,
+            "remark": "月华",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 256
+                },
+                {
+                    "atSpiritToNeutralCriticalStrikeCof": 10
+                }
+            ]
+        },
+        {
+            "skill_id": 2647,
+            "level": 2,
+            "remark": "月华",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 512
+                },
+                {
+                    "atSpiritToNeutralCriticalStrikeCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2652,
+            "level": 1,
+            "remark": "知机",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 70
+                }
+            ]
+        },
+        {
+            "skill_id": 2652,
+            "level": 2,
+            "remark": "知机",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 150
+                }
+            ]
+        }
+    ],
+    "10028": [
+        {
+            "skill_id": 2629,
+            "level": 1,
+            "remark": "潜催",
+            "value": [
+                {
+                    "atSpunkToManaReplenishCof": 2
+                },
+                {
+                    "atSpunkToNeutralAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2629,
+            "level": 2,
+            "remark": "潜催",
+            "value": [
+                {
+                    "atSpunkToManaReplenishCof": 4
+                },
+                {
+                    "atSpunkToNeutralAttackPowerCof": 1024
+                }
+            ]
+        },
+        {
+            "skill_id": 2631,
+            "level": 1,
+            "remark": "观露",
+            "value": [
+                {
+                    "atModifyCostManaPercent": -51
+                },
+                {
+                    "atNeutralHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2631,
+            "level": 2,
+            "remark": "观露",
+            "value": [
+                {
+                    "atModifyCostManaPercent": -102
+                },
+                {
+                    "atNeutralHitBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2635,
+            "level": 1,
+            "remark": "烟霞",
+            "value": [
+                {
+                    "atNeutralCriticalStrikeBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2635,
+            "level": 2,
+            "remark": "烟霞",
+            "value": [
+                {
+                    "atNeutralCriticalStrikeBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2635,
+            "level": 3,
+            "remark": "烟霞",
+            "value": [
+                {
+                    "atNeutralCriticalStrikeBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2647,
+            "level": 1,
+            "remark": "月华",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 256
+                },
+                {
+                    "atSpiritToNeutralCriticalStrikeCof": 10
+                }
+            ]
+        },
+        {
+            "skill_id": 2647,
+            "level": 2,
+            "remark": "月华",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 512
+                },
+                {
+                    "atSpiritToNeutralCriticalStrikeCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2652,
+            "level": 1,
+            "remark": "知机",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 70
+                }
+            ]
+        },
+        {
+            "skill_id": 2652,
+            "level": 2,
+            "remark": "知机",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 150
+                }
+            ]
+        }
+    ],
+    "10003": [
+        {
+            "skill_id": 2549,
+            "level": 1,
+            "remark": "身意",
+            "value": [
+                {
+                    "atStrengthToSolarAttackPowerCof": 512
+                },
+                {
+                    "atSpunkToSolarAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2549,
+            "level": 2,
+            "remark": "身意",
+            "value": [
+                {
+                    "atStrengthToSolarAttackPowerCof": 1024
+                },
+                {
+                    "atSpunkToSolarAttackPowerCof": 1024
+                }
+            ]
+        },
+        {
+            "skill_id": 2559,
+            "level": 1,
+            "remark": "断灭",
+            "value": [
+                {
+                    "atSolarAttackPowerPercent": 20
+                },
+                {
+                    "atSolarOvercomePercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2559,
+            "level": 2,
+            "remark": "断灭",
+            "value": [
+                {
+                    "atSolarAttackPowerPercent": 41
+                },
+                {
+                    "atSolarOvercomePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2559,
+            "level": 3,
+            "remark": "断灭",
+            "value": [
+                {
+                    "atSolarAttackPowerPercent": 61
+                },
+                {
+                    "atSolarOvercomePercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2573,
+            "level": 1,
+            "remark": "业力",
+            "value": [
+                {
+                    "atVitalityToMaxLifeCof": 256
+                }
+            ]
+        },
+        {
+            "skill_id": 2573,
+            "level": 2,
+            "remark": "业力",
+            "value": [
+                {
+                    "atVitalityToMaxLifeCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2574,
+            "level": 1,
+            "remark": "千眼",
+            "value": [
+                {
+                    "atSolarHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2574,
+            "level": 2,
+            "remark": "千眼",
+            "value": [
+                {
+                    "atSolarHitBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2574,
+            "level": 3,
+            "remark": "千眼",
+            "value": [
+                {
+                    "atSolarHitBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2576,
+            "level": 1,
+            "remark": "生缘",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 51
+                },
+                {
+                    "atLunarMagicShieldPercent": 51
+                },
+                {
+                    "atPhysicsShieldPercent": 51
+                },
+                {
+                    "atPoisonMagicShieldPercent": 51
+                },
+                {
+                    "atSolarMagicShieldPercent": 51
+                },
+                {
+                    "atParryPercent": 50
+                },
+                {
+                    "atParryValuePercent": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2576,
+            "level": 2,
+            "remark": "生缘",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 102
+                },
+                {
+                    "atLunarMagicShieldPercent": 102
+                },
+                {
+                    "atPhysicsShieldPercent": 102
+                },
+                {
+                    "atPoisonMagicShieldPercent": 102
+                },
+                {
+                    "atSolarMagicShieldPercent": 102
+                },
+                {
+                    "atParryPercent": 100
+                },
+                {
+                    "atParryValuePercent": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2562,
+            "level": 1,
+            "remark": "明王身",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 41
+                },
+                {
+                    "atMaxManaPercentAdd": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2562,
+            "level": 2,
+            "remark": "明王身",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 82
+                },
+                {
+                    "atMaxManaPercentAdd": 82
+                }
+            ]
+        },
+        {
+            "skill_id": 2562,
+            "level": 3,
+            "remark": "明王身",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 123
+                },
+                {
+                    "atMaxManaPercentAdd": 123
+                }
+            ]
+        }
+    ],
+    "10002": [
+        {
+            "skill_id": 2549,
+            "level": 1,
+            "remark": "身意",
+            "value": [
+                {
+                    "atStrengthToSolarAttackPowerCof": 512
+                },
+                {
+                    "atSpunkToSolarAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2549,
+            "level": 2,
+            "remark": "身意",
+            "value": [
+                {
+                    "atStrengthToSolarAttackPowerCof": 1024
+                },
+                {
+                    "atSpunkToSolarAttackPowerCof": 1024
+                }
+            ]
+        },
+        {
+            "skill_id": 2559,
+            "level": 1,
+            "remark": "断灭",
+            "value": [
+                {
+                    "atSolarAttackPowerPercent": 20
+                },
+                {
+                    "atSolarOvercomePercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2559,
+            "level": 2,
+            "remark": "断灭",
+            "value": [
+                {
+                    "atSolarAttackPowerPercent": 41
+                },
+                {
+                    "atSolarOvercomePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2559,
+            "level": 3,
+            "remark": "断灭",
+            "value": [
+                {
+                    "atSolarAttackPowerPercent": 61
+                },
+                {
+                    "atSolarOvercomePercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2573,
+            "level": 1,
+            "remark": "业力",
+            "value": [
+                {
+                    "atVitalityToMaxLifeCof": 256
+                }
+            ]
+        },
+        {
+            "skill_id": 2573,
+            "level": 2,
+            "remark": "业力",
+            "value": [
+                {
+                    "atVitalityToMaxLifeCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2574,
+            "level": 1,
+            "remark": "千眼",
+            "value": [
+                {
+                    "atSolarHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2574,
+            "level": 2,
+            "remark": "千眼",
+            "value": [
+                {
+                    "atSolarHitBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2574,
+            "level": 3,
+            "remark": "千眼",
+            "value": [
+                {
+                    "atSolarHitBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2576,
+            "level": 1,
+            "remark": "生缘",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 51
+                },
+                {
+                    "atLunarMagicShieldPercent": 51
+                },
+                {
+                    "atPhysicsShieldPercent": 51
+                },
+                {
+                    "atPoisonMagicShieldPercent": 51
+                },
+                {
+                    "atSolarMagicShieldPercent": 51
+                },
+                {
+                    "atParryPercent": 50
+                },
+                {
+                    "atParryValuePercent": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2576,
+            "level": 2,
+            "remark": "生缘",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 102
+                },
+                {
+                    "atLunarMagicShieldPercent": 102
+                },
+                {
+                    "atPhysicsShieldPercent": 102
+                },
+                {
+                    "atPoisonMagicShieldPercent": 102
+                },
+                {
+                    "atSolarMagicShieldPercent": 102
+                },
+                {
+                    "atParryPercent": 100
+                },
+                {
+                    "atParryValuePercent": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2562,
+            "level": 1,
+            "remark": "明王身",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 41
+                },
+                {
+                    "atMaxManaPercentAdd": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2562,
+            "level": 2,
+            "remark": "明王身",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 82
+                },
+                {
+                    "atMaxManaPercentAdd": 82
+                }
+            ]
+        },
+        {
+            "skill_id": 2562,
+            "level": 3,
+            "remark": "明王身",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 123
+                },
+                {
+                    "atMaxManaPercentAdd": 123
+                }
+            ]
+        }
+    ],
+    "10015": [
+        {
+            "skill_id": 2682,
+            "level": 1,
+            "remark": "昆吾",
+            "value": [
+                {
+                    "atSpiritToPhysicsAttackPowerCof": 256
+                },
+                {
+                    "atAgilityToPhysicsCriticalStrikeCof": 20
+                },
+                {
+                    "atSpiritToPhysicsCriticalDamagePowerCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2682,
+            "level": 2,
+            "remark": "昆吾",
+            "value": [
+                {
+                    "atSpiritToPhysicsAttackPowerCof": 512
+                },
+                {
+                    "atAgilityToPhysicsCriticalStrikeCof": 41
+                },
+                {
+                    "atSpiritToPhysicsCriticalDamagePowerCof": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2683,
+            "level": 1,
+            "remark": "白虹",
+            "value": [
+                {
+                    "atPhysicsCriticalStrikeBaseRate": 100
+                },
+                {
+                    "atNeutralCriticalStrikeBaseRate": 100
+                },
+                {
+                    "atNeutralHitBaseRate": 50
+                },
+                {
+                    "atPhysicsHitBaseRate": 50
+                }
+            ]
+        },
+        {
+            "skill_id": 2683,
+            "level": 2,
+            "remark": "白虹",
+            "value": [
+                {
+                    "atPhysicsCriticalStrikeBaseRate": 200
+                },
+                {
+                    "atNeutralCriticalStrikeBaseRate": 200
+                },
+                {
+                    "atNeutralHitBaseRate": 100
+                },
+                {
+                    "atPhysicsHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2683,
+            "level": 3,
+            "remark": "白虹",
+            "value": [
+                {
+                    "atPhysicsCriticalStrikeBaseRate": 300
+                },
+                {
+                    "atNeutralCriticalStrikeBaseRate": 300
+                },
+                {
+                    "atNeutralHitBaseRate": 150
+                },
+                {
+                    "atPhysicsHitBaseRate": 150
+                }
+            ]
+        },
+        {
+            "skill_id": 2665,
+            "level": 1,
+            "remark": "隐机",
+            "value": [
+                {
+                    "atSpiritToNeutralAttackPowerCof": 512
+                },
+                {
+                    "atSpiritToNeutralCriticalDamagePowerCof": 20
+                },
+                {
+                    "atSpiritToNeutralCriticalStrikeCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2665,
+            "level": 2,
+            "remark": "隐机",
+            "value": [
+                {
+                    "atSpiritToNeutralAttackPowerCof": 1024
+                },
+                {
+                    "atSpiritToNeutralCriticalDamagePowerCof": 41
+                },
+                {
+                    "atSpiritToNeutralCriticalStrikeCof": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2666,
+            "level": 1,
+            "remark": "心固",
+            "value": [
+                {
+                    "atPhysicsCriticalDamagePowerBaseKiloNumRate": 50
+                },
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 50
+                },
+                {
+                    "atNeutralHitBaseRate": 50
+                },
+                {
+                    "atPhysicsHitBaseRate": 50
+                }
+            ]
+        },
+        {
+            "skill_id": 2666,
+            "level": 2,
+            "remark": "心固",
+            "value": [
+                {
+                    "atPhysicsCriticalDamagePowerBaseKiloNumRate": 100
+                },
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 100
+                },
+                {
+                    "atNeutralHitBaseRate": 100
+                },
+                {
+                    "atPhysicsHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2666,
+            "level": 3,
+            "remark": "心固",
+            "value": [
+                {
+                    "atPhysicsCriticalDamagePowerBaseKiloNumRate": 150
+                },
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 150
+                },
+                {
+                    "atNeutralHitBaseRate": 150
+                },
+                {
+                    "atPhysicsHitBaseRate": 150
+                }
+            ]
+        }
+    ],
+    "10014": [
+        {
+            "skill_id": 2682,
+            "level": 1,
+            "remark": "昆吾",
+            "value": [
+                {
+                    "atSpiritToPhysicsAttackPowerCof": 256
+                },
+                {
+                    "atAgilityToPhysicsCriticalStrikeCof": 20
+                },
+                {
+                    "atSpiritToPhysicsCriticalDamagePowerCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2682,
+            "level": 2,
+            "remark": "昆吾",
+            "value": [
+                {
+                    "atSpiritToPhysicsAttackPowerCof": 512
+                },
+                {
+                    "atAgilityToPhysicsCriticalStrikeCof": 41
+                },
+                {
+                    "atSpiritToPhysicsCriticalDamagePowerCof": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2683,
+            "level": 1,
+            "remark": "白虹",
+            "value": [
+                {
+                    "atPhysicsCriticalStrikeBaseRate": 100
+                },
+                {
+                    "atNeutralCriticalStrikeBaseRate": 100
+                },
+                {
+                    "atNeutralHitBaseRate": 50
+                },
+                {
+                    "atPhysicsHitBaseRate": 50
+                }
+            ]
+        },
+        {
+            "skill_id": 2683,
+            "level": 2,
+            "remark": "白虹",
+            "value": [
+                {
+                    "atPhysicsCriticalStrikeBaseRate": 200
+                },
+                {
+                    "atNeutralCriticalStrikeBaseRate": 200
+                },
+                {
+                    "atNeutralHitBaseRate": 100
+                },
+                {
+                    "atPhysicsHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2683,
+            "level": 3,
+            "remark": "白虹",
+            "value": [
+                {
+                    "atPhysicsCriticalStrikeBaseRate": 300
+                },
+                {
+                    "atNeutralCriticalStrikeBaseRate": 300
+                },
+                {
+                    "atNeutralHitBaseRate": 150
+                },
+                {
+                    "atPhysicsHitBaseRate": 150
+                }
+            ]
+        },
+        {
+            "skill_id": 2665,
+            "level": 1,
+            "remark": "隐机",
+            "value": [
+                {
+                    "atSpiritToNeutralAttackPowerCof": 512
+                },
+                {
+                    "atSpiritToNeutralCriticalDamagePowerCof": 20
+                },
+                {
+                    "atSpiritToNeutralCriticalStrikeCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2665,
+            "level": 2,
+            "remark": "隐机",
+            "value": [
+                {
+                    "atSpiritToNeutralAttackPowerCof": 1024
+                },
+                {
+                    "atSpiritToNeutralCriticalDamagePowerCof": 41
+                },
+                {
+                    "atSpiritToNeutralCriticalStrikeCof": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2666,
+            "level": 1,
+            "remark": "心固",
+            "value": [
+                {
+                    "atPhysicsCriticalDamagePowerBaseKiloNumRate": 50
+                },
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 50
+                },
+                {
+                    "atNeutralHitBaseRate": 50
+                },
+                {
+                    "atPhysicsHitBaseRate": 50
+                }
+            ]
+        },
+        {
+            "skill_id": 2666,
+            "level": 2,
+            "remark": "心固",
+            "value": [
+                {
+                    "atPhysicsCriticalDamagePowerBaseKiloNumRate": 100
+                },
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 100
+                },
+                {
+                    "atNeutralHitBaseRate": 100
+                },
+                {
+                    "atPhysicsHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2666,
+            "level": 3,
+            "remark": "心固",
+            "value": [
+                {
+                    "atPhysicsCriticalDamagePowerBaseKiloNumRate": 150
+                },
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 150
+                },
+                {
+                    "atNeutralHitBaseRate": 150
+                },
+                {
+                    "atPhysicsHitBaseRate": 150
+                }
+            ]
+        }
+    ],
+    "10026": [
+        {
+            "skill_id": 2595,
+            "level": 1,
+            "remark": "击水",
+            "value": [
+                {
+                    "atStrengthToPhysicsAttackPowerCof": 256
+                }
+            ]
+        },
+        {
+            "skill_id": 2595,
+            "level": 2,
+            "remark": "击水",
+            "value": [
+                {
+                    "atStrengthToPhysicsAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2612,
+            "level": 1,
+            "remark": "傲骨",
+            "value": [
+                {
+                    "atVitalityToParryValueCof": 256
+                },
+                {
+                    "atVitalityToPhysicsShieldCof": 10
+                }
+            ]
+        },
+        {
+            "skill_id": 2612,
+            "level": 2,
+            "remark": "傲骨",
+            "value": [
+                {
+                    "atVitalityToParryValueCof": 512
+                },
+                {
+                    "atVitalityToPhysicsShieldCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2613,
+            "level": 1,
+            "remark": "巨细",
+            "value": [
+                {
+                    "atPhysicsHitBaseRate": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2613,
+            "level": 2,
+            "remark": "巨细",
+            "value": [
+                {
+                    "atPhysicsHitBaseRate": 204
+                }
+            ]
+        },
+        {
+            "skill_id": 2614,
+            "level": 1,
+            "remark": "勤王",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 51
+                },
+                {
+                    "atLunarMagicShieldPercent": 51
+                },
+                {
+                    "atPhysicsShieldPercent": 51
+                },
+                {
+                    "atPoisonMagicShieldPercent": 51
+                },
+                {
+                    "atSolarMagicShieldPercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2614,
+            "level": 2,
+            "remark": "勤王",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 102
+                },
+                {
+                    "atLunarMagicShieldPercent": 102
+                },
+                {
+                    "atPhysicsShieldPercent": 102
+                },
+                {
+                    "atPoisonMagicShieldPercent": 102
+                },
+                {
+                    "atSolarMagicShieldPercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2614,
+            "level": 3,
+            "remark": "勤王",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 153
+                },
+                {
+                    "atLunarMagicShieldPercent": 153
+                },
+                {
+                    "atPhysicsShieldPercent": 153
+                },
+                {
+                    "atPoisonMagicShieldPercent": 153
+                },
+                {
+                    "atSolarMagicShieldPercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2623,
+            "level": 1,
+            "remark": "留侯",
+            "value": [
+                {
+                    "atParryPercent": 51
+                },
+                {
+                    "atParryValuePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2623,
+            "level": 2,
+            "remark": "留侯",
+            "value": [
+                {
+                    "atParryPercent": 102
+                },
+                {
+                    "atParryValuePercent": 205
+                }
+            ]
+        },
+        {
+            "skill_id": 2623,
+            "level": 3,
+            "remark": "留侯",
+            "value": [
+                {
+                    "atParryPercent": 153
+                },
+                {
+                    "atParryValuePercent": 307
+                }
+            ]
+        },
+        {
+            "skill_id": 2627,
+            "level": 1,
+            "remark": "引羌笛",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 41
+                },
+                {
+                    "atMaxManaPercentAdd": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2627,
+            "level": 2,
+            "remark": "引羌笛",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 82
+                },
+                {
+                    "atMaxManaPercentAdd": 82
+                }
+            ]
+        },
+        {
+            "skill_id": 2627,
+            "level": 3,
+            "remark": "引羌笛",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 123
+                },
+                {
+                    "atMaxManaPercentAdd": 123
+                }
+            ]
+        }
+    ],
+    "10062": [
+        {
+            "skill_id": 2595,
+            "level": 1,
+            "remark": "击水",
+            "value": [
+                {
+                    "atStrengthToPhysicsAttackPowerCof": 256
+                }
+            ]
+        },
+        {
+            "skill_id": 2595,
+            "level": 2,
+            "remark": "击水",
+            "value": [
+                {
+                    "atStrengthToPhysicsAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2612,
+            "level": 1,
+            "remark": "傲骨",
+            "value": [
+                {
+                    "atVitalityToParryValueCof": 256
+                },
+                {
+                    "atVitalityToPhysicsShieldCof": 10
+                }
+            ]
+        },
+        {
+            "skill_id": 2612,
+            "level": 2,
+            "remark": "傲骨",
+            "value": [
+                {
+                    "atVitalityToParryValueCof": 512
+                },
+                {
+                    "atVitalityToPhysicsShieldCof": 20
+                }
+            ]
+        },
+        {
+            "skill_id": 2613,
+            "level": 1,
+            "remark": "巨细",
+            "value": [
+                {
+                    "atPhysicsHitBaseRate": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2613,
+            "level": 2,
+            "remark": "巨细",
+            "value": [
+                {
+                    "atPhysicsHitBaseRate": 204
+                }
+            ]
+        },
+        {
+            "skill_id": 2614,
+            "level": 1,
+            "remark": "勤王",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 51
+                },
+                {
+                    "atLunarMagicShieldPercent": 51
+                },
+                {
+                    "atPhysicsShieldPercent": 51
+                },
+                {
+                    "atPoisonMagicShieldPercent": 51
+                },
+                {
+                    "atSolarMagicShieldPercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2614,
+            "level": 2,
+            "remark": "勤王",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 102
+                },
+                {
+                    "atLunarMagicShieldPercent": 102
+                },
+                {
+                    "atPhysicsShieldPercent": 102
+                },
+                {
+                    "atPoisonMagicShieldPercent": 102
+                },
+                {
+                    "atSolarMagicShieldPercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2614,
+            "level": 3,
+            "remark": "勤王",
+            "value": [
+                {
+                    "atNeutralMagicShieldPercent": 153
+                },
+                {
+                    "atLunarMagicShieldPercent": 153
+                },
+                {
+                    "atPhysicsShieldPercent": 153
+                },
+                {
+                    "atPoisonMagicShieldPercent": 153
+                },
+                {
+                    "atSolarMagicShieldPercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2623,
+            "level": 1,
+            "remark": "留侯",
+            "value": [
+                {
+                    "atParryPercent": 51
+                },
+                {
+                    "atParryValuePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2623,
+            "level": 2,
+            "remark": "留侯",
+            "value": [
+                {
+                    "atParryPercent": 102
+                },
+                {
+                    "atParryValuePercent": 205
+                }
+            ]
+        },
+        {
+            "skill_id": 2623,
+            "level": 3,
+            "remark": "留侯",
+            "value": [
+                {
+                    "atParryPercent": 153
+                },
+                {
+                    "atParryValuePercent": 307
+                }
+            ]
+        },
+        {
+            "skill_id": 2627,
+            "level": 1,
+            "remark": "引羌笛",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 41
+                },
+                {
+                    "atMaxManaPercentAdd": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2627,
+            "level": 2,
+            "remark": "引羌笛",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 82
+                },
+                {
+                    "atMaxManaPercentAdd": 82
+                }
+            ]
+        },
+        {
+            "skill_id": 2627,
+            "level": 3,
+            "remark": "引羌笛",
+            "value": [
+                {
+                    "atMaxLifePercentAdd": 123
+                },
+                {
+                    "atMaxManaPercentAdd": 123
+                }
+            ]
+        }
+    ],
+    "10144": [
+        {
+            "skill_id": 2734,
+            "level": 1,
+            "remark": "花明",
+            "value": [
+                {
+                    "atPhysicsHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2734,
+            "level": 2,
+            "remark": "花明",
+            "value": [
+                {
+                    "atPhysicsHitBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2735,
+            "level": 1,
+            "remark": "寻芳",
+            "value": [
+                {
+                    "atPhysicsOvercomePercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2735,
+            "level": 2,
+            "remark": "寻芳",
+            "value": [
+                {
+                    "atPhysicsOvercomePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2735,
+            "level": 3,
+            "remark": "寻芳",
+            "value": [
+                {
+                    "atPhysicsOvercomePercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2745,
+            "level": 1,
+            "remark": "淘尽",
+            "value": [
+                {
+                    "atAgilityBasePercentAdd": 31
+                }
+            ]
+        },
+        {
+            "skill_id": 2745,
+            "level": 2,
+            "remark": "淘尽",
+            "value": [
+                {
+                    "atAgilityBasePercentAdd": 61
+                }
+            ]
+        },
+        {
+            "skill_id": 2745,
+            "level": 3,
+            "remark": "淘尽",
+            "value": [
+                {
+                    "atAgilityBasePercentAdd": 92
+                }
+            ]
+        },
+        {
+            "skill_id": 2751,
+            "level": 1,
+            "remark": "山色",
+            "value": [
+                {
+                    "atAgilityToPhysicsCriticalStrikeCof": 26
+                },
+                {
+                    "atAgilityToPhysicsAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2751,
+            "level": 2,
+            "remark": "山色",
+            "value": [
+                {
+                    "atAgilityToPhysicsCriticalStrikeCof": 51
+                },
+                {
+                    "atAgilityToPhysicsAttackPowerCof": 1024
+                }
+            ]
+        }
+    ],
+    "10145": [
+        {
+            "skill_id": 2734,
+            "level": 1,
+            "remark": "花明",
+            "value": [
+                {
+                    "atPhysicsHitBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2734,
+            "level": 2,
+            "remark": "花明",
+            "value": [
+                {
+                    "atPhysicsHitBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2735,
+            "level": 1,
+            "remark": "寻芳",
+            "value": [
+                {
+                    "atPhysicsOvercomePercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2735,
+            "level": 2,
+            "remark": "寻芳",
+            "value": [
+                {
+                    "atPhysicsOvercomePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2735,
+            "level": 3,
+            "remark": "寻芳",
+            "value": [
+                {
+                    "atPhysicsOvercomePercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2745,
+            "level": 1,
+            "remark": "淘尽",
+            "value": [
+                {
+                    "atAgilityBasePercentAdd": 31
+                }
+            ]
+        },
+        {
+            "skill_id": 2745,
+            "level": 2,
+            "remark": "淘尽",
+            "value": [
+                {
+                    "atAgilityBasePercentAdd": 61
+                }
+            ]
+        },
+        {
+            "skill_id": 2745,
+            "level": 3,
+            "remark": "淘尽",
+            "value": [
+                {
+                    "atAgilityBasePercentAdd": 92
+                }
+            ]
+        },
+        {
+            "skill_id": 2751,
+            "level": 1,
+            "remark": "山色",
+            "value": [
+                {
+                    "atAgilityToPhysicsCriticalStrikeCof": 26
+                },
+                {
+                    "atAgilityToPhysicsAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2751,
+            "level": 2,
+            "remark": "山色",
+            "value": [
+                {
+                    "atAgilityToPhysicsCriticalStrikeCof": 51
+                },
+                {
+                    "atAgilityToPhysicsAttackPowerCof": 1024
+                }
+            ]
+        }
+    ],
+    "10175": [
+        {
+            "skill_id": 2993,
+            "level": 1,
+            "remark": "毒感",
+            "value": [
+                {
+                    "atSpunkToPoisonAttackPowerCof": 256
+                },
+                {
+                    "atSpiritToPoisonAttackPowerCof": 256
+                }
+            ]
+        },
+        {
+            "skill_id": 2993,
+            "level": 2,
+            "remark": "毒感",
+            "value": [
+                {
+                    "atSpunkToPoisonAttackPowerCof": 512
+                },
+                {
+                    "atSpiritToPoisonAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2936,
+            "level": 1,
+            "remark": "无常",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 75
+                }
+            ]
+        },
+        {
+            "skill_id": 2936,
+            "level": 2,
+            "remark": "无常",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 150
+                }
+            ]
+        },
+        {
+            "skill_id": 2937,
+            "level": 1,
+            "remark": "秋幕",
+            "value": [
+                {
+                    "atPoisonAttackPowerPercent": 21
+                },
+                {
+                    "atPoisonOvercomePercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2937,
+            "level": 2,
+            "remark": "秋幕",
+            "value": [
+                {
+                    "atPoisonAttackPowerPercent": 41
+                },
+                {
+                    "atPoisonOvercomePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2937,
+            "level": 3,
+            "remark": "秋幕",
+            "value": [
+                {
+                    "atPoisonAttackPowerPercent": 61
+                },
+                {
+                    "atPoisonOvercomePercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2938,
+            "level": 1,
+            "remark": "蛇眼",
+            "value": [
+                {
+                    "atPoisonHitBaseRate": 100
+                },
+                {
+                    "atActiveThreatCoefficient": -102
+                }
+            ]
+        },
+        {
+            "skill_id": 2938,
+            "level": 2,
+            "remark": "蛇眼",
+            "value": [
+                {
+                    "atPoisonHitBaseRate": 200
+                },
+                {
+                    "atActiveThreatCoefficient": -204
+                }
+            ]
+        },
+        {
+            "skill_id": 2949,
+            "level": 1,
+            "remark": "娲体",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 409
+                },
+                {
+                    "atSpiritToManaReplenishCof": 1
+                }
+            ]
+        },
+        {
+            "skill_id": 2949,
+            "level": 2,
+            "remark": "娲体",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 819
+                },
+                {
+                    "atSpiritToManaReplenishCof": 2
+                }
+            ]
+        },
+        {
+            "skill_id": 2950,
+            "level": 1,
+            "remark": "纳精",
+            "value": [
+                {
+                    "atPoisonCriticalStrikeBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2950,
+            "level": 2,
+            "remark": "纳精",
+            "value": [
+                {
+                    "atPoisonCriticalStrikeBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2950,
+            "level": 3,
+            "remark": "纳精",
+            "value": [
+                {
+                    "atPoisonCriticalStrikeBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2954,
+            "level": 1,
+            "remark": "仁心",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 21
+                }
+            ]
+        },
+        {
+            "skill_id": 2954,
+            "level": 2,
+            "remark": "仁心",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2954,
+            "level": 3,
+            "remark": "仁心",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 61
+                }
+            ]
+        }
+    ],
+    "10176": [
+        {
+            "skill_id": 2993,
+            "level": 1,
+            "remark": "毒感",
+            "value": [
+                {
+                    "atSpunkToPoisonAttackPowerCof": 256
+                },
+                {
+                    "atSpiritToPoisonAttackPowerCof": 256
+                }
+            ]
+        },
+        {
+            "skill_id": 2993,
+            "level": 2,
+            "remark": "毒感",
+            "value": [
+                {
+                    "atSpunkToPoisonAttackPowerCof": 512
+                },
+                {
+                    "atSpiritToPoisonAttackPowerCof": 512
+                }
+            ]
+        },
+        {
+            "skill_id": 2936,
+            "level": 1,
+            "remark": "无常",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 75
+                }
+            ]
+        },
+        {
+            "skill_id": 2936,
+            "level": 2,
+            "remark": "无常",
+            "value": [
+                {
+                    "atMagicCriticalDamagePowerBaseKiloNumRate": 150
+                }
+            ]
+        },
+        {
+            "skill_id": 2937,
+            "level": 1,
+            "remark": "秋幕",
+            "value": [
+                {
+                    "atPoisonAttackPowerPercent": 21
+                },
+                {
+                    "atPoisonOvercomePercent": 51
+                }
+            ]
+        },
+        {
+            "skill_id": 2937,
+            "level": 2,
+            "remark": "秋幕",
+            "value": [
+                {
+                    "atPoisonAttackPowerPercent": 41
+                },
+                {
+                    "atPoisonOvercomePercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 2937,
+            "level": 3,
+            "remark": "秋幕",
+            "value": [
+                {
+                    "atPoisonAttackPowerPercent": 61
+                },
+                {
+                    "atPoisonOvercomePercent": 153
+                }
+            ]
+        },
+        {
+            "skill_id": 2938,
+            "level": 1,
+            "remark": "蛇眼",
+            "value": [
+                {
+                    "atPoisonHitBaseRate": 100
+                },
+                {
+                    "atActiveThreatCoefficient": -102
+                }
+            ]
+        },
+        {
+            "skill_id": 2938,
+            "level": 2,
+            "remark": "蛇眼",
+            "value": [
+                {
+                    "atPoisonHitBaseRate": 200
+                },
+                {
+                    "atActiveThreatCoefficient": -204
+                }
+            ]
+        },
+        {
+            "skill_id": 2949,
+            "level": 1,
+            "remark": "娲体",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 409
+                },
+                {
+                    "atSpiritToManaReplenishCof": 1
+                }
+            ]
+        },
+        {
+            "skill_id": 2949,
+            "level": 2,
+            "remark": "娲体",
+            "value": [
+                {
+                    "atSpiritToTherapyPowerCof": 819
+                },
+                {
+                    "atSpiritToManaReplenishCof": 2
+                }
+            ]
+        },
+        {
+            "skill_id": 2950,
+            "level": 1,
+            "remark": "纳精",
+            "value": [
+                {
+                    "atPoisonCriticalStrikeBaseRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 2950,
+            "level": 2,
+            "remark": "纳精",
+            "value": [
+                {
+                    "atPoisonCriticalStrikeBaseRate": 200
+                }
+            ]
+        },
+        {
+            "skill_id": 2950,
+            "level": 3,
+            "remark": "纳精",
+            "value": [
+                {
+                    "atPoisonCriticalStrikeBaseRate": 300
+                }
+            ]
+        },
+        {
+            "skill_id": 2954,
+            "level": 1,
+            "remark": "仁心",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 21
+                }
+            ]
+        },
+        {
+            "skill_id": 2954,
+            "level": 2,
+            "remark": "仁心",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 41
+                }
+            ]
+        },
+        {
+            "skill_id": 2954,
+            "level": 3,
+            "remark": "仁心",
+            "value": [
+                {
+                    "atTherapyPowerPercent": 61
+                }
+            ]
+        }
+    ]
+}

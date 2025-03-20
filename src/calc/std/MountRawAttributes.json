@@ -1,0 +1,4539 @@
+{
+  "10003": {
+    "szSkillName": "少林_套路_易筋经",
+    "filePath": "C:\\workdir\\mount_attrs\\少林_套路_易筋经.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 31.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/少林/少林_套路_易筋经.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 348.4,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 69.68,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_SOLAR_ATTACK_POWER_COF",
+        "param1": 1894.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_SOLAR_CRITICAL_STRIKE_COF",
+        "param1": 389.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 348.16,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 83616.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_ATTACK_POWER_BASE",
+        "param1": 1831.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 265.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 312.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 86.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 2023.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 2024.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10002": {
+    "szSkillName": "少林_套路_洗髓经",
+    "filePath": "C:\\workdir\\mount_attrs\\少林_套路_洗髓经.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1865.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1998.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_SOLAR_ATTACK_POWER_COF",
+        "param1": 51.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1760.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1761.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1762.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1757.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1780.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 300.8,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 60.16,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_LIFE_COF",
+        "param1": 2560.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAGIC_SHIELD_COF",
+        "param1": 102.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 768.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 348.16,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 72192.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 914.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_REFLECTION",
+        "param1": 327.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "POISON_MAGIC_REFLECTION",
+        "param1": 327.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SOLAR_MAGIC_REFLECTION",
+        "param1": 327.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "NEUTRAL_MAGIC_REFLECTION",
+        "param1": 327.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "LUNAR_MAGIC_REFLECTION",
+        "param1": 327.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 548.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": 512.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 87.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1427.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/少林/少林_套路_洗髓经.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 2023.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 2024.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10015": {
+    "szSkillName": "纯阳_套路_太虚剑意",
+    "filePath": "C:\\workdir\\mount_attrs\\纯阳_套路_太虚剑意.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 319.6,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 63.92,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 716.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 717.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1485.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_CRITICAL_STRIKE_COF",
+        "param1": 594.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 76704.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_CRITICAL_STRIKE",
+        "param1": 1327.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1450.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 228.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 117.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/纯阳/纯阳_套路_太虚剑意.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10014": {
+    "szSkillName": "纯阳_套路_紫霞功",
+    "filePath": "C:\\workdir\\mount_attrs\\纯阳_套路_紫霞功.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_RAGE",
+        "param1": 5.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 348.75,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 69.75,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_NEUTRAL_ATTACK_POWER_COF",
+        "param1": 1792.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_NEUTRAL_CRITICAL_STRIKE_COF",
+        "param1": 573.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 83700.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_ATTACK_POWER_BASE",
+        "param1": 1648.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "NEUTRAL_CRITICAL_STRIKE",
+        "param1": 803.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 346.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 228.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 354.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/纯阳/纯阳_套路_紫霞功.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 89.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1427.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 51.0,
+        "param2": 1.0
+      }
+    ]
+  },
+  "10021": {
+    "szSkillName": "万花_内功_花间游",
+    "filePath": "C:\\workdir\\mount_attrs\\万花_内功_花间游.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/万花/万花_内功_花间游.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 355.725,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 71.145,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_NEUTRAL_ATTACK_POWER_COF",
+        "param1": 1997.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_NEUTRAL_OVERCOME_COF",
+        "param1": 195.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 85374.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_ATTACK_POWER_BASE",
+        "param1": 1831.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "LIFE_REPLENISH_EXT",
+        "param1": 241.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 231.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 100.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1494.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10028": {
+    "szSkillName": "万花_内功_离经易道",
+    "filePath": "C:\\workdir\\mount_attrs\\万花_内功_离经易道.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/万花/万花_内功_离经易道.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 381.1,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 76.22,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_THERAPY_POWER_COF",
+        "param1": 1690.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_NEUTRAL_CRITICAL_STRIKE_COF",
+        "param1": 420.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 2304.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 91464.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "THERAPY_POWER_BASE",
+        "param1": 2780.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "LIFE_REPLENISH_EXT",
+        "param1": 483.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 578.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 100.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 159.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10026": {
+    "szSkillName": "天策_套路_内功_傲血战意",
+    "filePath": "C:\\workdir\\mount_attrs\\天策_套路_内功_傲血战意.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/天策/天策_套路_内功_傲血战意.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_RAGE",
+        "param1": 5.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 123.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 313.33333333333331,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 62.666666666666664,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -512.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 4892.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "STRENGTH_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1638.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "STRENGTH_TO_PHYSICS_OVERCOME_COF",
+        "param1": 256.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 75200.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1679.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 408.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 148.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1110.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      }
+    ]
+  },
+  "10062": {
+    "szSkillName": "天策_套路_内功_铁牢律",
+    "filePath": "C:\\workdir\\mount_attrs\\天策_套路_内功_铁牢律.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/天策/天策_套路_内功_铁牢律.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1865.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1998.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_RAGE",
+        "param1": 5.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 297.66666666666669,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 59.533333333333331,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_PARRY_COF",
+        "param1": 102.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_PHYSICS_SHIELD_COF",
+        "param1": 102.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_LIFE_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 768.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 71440.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 914.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PARRY_BASE",
+        "param1": 548.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 41.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PARRYVALUE_BASE",
+        "param1": 2114.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": 512.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 148.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1110.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1240.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 4039.0,
+        "param2": 3.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1771.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1772.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1773.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1774.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 4892.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1775.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      }
+    ]
+  },
+  "10081": {
+    "szSkillName": "七秀_内功_冰心诀",
+    "filePath": "C:\\workdir\\mount_attrs\\七秀_内功_冰心诀.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "bUseAdditionalAttribute": true,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/七秀/七秀_内功_冰心诀.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 680.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 681.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 254.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 345.2625,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 69.0525,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -512.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_LUNAR_ATTACK_POWER_COF",
+        "param1": 1946.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_LUNAR_CRITICAL_STRIKE_COF",
+        "param1": 287.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 82863.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "LUNAR_ATTACK_POWER_BASE",
+        "param1": 1868.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 323.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10080": {
+    "szSkillName": "七秀_内功_云裳心经",
+    "filePath": "C:\\workdir\\mount_attrs\\七秀_内功_云裳心经.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "bUseAdditionalAttribute": true,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/七秀/七秀_内功_云裳心经.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 680.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 681.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 370.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 74.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_THERAPY_POWER_COF",
+        "param1": 1792.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_LUNAR_CRITICAL_STRIKE_COF",
+        "param1": 215.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 2304.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 88800.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "THERAPY_POWER_BASE",
+        "param1": 2979.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 578.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 578.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10175": {
+    "szSkillName": "五毒_内功_毒经",
+    "filePath": "C:\\workdir\\mount_attrs\\五毒_内功_毒经.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 102.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 350.49166666666667,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 70.098333333333329,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 688.0,
+        "param2": 3.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 489.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -512.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_POISON_ATTACK_POWER_COF",
+        "param1": 1997.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_POISON_OVERCOME_COF",
+        "param1": 195.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 84118.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_ATTACK_POWER_BASE",
+        "param1": 1831.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 578.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 2016.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/五毒/五毒_内功_毒经.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10176": {
+    "szSkillName": "五毒_内功_补天诀",
+    "filePath": "C:\\workdir\\mount_attrs\\五毒_内功_补天诀.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 515.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 366.3,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 73.26,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 688.0,
+        "param2": 3.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 489.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_THERAPY_POWER_COF",
+        "param1": 1894.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 2304.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 87912.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "THERAPY_POWER_BASE",
+        "param1": 2880.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "LIFE_REPLENISH_EXT",
+        "param1": 402.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 578.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/五毒/五毒_内功_补天诀.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10224": {
+    "szSkillName": "唐门_内功_箭弩",
+    "filePath": "C:\\workdir\\mount_attrs\\唐门_内功_箭弩.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/唐门/唐门_内功_箭弩.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 61.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 936.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 937.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 938.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 939.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 940.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 941.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 942.0,
+        "param2": 2.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "STRENGTH_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1485.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "STRENGTH_TO_PHYSICS_CRITICAL_STRIKE_COF",
+        "param1": 604.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_OVERCOME_BASE",
+        "param1": 1327.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1450.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_ENERGY",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ENERGY_REPLENISH",
+        "param1": 10.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 580.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_PERCENT",
+        "param1": 1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10225": {
+    "szSkillName": "唐门_内功_机关",
+    "filePath": "C:\\workdir\\mount_attrs\\唐门_内功_机关.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/唐门/唐门_内功_机关.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 123.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_POISON_ATTACK_POWER_COF",
+        "param1": 1792.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_PHYSICS_CRITICAL_STRIKE_COF",
+        "param1": 584.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "POISON_ATTACK_POWER_BASE",
+        "param1": 1648.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_CRITICAL_STRIKE",
+        "param1": 572.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 462.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_ENERGY",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ENERGY_REPLENISH",
+        "param1": 10.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 580.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_PERCENT",
+        "param1": 1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10144": {
+    "szSkillName": "藏剑_套路_内功_问水诀",
+    "filePath": "C:\\workdir\\mount_attrs\\藏剑_套路_内功_问水诀.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 123.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 4087.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1638.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_OVERCOME_COF",
+        "param1": 256.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_USE_BIG_SWORD_FLAG",
+        "param1": 0.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 279.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 334.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_RAGE",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "RAGE_REPLENISH",
+        "param1": -2.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_ADDITIONAL",
+        "param1": 1609.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1526.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_CRITICAL_STRIKE",
+        "param1": 1156.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_PERCENT",
+        "param1": 1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 412.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 363.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 663.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/藏剑/藏剑_套路_内功_问水诀.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10145": {
+    "szSkillName": "藏剑_套路_内功_山居剑意",
+    "filePath": "C:\\workdir\\mount_attrs\\藏剑_套路_内功_山居剑意.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 123.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 4087.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 663.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 4089.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1638.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_OVERCOME_COF",
+        "param1": 256.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_USE_BIG_SWORD_FLAG",
+        "param1": 0.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_RAGE",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "RAGE_REPLENISH",
+        "param1": -2.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 334.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_ADDITIONAL",
+        "param1": 1609.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1526.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_CRITICAL_STRIKE",
+        "param1": 1156.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_PERCENT",
+        "param1": 1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 412.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 363.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/藏剑/藏剑_套路_内功_山居剑意.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10268": {
+    "szSkillName": "丐帮_内功",
+    "filePath": "C:\\workdir\\mount_attrs\\丐帮_内功.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "nWeaponDamagePercent": 0,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 102.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 4872.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 314.9,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 62.98,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "STRENGTH_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "STRENGTH_TO_PHYSICS_OVERCOME_COF",
+        "param1": 481.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MOVE_SPEED_PERCENT",
+        "param1": 105.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 75576.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1602.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 493.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1127.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1592.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10242": {
+    "szSkillName": "明教_套路_内功_焚影圣诀",
+    "filePath": "C:\\JX3Lua\\NTTest\\scripts\\skill\\明教\\明教_套路_内功_焚影圣诀.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/明教/明教_套路_内功_焚影圣诀.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 143.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_SOLAR_AND_LUNAR_ATTACK_POWER_COF",
+        "param1": 1946.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_SOLAR_AND_LUNAR_CRITICAL_STRIKE_COF",
+        "param1": 297.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_SUN_ENERGY",
+        "param1": 10000.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MOON_ENERGY",
+        "param1": 10000.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "LUNAR_ATTACK_POWER_BASE",
+        "param1": 1923.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SOLAR_ATTACK_POWER_BASE",
+        "param1": 1923.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 493.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_PERCENT",
+        "param1": 1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 912.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1296.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1335.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1336.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1337.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1338.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1339.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1340.0,
+        "param2": 1.0
+      }
+    ]
+  },
+  "10243": {
+    "szSkillName": "明教_套路_内功_明尊琉璃体",
+    "filePath": "C:\\workdir\\mount_attrs\\明教_套路_内功_明尊琉璃体.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/明教/明教_套路_内功_明尊琉璃体.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1865.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1998.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_LIFE_COF",
+        "param1": 1280.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_DODGE_COF",
+        "param1": 230.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_SUN_ENERGY",
+        "param1": 10000.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MOON_ENERGY",
+        "param1": 10000.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_SOLAR_ATTACK_POWER_COF",
+        "param1": 51.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_LUNAR_ATTACK_POWER_COF",
+        "param1": 51.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DODGE",
+        "param1": 914.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 457.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 457.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_PERCENT",
+        "param1": 1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1154.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1155.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1156.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1157.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1158.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1159.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1160.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1161.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1162.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1163.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": 512.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 838.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 892.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1296.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1335.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1336.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1337.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1338.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1339.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1340.0,
+        "param2": 1.0
+      }
+    ]
+  },
+  "10389": {
+    "szSkillName": "内功_铁骨衣",
+    "filePath": "C:\\workdir\\mount_attrs\\内功_铁骨衣.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1865.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1998.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_RAGE",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_ENERGY",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_PARRY_COF",
+        "param1": 154.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_PARRY_VALUE_COF",
+        "param1": 512.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_LIFE_COF",
+        "param1": 2253.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 41.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": 512.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 548.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PARRY_BASE",
+        "param1": 914.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PARRYVALUE_BASE",
+        "param1": 2114.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_PERCENT",
+        "param1": 1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1883.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1884.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1910.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1911.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1912.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1913.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1914.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1915.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1916.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1917.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1918.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1219.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1236.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/苍云/套路及子技能/内功_铁骨衣.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10390": {
+    "szSkillName": "内功_分山劲",
+    "filePath": "C:\\workdir\\mount_attrs\\内功_分山劲.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 205.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_RAGE",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_ENERGY",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1751.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PARRY_COF",
+        "param1": 102.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PARRY_VALUE_COF",
+        "param1": 1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1526.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PARRY_BASE",
+        "param1": 554.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_OVERCOME_BASE",
+        "param1": 694.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_PERCENT",
+        "param1": 1024.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1219.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1236.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/苍云/套路及子技能/内功_分山劲.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10447": {
+    "szSkillName": "内功_莫问",
+    "filePath": "C:\\workdir\\mount_attrs\\内功_莫问.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 83448.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 347.7,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 69.54,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_ATTACK_POWER_BASE",
+        "param1": 1648.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "LUNAR_CRITICAL_STRIKE",
+        "param1": 572.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 462.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_LUNAR_ATTACK_POWER_COF",
+        "param1": 1895.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_LUNAR_CRITICAL_STRIKE_COF",
+        "param1": 389.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1258.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1259.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1260.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/长歌/套路及子技能/内功_莫问.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10448": {
+    "szSkillName": "内功_相知",
+    "filePath": "C:\\workdir\\mount_attrs\\内功_相知.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 88356.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 368.15,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 73.63,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 2304.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "THERAPY_POWER_BASE",
+        "param1": 3078.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 578.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "LIFE_REPLENISH_EXT",
+        "param1": 362.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_THERAPY_POWER_COF",
+        "param1": 1741.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_LUNAR_CRITICAL_STRIKE_COF",
+        "param1": 317.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/长歌/套路及子技能/内功_相知.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10464": {
+    "szSkillName": "霸刀_套路_内功_输出心法",
+    "filePath": "C:\\workdir\\mount_attrs\\霸刀_套路_内功_输出心法.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/霸刀/霸刀_套路_内功_输出心法.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 51.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_RAGE",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_ENERGY",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "STOP_MAKE_SUN_POWER",
+        "param1": 0.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_SUN_ENERGY",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 22.575833333333332,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -512.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "STRENGTH_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1587.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "STRENGTH_TO_PHYSICS_OVERCOME_COF",
+        "param1": 369.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1648.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 442.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1455.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1429.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1441.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1446.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1435.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10533": {
+    "szSkillName": "蓬莱_套路_内功_输出心法",
+    "filePath": "C:\\workdir\\mount_attrs\\蓬莱_套路_内功_输出心法.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 102.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 316.46666666666664,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 63.293333333333337,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1587.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_CRITICAL_STRIKE_COF",
+        "param1": 369.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 75952.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_CRITICAL_STRIKE",
+        "param1": 986.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1602.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1558.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/蓬莱/蓬莱_套路_内功_输出心法.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10585": {
+    "szSkillName": "凌雪阁_套路_内功_输出心法",
+    "filePath": "C:\\workdir\\mount_attrs\\凌雪阁_套路_内功_输出心法.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DST_NPC_DAMAGE_COEFFICIENT",
+        "param1": 185.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 319.6,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 63.92,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_ATTACK_POWER_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "AGILITY_TO_PHYSICS_OVERCOME_COF",
+        "param1": 481.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 76704.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_OVERCOME_BASE",
+        "param1": 952.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_ATTACK_POWER_BASE",
+        "param1": 1618.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1722.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1799.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/凌雪阁/凌雪阁_套路_内功_输出心法.lua",
+        "param2": 0.0
+      }
+    ]
+  },
+  "10615": {
+    "szSkillName": "衍天_套路_太玄经",
+    "filePath": "C:\\workdir\\mount_attrs\\衍天_套路_太玄经.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_RAGE",
+        "param1": 100.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 351.1875,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 70.2375,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_NEUTRAL_ATTACK_POWER_COF",
+        "param1": 1843.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPUNK_TO_NEUTRAL_CRITICAL_STRIKE_COF",
+        "param1": 481.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 84285.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_ATTACK_POWER_BASE",
+        "param1": 1868.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "NEUTRAL_CRITICAL_STRIKE",
+        "param1": 1088.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/衍天/衍天_套路_太玄经.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 1860.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10626": {
+    "szSkillName": "北天药宗_套路_内功_灵素",
+    "filePath": "C:\\JX3Lua\\EXP\\scripts\\skill\\北天药宗\\北天药宗_套路_内功_灵素.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 368.8875,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 73.7775,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_THERAPY_POWER_COF",
+        "param1": 1843.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_POISON_CRITICAL_STRIKE_COF",
+        "param1": 113.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 2304.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 88533.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "THERAPY_POWER_BASE",
+        "param1": 2768.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "LIFE_REPLENISH_EXT",
+        "param1": 281.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 693.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/北天药宗/北天药宗_套路_内功_灵素.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 2036.0,
+        "param2": 0.0
+      }
+    ]
+  },
+  "10627": {
+    "szSkillName": "北天药宗_套路_内功_无方",
+    "filePath": "C:\\JX3Lua\\EXP\\scripts\\skill\\北天药宗\\北天药宗_套路_内功_无方.lua",
+    "dwMaxLevel": 12,
+    "dwLevel": 12,
+    "skillAttributes": [
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_SHIELD",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 400.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SET_TALENT_RECIPE",
+        "param1": 1711.0,
+        "param2": 1.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DROP_DEFENCE",
+        "param1": 250.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "DECRITICAL_DAMAGE_POWER_BASE",
+        "param1": 1725.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH",
+        "param1": 349.44583333333333,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MANA_REPLENISH_EXT",
+        "param1": 69.889166666666668,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "ACTIVE_THREAT_COEFFICIENT",
+        "param1": 0.0,
+        "param2": -307.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_POISON_ATTACK_POWER_COF",
+        "param1": 1843.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SPIRIT_TO_POISON_OVERCOME_COF",
+        "param1": 481.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "VITALITY_TO_MAX_MANA_COF",
+        "param1": 1536.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "BEAT_BACK_RATE",
+        "param1": -819.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_LIFE_PERCENT_ADD",
+        "param1": 225.28,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAX_MANA_BASE",
+        "param1": 83867.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "MAGIC_ATTACK_POWER_BASE",
+        "param1": 1685.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "EXECUTE_SCRIPT",
+        "param1": "skill/北天药宗/北天药宗_套路_内功_无方.lua",
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "PHYSICS_SHIELD_BASE",
+        "param1": 346.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "POISON_OVERCOME_BASE",
+        "param1": 803.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 639.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 640.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 2036.0,
+        "param2": 0.0
+      },
+      {
+        "ATTRIBUTE_EFFECT_MODE": "EFFECT_TO_SELF_AND_ROLLBACK",
+        "ATTRIBUTE_TYPE": "SKILL_EVENT_HANDLER",
+        "param1": 2074.0,
+        "param2": 0.0
+      }
+    ]
+  }
+}

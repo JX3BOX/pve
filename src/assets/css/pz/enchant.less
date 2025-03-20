@@ -1,0 +1,65 @@
+.m-enchant-select-item {
+    .clearfix;
+    &:hover {
+        .u-name {
+            color: #c00 !important;
+        }
+    }
+    .u-name {
+        .fl;
+        .mr(20px);
+
+        &.isEnhance {
+            color: @q_blue;
+        }
+        &.isAdvanced {
+            color: @q_purple;
+        }
+        &.isEnchant {
+            color: @q_purple;
+        }
+    }
+    .u-value {
+        .fz(12px);
+        .fr;
+        font-style: normal;
+    }
+    .u-null {
+        .x;
+        color: #888;
+    }
+}
+
+.m-pz-enchant {
+    .u-enhance {
+        .mb(10px);
+    }
+
+    .u-copy-icon {
+        .ml(10px);
+        cursor: pointer;
+        opacity: 0.5;
+
+        &.is-copy {
+            opacity: 1;
+        }
+    }
+    .u-enhance-filter {
+        .ml(12px);
+    }
+
+    .u-icon {
+        .ml(4px);
+    }
+}
+
+// .u-filter-attr {
+//     margin-left: 10px;
+//     width: 100px;
+// }
+
+.m-enchant-select-item-wrapper.selected {
+    .u-name {
+        color: #c00;
+    }
+}

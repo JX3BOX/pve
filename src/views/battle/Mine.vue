@@ -47,7 +47,6 @@
                             >
                             <span class="u-name"
                                 ><i class="u-status" v-if="item.visible != 0">
-                                    <!-- <img src="../assets/img/works/repo.svg" v-if="item.visible == 0" /> -->
                                     <img src="@/assets/img/battle/works/draft.svg" /> </i
                                 >{{ item.title || "无标题" }}</span
                             >

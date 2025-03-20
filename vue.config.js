@@ -55,6 +55,24 @@ module.exports = {
             template: "public/index.html",
             filename: "team/index.html",
         },
+        pz : {
+            title : '魔盒配装器 - JX3BOX',
+            entry:'src/pages/pz/index/index.js',
+            template : 'public/index.html',
+            filename:'pz/index.html',
+        },
+        iframe : {
+            title : '魔盒配装器 - JX3BOX',
+            entry:'src/pages/pz/iframe/index.js',
+            template : 'public/index.html',
+            filename:'pz/iframe.html',
+        },
+        mobile: {
+            title : '魔盒配装器 - JX3BOX',
+            entry:'src/pages/pz/mobile/index.js',
+            template : 'public/index.html',
+            filename:'pz/mobile.html',
+        }
     },
 
     //❤️ Proxy ~
@@ -229,7 +247,8 @@ module.exports = {
         preload_styles.push(
             path.resolve(__dirname, "./node_modules/csslab/base.less"),
             path.resolve(__dirname, "./node_modules/@jx3box/jx3box-common/css/var.less"),
-            path.resolve(__dirname, "./src/assets/css/var.less")
+            path.resolve(__dirname, "./src/assets/css/var.less"),
+            path.resolve(__dirname, "./src/assets/css/pz/var.less")
         );
         function addStyleResource(rule) {
             rule.use("style-resource").loader("style-resources-loader").options({

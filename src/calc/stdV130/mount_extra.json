@@ -1,0 +1,42 @@
+{
+    "10224": {
+        "BUFF12740": [
+            {
+                "slot": "atPhysicsCriticalStrikeBaseRate",
+                "value": 100
+            }
+        ]
+    },
+    "10225": {
+        "BUFF12740": [
+            {
+                "slot": "atPhysicsCriticalStrikeBaseRate",
+                "value": 100
+            }
+        ]
+    },
+    "10080": {
+        "剑舞BUFF409:21": [
+            {
+                "slot": "atLunarAttackPowerPercent",
+                "value": 310
+            },
+            {
+                "slot": "atTherapyPowerPercent",
+                "value": 310
+            }
+        ]
+    },
+    "10081": {
+        "剑舞BUFF409:21": [
+            {
+                "slot": "atLunarAttackPowerPercent",
+                "value": 310
+            },
+            {
+                "slot": "atTherapyPowerPercent",
+                "value": 310
+            }
+        ]
+    }
+}

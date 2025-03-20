@@ -1,0 +1,26 @@
+{
+    "title": "配装器",
+    "keys": "剑三配装器,魔盒配装器,配装器,在线配装,配装模拟",
+    "desc": "魔盒配装器是一款由魔盒开发团队独立开发的，用于剑网3游戏角色配装的WEB应用，旨在为玩家提供更有前瞻性的配装建议与配装模拟。并接入于魔盒各栏目，方便玩家一键分享自己的配装方案。",
+
+    "auto_save_interval": 120000,
+
+    "std_min_level": 16500,
+    "std_max_level": 27000,
+    "origin_min_level": 550,
+    "origin_max_level": 1060,
+
+    "origin_level_range_step": 1,
+    "std_level_range_step": 5,
+
+    "std_level_lower_edge": 16500,
+    "std_level_upper_edge": 29000,
+    "origin_level_lower_edge": 500,
+    "origin_level_upper_edge": 1060,
+
+    "std_global_level": 130,
+    "origin_global_level": 90,
+    "global_levels": [70, 80, 90, 95, 100, 110, 120, 130],
+
+    "current_zlp": "丝路风语"
+}

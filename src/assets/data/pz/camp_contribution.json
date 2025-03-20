@@ -1,0 +1,52 @@
+{
+    "0": {},
+    "1": {
+        "atDecriticalDamagePowerPercent": 16
+    },
+    "2": {
+        "atDecriticalDamagePowerPercent": 21
+    },
+    "3": {
+        "atDecriticalDamagePowerPercent": 26
+    },
+    "4": {
+        "atDecriticalDamagePowerPercent": 31
+    },
+    "5": {
+        "atDecriticalDamagePowerPercent": 36
+    },
+    "6": {
+        "atDecriticalDamagePowerPercent": 41
+    },
+    "7": {
+        "atDecriticalDamagePowerPercent": 46
+    },
+    "8": {
+        "atDecriticalDamagePowerPercent": 21,
+        "atMoveSpeedPercent": 11
+    },
+    "9": {
+        "atDecriticalDamagePowerPercent": 31,
+        "atMoveSpeedPercent": 11
+    },
+    "10": {
+        "atDecriticalDamagePowerPercent": 41,
+        "atMoveSpeedPercent": 11
+    },
+    "11": {
+        "atDecriticalDamagePowerPercent": 52,
+        "atMoveSpeedPercent": 21
+    },
+    "12": {
+        "atDecriticalDamagePowerPercent": 62,
+        "atMoveSpeedPercent": 21
+    },
+    "13": {
+        "atDecriticalDamagePowerPercent": 72,
+        "atMoveSpeedPercent": 21
+    },
+    "14": {
+        "atDecriticalDamagePowerPercent": 103,
+        "atMoveSpeedPercent": 52
+    }
+}

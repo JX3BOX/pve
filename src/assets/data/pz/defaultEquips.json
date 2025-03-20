@@ -1,0 +1,67 @@
+[
+    {
+        "type": "帽子",
+        "key": "HAT",
+        "defaultIcon": "placeholder_hat.png"
+    },
+    {
+        "type": "上衣",
+        "key": "JACKET",
+        "defaultIcon": "placeholder_jacket.png"
+    },
+    {
+        "type": "腰带",
+        "key": "BELT",
+        "defaultIcon": "placeholder_belt.png"
+    },
+    {
+        "type": "护腕",
+        "key": "WRIST",
+        "defaultIcon": "placeholder_wrist.png"
+    },
+    {
+        "type": "下装",
+        "key": "BOTTOMS",
+        "defaultIcon": "placeholder_bottoms.png"
+    },
+    {
+        "type": "鞋子",
+        "key": "SHOES",
+        "defaultIcon": "placeholder_shoes.png"
+    },
+    {
+        "type": "项链",
+        "key": "NECKLACE",
+        "defaultIcon": "placeholder_necklace.png"
+    },
+    {
+        "type": "腰坠",
+        "key": "PENDANT",
+        "defaultIcon": "placeholder_pendant.png"
+    },
+    {
+        "type": "戒指",
+        "key": "RING_1",
+        "defaultIcon": "placeholder_ring.png"
+    },
+    {
+        "type": "戒指",
+        "key": "RING_2",
+        "defaultIcon": "placeholder_ring.png"
+    },
+    {
+        "type": "暗器",
+        "key": "SECONDARY_WEAPON",
+        "defaultIcon": "placeholder_secondaryWeapon.png"
+    },
+    {
+        "type": "武器",
+        "key": "PRIMARY_WEAPON",
+        "defaultIcon": "placeholder_primaryWeapon.png"
+    },
+    {
+        "type": "武器（重兵）",
+        "key": "TERTIARY_WEAPON",
+        "defaultIcon": "placeholder_tertiaryWeapon.png"
+    }
+]

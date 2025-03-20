@@ -1,0 +1,13 @@
+ {
+    "atVitalityBase": "体质+",
+    "atSpunkBase": "元气+",
+    "atSpiritBase": "根骨+",
+    "atStrengthBase": "力道+",
+    "atAgilityBase": "身法+",
+    "atVitalityBasePercentAdd": "体质+",
+    "atSpunkBasePercentAdd": "元气+",
+    "atSpiritBasePercentAdd": "根骨+",
+    "atStrengthBasePercentAdd": "力道+",
+    "atAgilityBasePercentAdd": "身法+",
+    "atBasePotentialAdd": "全属性提高"
+}

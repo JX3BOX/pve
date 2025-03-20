@@ -1,0 +1,73 @@
+.m-pz-attribute {
+    .u-title {
+        border-bottom: 1px solid @border-hr;
+        margin: 0;
+        padding: 10px 0;
+        color: #888;
+        .fz(13px);
+
+        .u-all-attr {
+            float: right;
+        }
+    }
+    .u-list {
+        padding: 20px 0;
+        margin: 0;
+        list-style: none;
+        .lh(2.2);
+    }
+
+    .u-label {
+        width: 100px;
+        display: inline-block;
+        color: #777;
+        .fz(13px);
+
+        &.is-link {
+            cursor: pointer;
+        }
+    }
+    .u-value {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+        .fz(15px);
+    }
+    .u-raw {
+        .fz(12px);
+        .ml(8px);
+        color: #ff9900;
+        font-weight: 600;
+        &::after,&::before{
+            color: #afafaf;
+            font-weight: normal;
+        }
+        &::before {
+            content: "(";
+            padding-right: 2px;
+        }
+        &::after {
+            content: ")";
+            padding-left: 2px;
+        }
+    }
+    .u-cangjian-weapon {
+        .pa;
+        top: 5px;
+        right: 0;
+
+        .el-radio-button--mini .el-radio-button__inner {
+            padding: 5px 12px;
+        }
+    }
+}
+
+.m-attribute {
+    position: sticky;
+    top: @header-height + @bread-height + 75px;
+}
+
+
+.m-pz-canvas{
+    .m-pz-attribute{
+        .w(auto);
+    }
+}
