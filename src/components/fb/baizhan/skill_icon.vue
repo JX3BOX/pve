@@ -1,11 +1,12 @@
 <template>
     <div class="u-skill-item">
         <el-popover
-            class="u-skill-popover"
+            ref="popover"
             placement="right-start"
             trigger="hover"
             :visible-arrow="false"
-            :popper-class="`u-skill__popup__${source.nColor}`"
+            :popper-class="`u-skill-popover u-skill__popup__${source.nColor}`"
+            @show="onShow"
         >
             <template slot="reference">
                 <div
@@ -107,6 +108,13 @@ export default {
             const domain = process.env.NODE_ENV === "development" ? __Root : location.origin + "/";
             const url = domain + `app/database/?type=skill&query=${id}`;
             window.open(url, "_blank");
+        },
+        onShow() {
+            // 当新popover显示时，清除其他popover
+            const currentPopover = this.$refs.popover.popperElm;
+            document.querySelectorAll(".u-skill-popover").forEach((el) => {
+                if (el !== currentPopover) el.remove();
+            });
         },
     },
 };
