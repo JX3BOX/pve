@@ -65,7 +65,7 @@ export default {
     data: function () {
         return {
             types: [],
-            type: "jianshang",
+            type: "",
             authors: [],
             relation: relation["mount_relation"],
 
@@ -160,11 +160,12 @@ export default {
     },
     mounted: function () {
         this.loadGroup();
-        this.loadData();
 
         // 初始化tab
         if (this.$route.query.tab) {
             this.type = this.$route.query.tab;
+        } else {
+            this.type = "jianshang";
         }
     },
 };
