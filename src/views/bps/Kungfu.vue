@@ -141,7 +141,7 @@ export default {
             return getLink(item.type || "skill", item.id);
         },
         changeTab: function (item) {
-            this.type = item.key;
+            this.type = item.name;
             this.$router.push({
                 query: { tab: item.name, subtype: this.subtype },
             });
