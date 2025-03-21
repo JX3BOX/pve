@@ -5,7 +5,18 @@
             <div class="m-archive-search" slot="search-before">
                 <a :href="publish_link" class="u-publish el-button el-button--primary">+ 发布作品</a>
                 <el-input placeholder="请输入搜索内容" v-model.trim.lazy="search" clearable @clear="onSearch" @keydown.native.enter="onSearch">
-                    <span slot="prepend"><i class="el-icon-search"></i> <span class="u-search">关键词</span></span>
+                    <span slot="prepend">
+                        <template v-if="client=='std' && isPhone">
+                            <el-select v-model="is_wujie">
+                                <el-option label="全部" value=""></el-option>
+                                <el-option label="旗舰" :value="0"></el-option>
+                                <el-option label="无界" :value="1"></el-option>
+                            </el-select>
+                        </template>
+                        <template v-else>
+                            <i class="el-icon-search"></i> <span class="u-search">关键词</span>
+                        </template>
+                    </span>
                     <el-button slot="append" icon="el-icon-position" class="u-btn" @click="onSearch"></el-button>
                 </el-input>
             </div>
@@ -118,6 +129,7 @@ export default {
             zlp: "", //资料片
             tag: "", //标签
             topic: "", // 主题
+            is_wujie: "",
 
             pv_types: ["PVE", "PVP"],
             marks,
@@ -144,7 +156,8 @@ export default {
                 zlp: this.zlp,
                 tag: this.tag,
                 topic: this.topic,
-                star: 1
+                star: 1,
+                is_wujie: this.is_wujie,
             };
         },
         // 分页相关参数
@@ -169,7 +182,10 @@ export default {
         },
         aggregate: function (){
             return this.data.map(item => this.postLink(item.ID))
-        }
+        },
+        isPhone: function () {
+            return window.innerWidth < 768;
+        },
     },
     methods: {
         postLink: function (val) {
