@@ -8,9 +8,6 @@ export const getNewToken = () =>
 export const getBattle = (id) =>
     $.get(`/api/team/battle/${id}`)
 
-export const getJclBattle = (params) =>
-    $.get('/api/team/battle/jcl', { params })
-
 export const getUploadToken = (filetype, gzip = true) =>
     $.get(`/api/team/battle/upload/${filetype}/sts-token`, { params: { gzip: gzip ? 1 : 0 } });
 

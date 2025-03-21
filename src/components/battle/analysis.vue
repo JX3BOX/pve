@@ -25,13 +25,12 @@ import { parseJx3dat } from "luat2json";
 import PakoWorker from "@/utils/battle/pako.worker.js";
 import iconv from "iconv-lite";
 
-import start_jcl from "@/mixin/battle/start_jcl";
 import start_tinymins from "@/mixin/battle/start_tinymins";
 import start_official from "@/mixin/battle/start_official";
 
 import mixin_progress from "@/mixin/battle/progress.js";
 
-import { getBattle, getJclBattle } from "@/service/battle/team";
+import { getBattle } from "@/service/battle/team";
 import axios from "axios";
 import { resolveImagePath } from "@jx3box/jx3box-common/js/utils";
 import { __ossMirror, __ossRoot, __down } from "@jx3box/jx3box-common/data/jx3box.json";
@@ -39,7 +38,7 @@ export default {
     name: "analysis",
     props: ["id", "battleId"],
     components: {},
-    mixins: [mixin_progress, start_jcl, start_tinymins, start_official],
+    mixins: [mixin_progress, start_tinymins, start_official],
     data: () => ({
         blob: null, //下载到的文件
 
@@ -67,11 +66,8 @@ export default {
             } else {
                 // store没数据，请求
                 let state;
-                if (this.id) {
-                    state = getBattle(this.id);
-                } else {
-                    state = getJclBattle({ battle_id: this.battleId });
-                }
+                state = getBattle(this.id);
+
                 return state
                     .then((res) => {
                         if (res.data.code === 0) {
@@ -225,7 +221,7 @@ export default {
                     });
                 } else {
                     const data = JSON.parse(raw);
-                    for(const key in data) {
+                    for (const key in data) {
                         data[key] = luadata.unserialize(data[key].replace(/^return /, ""), { dictType: "object" });
                     }
                     this.$store.commit("set", {

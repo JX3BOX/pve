@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import { getJclBattle } from "@/service/battle/team";
 export default {
     name: "Search",
     data() {

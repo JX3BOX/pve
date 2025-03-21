@@ -1,12 +1,5 @@
 import { $cms } from "@jx3box/jx3box-common/js/https";
 
-function uploadData(data, type = "jcl") {
-    return $cms().post(`/api/cms/upload/battle`, {
-        battle: JSON.stringify(data),
-        type,
-    });
-}
-
 function publishData(data) {
     return $cms().post(`/api/cms/battle`, data);
 }
@@ -27,4 +20,4 @@ function updateData(id, data) {
     return $cms().put(`/api/cms/battle/${id}`, data);
 }
 
-export { uploadData, publishData, getMyData, delData, updateData };
+export { publishData, getMyData, delData, updateData };

@@ -22,8 +22,6 @@ import { mapState } from "vuex";
 import subheader from "@/components/battle/subheader.vue";
 import Analysis from "@/components/battle/analysis.vue";
 import TinyminsStat from "./TinyminsStat.vue";
-import JclResult from "./JclResult.vue";
-import JclPVP from "./JclPVP.vue";
 import Comment from "@jx3box/jx3box-comment-ui/src/Comment.vue";
 
 export default {
@@ -31,9 +29,7 @@ export default {
     props: [],
     components: {
         tinymins: TinyminsStat,
-        jcl: JclResult,
         analysis: Analysis,
-        'jcl-pvp': JclPVP,
         Comment,
         subheader,
     },
@@ -46,8 +42,6 @@ export default {
             components: {
                 official: TinyminsStat,
                 tinymins: TinyminsStat,
-                jcl: JclResult,
-                'jcl-pvp': JclPVP,
             },
         };
     },
