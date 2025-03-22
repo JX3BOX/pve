@@ -29,7 +29,7 @@ function getAttributEmbedValue(base, level, client = 'std') {
         } else {
             coefficients = level * 0.15;
         }
-        coefficients *= 1050/200;
+        coefficients *= 1300 / 200;
         // 怀旧服两个赛季均对 coefficients 通过一个统一的系数修正，对应反编译函数为 KGItemInfoList::AttribMountDiamond
         // v13 = v12 * 2.4;
     }

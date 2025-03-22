@@ -67,6 +67,10 @@ export default {
                     const _key = equip[key]["attr"][0];
                     if (!primaryAttribute.includes(_key)) {
                         let base = ~~equip[key]["attr"][1] || ~~equip[key]["attr"][3];
+                        // 处理缘起装备升品 大概在这
+                        if (activeSnapshot?.GrowthLevel) {
+                            base = Math.floor((base * (activeSnapshot?.GrowthLevel + equip.Level)) / equip.Level);
+                        }
                         // 熔铸属性
                         if (magic_change && magic_change.from == _key) {
                             base += magic_change.from_value;
@@ -74,12 +78,7 @@ export default {
                         base = extraSecondaryAttr(_key, base);
                         let value = 0;
                         if (strengthable.includes(_key)) {
-                            value = getStrengthScore(
-                                base,
-                                ~~activeSnapshot.strength,
-                                schema_client,
-                                ~~equip.Level
-                            );
+                            value = getStrengthScore(base, ~~activeSnapshot.strength, schema_client, ~~equip.Level);
                         }
                         const attr = {
                             key: _key,

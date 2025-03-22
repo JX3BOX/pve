@@ -1,10 +1,21 @@
 <template>
     <div class="m-equip-score">
         <!-- 品质等级 -->
-        <div class="u-equip-quality">
+        <div class="u-equip-quality" :class="{ 'is-growth': activeSnapshot.GrowthLevel > 0 }">
             品质等级
-            {{ equip.Level }}
-            <span class="isStrength" v-if="activeSnapshot.strength > 0"> (+{{ equipLevel }}) </span>
+            {{ this.schema_client == "std" ? equip.Level : newEquipLevel }}
+            <!-- 缘起烽火燎原版本品质等级与精炼解绑 -->
+            <span class="isStrength" v-if="activeSnapshot.strength > 0 && this.schema_client == 'std'">
+                (+{{ equipLevel }})
+            </span>
+            <span class="is-growth" v-if="this.maxEquipLevel > 0"> (+{{ activeSnapshot?.GrowthLevel }}) </span>
+            <span
+                class="u-equip-quality"
+                :class="{ 'is-growth': activeSnapshot.GrowthLevel > 0 }"
+                v-if="this.maxEquipLevel > 0"
+            >
+                / {{ maxEquipLevel }}
+            </span>
         </div>
 
         <!-- 装备分数 基础装分（+ 精炼装分 + 镶嵌装分） -->
@@ -46,7 +57,7 @@ export default {
             return equip_map[this.activeEquip].position;
         },
         baseScore: function ({ equip, position }) {
-            return getEquipScore(equip.Level, equip.Quality, position);
+            return getEquipScore(this.realEquipLevel, equip.Quality, position);
         },
         equipLevel: function ({ equip, activeSnapshot, schema_client }) {
             // 装分和品质的精炼成长与重制一致
@@ -55,7 +66,7 @@ export default {
                 type: "quality",
                 equipQuality: equip.Quality,
                 equipPosition: equip.SubType,
-                equipLevel: equip.Level,
+                equipLevel: this.realEquipLevel,
             });
         },
         strengthScore: function ({ baseScore, activeSnapshot, schema_client, equip }) {
@@ -64,7 +75,7 @@ export default {
                 client: schema_client,
                 equipQuality: equip.Quality,
                 equipPosition: equip.SubType,
-                equipLevel: equip.Level,
+                equipLevel: this.realEquipLevel,
             });
         },
         // 镶嵌的五行石等级数
@@ -118,6 +129,18 @@ export default {
         },
         extraScore({ embeddingScore, enchantScore, enhanceScore, stoneScore }) {
             return Math.round(embeddingScore + stoneScore) + enchantScore + enhanceScore;
+        },
+        // 实际计算用品质等级（兼容重制缘起）
+        realEquipLevel({ equip, activeSnapshot }) {
+            return activeSnapshot?.GrowthLevel ? this.newEquipLevel : equip.Level;
+        },
+        // 升品最大品 equip.MaxGrowthLevel
+        maxEquipLevel({ equip }) {
+            return equip.MaxGrowthLevel ? equip.Level + equip.MaxGrowthLevel : 0;
+        },
+        // 升品后装备品级
+        newEquipLevel({ equip, activeSnapshot }) {
+            return equip.Level + (activeSnapshot?.GrowthLevel || 0);
         },
     },
     watch: {

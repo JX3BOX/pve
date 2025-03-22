@@ -16,7 +16,6 @@ function calculateAttrib({snapshot, mount, setCollection, schema_client = "origi
     Object.entries(snapshot).forEach(([key, equipSlot]) => {
         if (equipSlot?.equip) {
             if (!((!useHeavy && key === "TERTIARY_WEAPON") || (useHeavy && key === "PRIMARY_WEAPON"))) {
-
                 // 装备基础属性（白字绿字）
                 AddEquipAttributes(equipSlot, attrs, schema_client);
 
@@ -37,8 +36,8 @@ function calculateAttrib({snapshot, mount, setCollection, schema_client = "origi
     AddAdditionalAttribute(attrs, mount);
     AddCampContribution(attrs, schema_client, level)
     // console.log("计算心法加成后属性：")
-     console.log(attrs);
-
+    // console.log(attrs);
+    
     return GetPanel(attrs);
 }
 export {

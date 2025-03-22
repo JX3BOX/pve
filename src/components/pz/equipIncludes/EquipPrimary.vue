@@ -33,6 +33,10 @@ export default {
                 if (key.startsWith("_Magic") && equip[key]) {
                     const _key = equip[key]["attr"][0];
                     let base = ~~equip[key]["attr"][1];
+                    // 处理缘起装备升品 大概在这
+                    if (activeSnapshot?.GrowthLevel) {
+                        base = Math.floor((base * (activeSnapshot?.GrowthLevel + equip.Level)) / equip.Level);
+                    }
                     // 熔铸属性需要base减一下
                     if (magic_change && magic_change.from == _key) {
                         base += magic_change.from_value;

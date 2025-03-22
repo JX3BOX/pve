@@ -22,7 +22,7 @@ const C_C = {
 const originStrengthLookup = [0, 0.009, 0.0234, 0.0432, 0.0684, 0.10971, 0.15831, 0.2142, 0.27738, 0.34785, 0.42561];
 
 /**
- * 1.获取五行石分数
+ * 1.获取五行石分数（装分）数值在src\utils\pz\embedding.js
  * 老算法:
  * 大于 5 级 则是 (五行石等级 * (五行石等级 - 1) * 0.025 + 0.15) * 系数A * 系数B
  * 小于等于 5 级 则是系数A * 系数B * 五行石等级 * 0.15
@@ -41,7 +41,7 @@ function getEmbeddingScore(level, client = "std") {
         }
     }
     else {
-        // 缘起2024不知道什么版本血战天策 系数修改
+        // 缘起2024不知道什么版本血战天策 系数修改 dword是8.8 qword是CurrentSeasonEquipBoxStrengthQulity
         /*
         if ( a1 > 6 )
             result = (double)dword_18002DEA8 / 200.0 * ((v2 * 0.55 - 2.48) * *(double *)&qword_18002DED8);
@@ -49,9 +49,9 @@ function getEmbeddingScore(level, client = "std") {
             result = v2 * *(double *)&qword_18002DED8 * 0.15 * ((double)dword_18002DEA8 / 200.0);
         */
         if (level > 6) {
-            return (level * 0.55 - 2.48) * C_A[client] * 5.25;
+            return (level * 0.55 - 2.48) * C_A[client] * 6.5;
         } else {
-            return level * C_A[client] * 0.15 * 5.25;
+            return level * C_A[client] * 0.15 * 6.5;
         }
     }
 
@@ -108,8 +108,9 @@ const getStrengthScore = (base, strengthLevel, client = 'std', equipLevel) => {
  */
 const getGsStrengthScore = (base, strengthLevel, { client = "std", type, equipQuality, equipPosition, equipLevel } = {}) => {
     if (client === "origin") {
-        if (type === "quality") {  // 缘起装备品质使用原有算法
-            return Math.round(base * originStrengthLookup[strengthLevel]);
+        if (type === "quality") {  // 缘起装备品质使用原有算法 烽火燎原版本品质等级与装备精炼解绑
+            // return Math.round(base * originStrengthLookup[strengthLevel]);
+            return base * 0;
         }
         // 从装备分数计算装备品质 for 怀旧服新算法
         //const equipQualityLevel = Math.floor(base / equipment_quality_coefficients[equipQuality] / equipment_position_coefficients[equipPosition]);
@@ -185,6 +186,30 @@ function getScore(equipData, client) {
         }
     }
     return 0;
+}
+/** 
+* 7.缘起装备升品计算
+* 装备分数依据品级计算 属性加成按基础属性*新品级/老品级计算
+* @param {*} base 原数值
+* @param {*} growthlevel 装备升品
+* @param {*} client 客户端版本
+* @param {*} equipLevel 装备品级
+*/
+function getGrowthNewLevel(base, growthlevel, client = 'std', equipLevel){
+    if(client == "std"){
+        return 0;
+    }
+    else{
+        return equipLevel = base + growthlevel;
+    }
+}
+function getGrowthNewAttr(base, growthlevel, client = 'std', equipLevel){
+    if(client == "std"){
+        return 0;
+    }
+    else{
+        return equipAttr = Math.floor(base * (equipLevel + growthlevel) / growthlevel);
+    }
 }
 
 export { getEmbeddingScore, getStoneScore, getStrengthScore, getEquipScore, getGlobalScore, getScore, getGsStrengthScore };

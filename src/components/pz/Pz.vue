@@ -17,6 +17,9 @@
                             <el-form-item label="精炼等级" v-if="canStrong">
                                 <Strength />
                             </el-form-item>
+                            <el-form-item label="锻造升品" v-if="canGrowthLevel">
+                                <GrowthLevel />
+                            </el-form-item>
                             <el-form-item label="小附魔" v-if="hasEnhance">
                                 <Enhance />
                             </el-form-item>
@@ -62,6 +65,7 @@ import Equip from "@/components/pz/Equip.vue";
 import Strength from "@/components/pz/Strength.vue";
 import Enhance from "@/components/pz/Enhance.vue";
 import Enchant from "@/components/pz/Enchant.vue";
+import GrowthLevel from "@/components/pz/GrowthLevel.vue";
 import Attribute from "@/components/pz/Attribute.vue";
 import MagicChange from "@/components/pz/MagicChange.vue";
 
@@ -82,6 +86,10 @@ export default {
         canStrong: function () {
             return !!~~this.equip?.MaxStrengthLevel;
         },
+        // 可以升品 缘起烽火燎原新增 待改
+        canGrowthLevel: function () {
+            return !!~~this.equip?.MaxGrowthLevel;
+        },
         // 是否有小附魔
         hasEnhance: function () {
             return equip_map[this.activeEquip].enhance[this.schema_client];
@@ -101,6 +109,7 @@ export default {
         Enhance,
         Enchant,
         Strength,
+        GrowthLevel,
 
         EquipFilter,
         Equip,
