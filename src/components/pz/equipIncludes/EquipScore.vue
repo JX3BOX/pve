@@ -8,7 +8,8 @@
             <span class="isStrength" v-if="activeSnapshot.strength > 0 && this.schema_client == 'std'">
                 (+{{ equipLevel }})
             </span>
-            <span class="is-growth" v-if="this.maxEquipLevel > 0"> (+{{ activeSnapshot?.GrowthLevel }}) </span>
+            <!-- 避免从不可升品切到可升品只显示加号不显示数值 -->
+            <span class="is-growth" v-if="this.maxEquipLevel > 0"> (+{{ activeSnapshot?.GrowthLevel || 0 }}) </span>
             <span
                 class="u-equip-quality"
                 :class="{ 'is-growth': activeSnapshot.GrowthLevel > 0 }"

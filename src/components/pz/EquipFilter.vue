@@ -582,6 +582,8 @@ export default {
 
             // 选择装备时清空大小附魔
             this.clearEquip();
+            // 清掉装备升品
+            this.clearGrowthLevel();
             // 清空装备时，清掉洗练数据
             this.clearMagicChange();
 
@@ -602,6 +604,13 @@ export default {
                     content: "",
                     snapshot: "",
                 },
+            });
+        },
+        clearGrowthLevel: function() {
+            // 清空装备时，清掉装备升品
+            this.$store.commit("Sync", {
+                prop:"GrowthLevel",
+                data: "",
             });
         },
         clearMagicChange: function() {
