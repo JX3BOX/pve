@@ -92,9 +92,9 @@ export default {
                 if (_snapshot.equip) {
                     const position = equip_map[key].position;
                     const equip = _snapshot.equip;
-
+                    let realEquipLevel = equip.Level + (_snapshot?.GrowthLevel || 0);
                     // 基础装分
-                    const baseScore = getEquipScore(equip.Level, equip.Quality, position);
+                    const baseScore = getEquipScore(realEquipLevel, equip.Quality, position);
 
                     // 五行石装分
                     let embeddingScore = 0;
@@ -115,7 +115,7 @@ export default {
                         client: schema_client,
                         equipQuality: equip.Quality,
                         equipPosition: equip.SubType,
-                        equipLevel: equip.Level,
+                        equipLevel: realEquipLevel,
                     });
 
                     // 大小附魔分
