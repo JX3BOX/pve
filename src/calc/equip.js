@@ -60,7 +60,7 @@ export function AddEquipAttributes(equipSlot, attrs, client) {
         if (pKey.startsWith("_Magic") && equip[pKey]) {
             const attrSlot = equip[pKey]['attr'][0];
             const _val = GetAttributeValueFromParams(equip[pKey]['attr'][1], equip[pKey]['attr'][3]);
-            let _growthVal = Math.floor((_val * (equipSlot?.GrowthLevel + equip.Level)) / equip.Level)
+            let _growthVal = Math.floor((_val * ((equipSlot?.GrowthLevel || 0) + equip.Level)) / equip.Level)
             // 怀旧服V80的洗练属性附加,突然混入的下划线命名法让我充满罪恶感
             // _val 是个 const，让我很想改成 let，但是感觉不太好， 于是后买你就有了三个数相加的操作
             // ↑缘起烽火燎原新增装备升品要动基础属性 新加了一个let的临时值你现在可以用了

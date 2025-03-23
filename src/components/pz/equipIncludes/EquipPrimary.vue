@@ -34,7 +34,7 @@ export default {
                     const _key = equip[key]["attr"][0];
                     let base = ~~equip[key]["attr"][1];
                     // 处理缘起装备升品 大概在这
-                    if (activeSnapshot?.GrowthLevel) {
+                    if (activeSnapshot?.GrowthLevel > 0) {
                         base = Math.floor((base * (activeSnapshot?.GrowthLevel + equip.Level)) / equip.Level);
                     }
                     // 熔铸属性需要base减一下

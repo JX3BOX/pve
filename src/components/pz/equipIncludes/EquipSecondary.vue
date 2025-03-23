@@ -68,7 +68,7 @@ export default {
                     if (!primaryAttribute.includes(_key)) {
                         let base = ~~equip[key]["attr"][1] || ~~equip[key]["attr"][3];
                         // 处理缘起装备升品 大概在这
-                        if (activeSnapshot?.GrowthLevel) {
+                        if (activeSnapshot?.GrowthLevel > 0) {
                             base = Math.floor((base * (activeSnapshot?.GrowthLevel + equip.Level)) / equip.Level);
                         }
                         // 熔铸属性
