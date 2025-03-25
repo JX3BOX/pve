@@ -90,12 +90,12 @@
                                                 <el-option label="目标NPC强度等级" value="npclevel"></el-option>
                                                 <el-option label="生命值和最大血量的比值" value="life"></el-option>
                                                 <el-option label="内力值和最大内力值的比值" value="mana"></el-option>
-                                                <el-option label="剑气/尘身刀气/战意/怒气值" value="rage"></el-option>
+                                                <el-option label="剑气/尘身刀气/战意/怒气值/连击值" value="rage"></el-option>
                                                 <el-option
                                                     label="纯阳气点/少林禅那/七秀剑舞值"
                                                     value="qidian"
                                                 ></el-option>
-                                                <el-option label="神机/竹雾刀气/格挡值" value="energy"></el-option>
+                                                <el-option label="神机/竹雾刀气/格挡值/醉意" value="energy"></el-option>
                                                 <el-option label="日灵/金屏刀气值" value="sun"></el-option>
                                                 <el-option label="月魂值" value="moon"></el-option>
                                                 <el-option label="满日状态" value="sun_power"></el-option>
@@ -288,9 +288,9 @@ export default {
                 bufftime: "增减益效果持续时间",
                 life: "生命值和最大血量的比值",
                 mana: "内力值和最大内力值的比值",
-                rage: "剑气/尘身刀气/战意/怒气值",
+                rage: "剑气/尘身刀气/战意/怒气值/连击值",
                 qidian: "纯阳气点",
-                energy: "神机/竹雾刀气/格挡值",
+                energy: "神机/竹雾刀气/格挡值/醉意",
                 sun: "日灵/金屏刀气值",
                 moon: "月魂值",
                 sun_power: "满日状态",
