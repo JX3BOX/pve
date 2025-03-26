@@ -11,10 +11,9 @@
     </div>
 </template>
 <script>
-import { putMyTeamsPassword, restMyTeamsPassword } from "@/service/team/team.js";
+import { putMyTeamsPassword } from "@/service/team/team.js";
 export default {
     name: "editPassword",
-    props: ["id"],
     data: function() {
         return {
             password: "",
@@ -26,6 +25,9 @@ export default {
             let result = re.test(this.password);
             return result;
         },
+        id() {
+            return ~~this.$route.params.id;
+        }
     },
     methods: {
         onSubmit() {
