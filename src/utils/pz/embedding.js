@@ -19,9 +19,9 @@ function getAttributEmbedValue(base, level, client = 'std') {
     let coefficients = 0;
     if (client === "std") {
         if (level > 6) {
-            coefficients = (level * 0.65 - 3.2) * 1.3;
+            coefficients = (level * 0.65 - 3.2) * 1.3 * 32000 / 27800;
         } else {
-            coefficients = level * 0.195;
+            coefficients = level * 0.195 * 32000 / 27800;
         }
     } else {
         if (level > 6) {

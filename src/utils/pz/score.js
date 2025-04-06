@@ -35,9 +35,9 @@ function getEmbeddingScore(level, client = "std") {
     if (client === "std") {
         // 重制1.0.0.5389修改镶嵌分数公式
         if (level > 6) {
-            return (level * 0.65 - 3.2) * 1.3 * C_A[client] * C_B[client];
+            return (level * 0.65 - 3.2) * 1.3 * C_A[client] * C_B[client] * 32000 / 27800;
         } else {
-            return level * 1.3 * 0.15 * C_A[client] * C_B[client];
+            return level * 1.3 * 0.15 * C_A[client] * C_B[client] * 32000 / 27800;
         }
     }
     else {
@@ -195,19 +195,19 @@ function getScore(equipData, client) {
 * @param {*} client 客户端版本
 * @param {*} equipLevel 装备品级
 */
-function getGrowthNewLevel(base, growthlevel, client = 'std', equipLevel){
-    if(client == "std"){
+function getGrowthNewLevel(base, growthlevel, client = 'std', equipLevel) {
+    if (client == "std") {
         return 0;
     }
-    else{
+    else {
         return equipLevel = base + growthlevel;
     }
 }
-function getGrowthNewAttr(base, growthlevel, client = 'std', equipLevel){
-    if(client == "std"){
+function getGrowthNewAttr(base, growthlevel, client = 'std', equipLevel) {
+    if (client == "std") {
         return 0;
     }
-    else{
+    else {
         return equipAttr = Math.floor(base * (equipLevel + growthlevel) / growthlevel);
     }
 }

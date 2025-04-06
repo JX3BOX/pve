@@ -5,16 +5,16 @@
 
     "auto_save_interval": 120000,
 
-    "std_min_level": 16500,
-    "std_max_level": 27000,
+    "std_min_level": 25000,
+    "std_max_level": 31500,
     "origin_min_level": 1000,
     "origin_max_level": 1300,
 
     "origin_level_range_step": 1,
     "std_level_range_step": 5,
 
-    "std_level_lower_edge": 16500,
-    "std_level_upper_edge": 29000,
+    "std_level_lower_edge": 20000,
+    "std_level_upper_edge": 33000,
     "origin_level_lower_edge": 800,
     "origin_level_upper_edge": 1400,
 
