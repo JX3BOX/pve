@@ -9,7 +9,7 @@
 
             <el-tag class="u-rank-tag" v-if="item.boss_info?.is_rank_boss === 0" type="info">非赛事</el-tag>
             <el-tag class="u-rank-tag" v-if="item.boss_info?.is_rank_boss === 1 || item.aid_info?.event_id" type="success"
-                >第 {{ item.boss_info.rank_id || item.aid_info?.event_id}} 届</el-tag
+                >第 {{ item.boss_info?.rank_id || item.aid_info?.event_id}} 届</el-tag
             >
             <el-tag class="u-rank-tag" v-if="item.boss_info?.is_rank_boss === 2" type="warning">预选赛</el-tag>
             <i class="u-team-status" v-if="item.status == 1" title="成绩正常"

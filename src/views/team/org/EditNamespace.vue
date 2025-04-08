@@ -97,8 +97,7 @@ export default {
     methods: {
         checkAvailable: function () {
             // 移除所有符号
-            this.form.key = sterilizer(this.form.key).safe();
-            this.form.key = sterilizer(this.form.key).removeSpace();
+            this.form.key = sterilizer(this.form.key).safe().removeSpace().toString();
             // 判断重名
             if (this.key) {
                 getNamespaceByKey(this.key).then((res) => {

@@ -299,8 +299,7 @@ export default {
         },
         checkTeamName: function () {
             // 移除特殊符号
-            let name = sterilizer(this.form.name).removeSpace();
-            this.form.name = sterilizer(name).kill();
+            this.form.name = sterilizer(this.form.name).kill().removeSpace().toString();
 
             // 不能为纯数字
             this.isNumber = !isNaN(Number(this.form.name));
