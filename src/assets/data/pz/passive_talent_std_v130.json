@@ -35,27 +35,21 @@
                     "atLunarAttackPowerPercent": 100
                 }
             ]
-        },
-        {
-            "skill_id": 14713,
-            "remark": "清涓",
-            "value": [
-                {
-                    "atPoisonOvercomePercent": 102
-                },
-                {
-                    "atLunarOvercomePercent": 102
-                },
-                {
-                    "atNeutralOvercomePercent": 102
-                },
-                {
-                    "atSolarOvercomePercent": 102
-                }
-            ]
         }
     ],
     "10080": [
+        {
+            "skill_id": 5882,
+            "remark": "倾城",
+            "value": [
+                {
+                    "atMoveSpeedPercent": 103
+                },
+                {
+                    "atGlobalResistPercent": 102
+                }
+            ]
+        },
         {
             "skill_id": 24985,
             "remark": "妍姿",
@@ -80,6 +74,23 @@
                 },
                 {
                     "atMoveSpeedPercent": 52
+                }
+            ]
+        }
+    ],
+    "10021": [
+        {
+            "skill_id": 38972,
+            "remark": "青冠",
+            "value": [
+                {
+                    "atNeutralAttackPowerPercent": 102
+                },
+                {
+                    "atStrainPercent": 205
+                },
+                {
+                    "atManaReplenishPercent": 4
                 }
             ]
         }
@@ -116,6 +127,24 @@
             ]
         },
         {
+            "skill_id": 101787,
+            "remark": "乐音·悟",
+            "value": [
+                {
+                    "atLunarMagicResistPercent": 103
+                },
+                {
+                    "atSolarMagicResistPercent": 103
+                },
+                {
+                    "atNeutralMagicResistPercent": 103
+                },
+                {
+                    "atPoisonMagicResistPercent": 103
+                }
+            ]
+        },
+        {
             "skill_id": 101789,
             "remark": "持戒·悟",
             "value": [
@@ -132,6 +161,15 @@
             "value": [
                 {
                     "atMaxLifePercentAdd": 220
+                }
+            ]
+        },
+        {
+            "skill_id": 6586,
+            "remark": "三生",
+            "value": [
+                {
+                    "atStrainPercent": 307
                 }
             ]
         }
@@ -169,6 +207,20 @@
             "value": [
                 {
                     "atPoisonCriticalDamagePowerBaseKiloNumRate": 150
+                }
+            ]
+        }
+    ],
+    "10447": [
+        {
+            "skill_id": 14350,
+            "remark": "参连",
+            "value": [
+                {
+                    "atLunarAttackPowerPercent": 154
+                },
+                {
+                    "atStrainPercent": 205
                 }
             ]
         }
@@ -248,13 +300,33 @@
             ]
         }
     ],
+    "10225": [
+        {
+            "skill_id": 101943,
+            "remark": "神魂俱灭·悟",
+            "value": [
+                {
+                    "atPhysicsCriticalDamagePowerBaseKiloNumRate": 100
+                }
+            ]
+        },
+        {
+            "skill_id": 101944,
+            "remark": "天涯亡命·悟",
+            "value": [
+                {
+                    "atPhysicsCriticalDamagePowerBaseKiloNumRate": 100
+                }
+            ]
+        }
+    ],
     "10224": [
         {
             "skill_id": 25116,
             "remark": "河桥养箭",
             "value": [
                 {
-                    "atPhysicsHitBaseRate": 1000
+                    "atPhysicsHitBaseRate": 2000
                 }
             ]
         }
@@ -285,16 +357,18 @@
             ]
         }
     ],
-    "10268": [
+    "10144": [
         {
-            "skill_id": 100851,
-            "remark": "遁亨·悟",
+            "skill_id": 100919,
+            "remark": "折梅·悟",
             "value": [
                 {
                     "atPhysicsCriticalDamagePowerBaseKiloNumRate": 100
                 }
             ]
-        },
+        }
+    ],
+    "10268": [
         {
             "skill_id": 100852,
             "remark": "利涉·悟",
@@ -321,26 +395,23 @@
     ],
     "10390": [
         {
-            "skill_id": 13366,
-            "remark": "从容",
-            "value": [
-                {
-                    "atStrainPercent": 154
-                },
-                {
-                    "atPhysicsAttackPowerPercent": 102
-                }
-            ]
-        },
-        {
             "skill_id": 13126,
             "remark": "恋战",
             "value": [
                 {
-                    "atDecriticalDamagePowerPercent": -205
+                    "atDecriticalDamagePowerPercent": -410
                 },
                 {
-                    "atAllDamageAddPercent": 205
+                    "atAllDamageAddPercent": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 101245,
+            "remark": "血狱·悟",
+            "value": [
+                {
+                    "atPhysicsCriticalStrikeBaseRate": 500
                 }
             ]
         }
@@ -355,6 +426,18 @@
                 },
                 {
                     "atBeTherapyCoefficient": 102
+                }
+            ]
+        },
+        {
+            "skill_id": 13126,
+            "remark": "恋战",
+            "value": [
+                {
+                    "atDecriticalDamagePowerPercent": -410
+                },
+                {
+                    "atAllDamageAddPercent": 102
                 }
             ]
         },
@@ -383,6 +466,7 @@
             ]
         }
     ],
+
     "10698": [
         {
             "skill_id": 32578,
@@ -427,6 +511,23 @@
         }
     ],
     "10786": [
-
+        {
+            "skill_id": 102294,
+            "remark": "逆脉·悟",
+            "value": [
+                {
+                    "atNeutralCriticalStrikeBaseRate": 1500
+                }
+            ]
+        },
+        {
+            "skill_id": 102297,
+            "remark": "入静·悟",
+            "value": [
+                {
+                    "atNeutralCriticalDamagePowerBaseKiloNumRate": 100
+                }
+            ]
+        }
     ]
 }
