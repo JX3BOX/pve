@@ -1,6 +1,18 @@
 {
     "10081": [
         {
+            "skill_id": 5882,
+            "remark": "倾城",
+            "value": [
+                {
+                    "atMoveSpeedPercent": 103
+                },
+                {
+                    "atGlobalResistPercent": 102
+                }
+            ]
+        },
+        {
             "skill_id": 6566,
             "remark": "霜风",
             "value": [

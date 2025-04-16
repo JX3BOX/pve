@@ -5,8 +5,8 @@
 import { ConvertAttribute } from "./lua_attribute_convert.js"
 import MountRawAttributesStd from "./stdV130/MountRawAttributes.json"
 import MountRawAttributesOrigin from "./originV90/MountRawAttributes.json"
-import MountExtraStd from "./std/mount_extra.json"
-import MountExtraOrigin from "./originV80/mount_extra.json"
+import MountExtraStd from "./stdV130/mount_extra.json"
+import MountExtraOrigin from "./originV90/mount_extra.json"
 import { AddAttribute, GetAttributeValueFromParams } from "./attr.js"
 
 /**
