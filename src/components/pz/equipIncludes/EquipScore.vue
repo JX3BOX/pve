@@ -47,6 +47,7 @@ import { getEquipScore, getStoneScore, getEmbeddingScore, getGsStrengthScore } f
 import { getEquipDrop } from "@/service/pz/game";
 import equip_map from "@/assets/data/pz/equip_map.json";
 import { extractString } from "@/utils/pz/re";
+import { uniq } from "lodash";
 export default {
     name: "EquipScore",
     data: () => ({
@@ -108,9 +109,10 @@ export default {
                 if (equipInfo?.GetType) {
                     const group_names = equipInfo.GetType.split(",");
                     const regex = /\{(\[?.*?\]?,?)\}/g;
-                    const group_descs = extractString(regex, equipInfo.Get_Desc)?.map((desc) =>
-                        desc[1].replace(/[\[\]]/g, "").replace(/,/g, "，")
-                    );
+                    const group_descs = extractString(regex, equipInfo.Get_Desc)
+                        ?.map((desc) => desc[1].replace(/[\[\]]/g, "").replace(/,/g, "，"))
+                        ?.map((desc) => uniq(desc.split("，")).join("，"));
+
                     // return result
                     group_names.forEach((t, i) => {
                         drop += `${t}（${group_descs[i] || "未知"}）` + (i === group_names.length - 1 ? "" : "/ ");
