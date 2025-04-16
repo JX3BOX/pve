@@ -313,7 +313,9 @@
             "remark": "从容",
             "value": [
                 {
-                    "atStrainPercent": 154,
+                    "atStrainPercent": 154
+                },
+                {
                     "atPhysicsAttackPowerPercent": 102
                 }
             ]
@@ -323,7 +325,9 @@
             "remark": "恋战",
             "value": [
                 {
-                    "atDecriticalDamagePowerPercent": -205,
+                    "atDecriticalDamagePowerPercent": -205
+                },
+                {
                     "atAllDamageAddPercent": 205
                 }
             ]
@@ -347,7 +351,9 @@
             "remark": "从容",
             "value": [
                 {
-                    "atStrainPercent": 154,
+                    "atStrainPercent": 154
+                },
+                {
                     "atPhysicsAttackPowerPercent": 102
                 }
             ]
@@ -357,7 +363,9 @@
             "remark": "厉兵·悟",
             "value": [
                 {
-                    "atVitalityBasePercentAdd": 102,
+                    "atVitalityBasePercentAdd": 102
+                },
+                {
                     "atBeTherapyCoefficient": 102
                 }
             ]
@@ -370,6 +378,9 @@
             "value": [
                 {
                     "atStrengthBasePercentAdd": 102
+                },
+                {
+                    "atStrainPercent": 102
                 }
             ]
         },
