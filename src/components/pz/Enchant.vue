@@ -122,7 +122,7 @@ export default {
                                     // 品级不合适则不显示
                                     if (!this.prefix) return false;
                                     // 只展示对应部位的大附魔
-                                    if (!enchant.Name.includes(this.equipSubtype)) return false;
+                                    if (!["横", "纵", this.equipSubtype].some((str)=>enchant.Name.includes(str))) return false;
                                     // 只展示品级合适的前缀大附魔
                                     return this.prefix.some((prefix) => enchant.Name.includes(prefix));
                                 } else {
