@@ -65,7 +65,7 @@
     </div>
 </template>
 <script>
-import { getPosts, globalSearch } from "@/service/macro/post";
+import { getPosts, } from "@/service/macro/post";
 const appKey = "macro";
 
 import listItem from "@/components/macro/list/list_item.vue";
@@ -75,6 +75,7 @@ import CommonHeader from "@/components/macro/common-header.vue";
 
 import { reportNow } from "@jx3box/jx3box-common/js/reporter";
 import {getDesignLog} from "@/service/macro/design";
+import {isFans} from "@/service/macro/post";
 import DesignTask from "@jx3box/jx3box-common-ui/src/bread/DesignTask.vue";
 import bus from "@/utils/bus";
 import User from "@jx3box/jx3box-common/js/user";
@@ -248,7 +249,18 @@ export default {
             this.loadData(true);
         },
         // 打开抽屉
-        loadMacro([author, m, id]) {
+        async loadMacro([author, m, id, post]) {
+            if (post.visible == 5) {
+                // 粉丝可见
+                const res = await isFans(post.post_author);
+
+               const is_fans = res.data?.data;
+
+                if (!is_fans) {
+                    this.$message.warning("该宏设置为粉丝可见，如需查看请关注作者");
+                    return;
+                }
+            }
             this.drawer = true;
             this.drawer_title = author + "#" + m.name;
             this.drawer_content = m.macro;

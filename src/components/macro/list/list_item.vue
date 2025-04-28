@@ -54,7 +54,7 @@
                 <li class="u-macro" v-for="(m, i) in item.post_meta.data" :key="i">
                     <img class="u-macro-icon" :src="iconLink(m.icon)" />
                     <el-tooltip effect="dark" :content="'点击快捷查看 · ' + m.name" placement="top-start">
-                        <span class="u-macro-name" @click="loadMacro(item.author, m, item.ID)">{{
+                        <span class="u-macro-name" @click="loadMacro(item.author, m, item.ID, item)">{{
                             m.name || "未命名"
                         }}</span>
                     </el-tooltip>
@@ -121,8 +121,8 @@ export default {
     },
     watch: {},
     methods: {
-        loadMacro: function (a, b, c) {
-            this.$emit("loadMacro", [a, b, c]);
+        loadMacro: function (a, b, c, d) {
+            this.$emit("loadMacro", [a, b, c, d]);
         },
         authorLink,
         iconLink,

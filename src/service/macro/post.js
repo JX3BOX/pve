@@ -77,6 +77,11 @@ function getFriendsPosts(params) {
     });
 }
 
+// 是否为粉丝
+function isFans(user_id) {
+    return $cms().get(`/api/cms/user/kith/is-fans/${user_id}`)
+}
+
 export {
     getPosts,
     getPost,
@@ -87,4 +92,5 @@ export {
     getFriendsPosts,
     getFavPosts,
     globalSearch,
+    isFans,
 };

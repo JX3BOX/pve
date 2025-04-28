@@ -221,7 +221,18 @@ export default {
             this.loadData(true);
         },
         // 打开抽屉
-        loadMacro([author, m, id]) {
+        async loadMacro([author, m, id, post]) {
+            if (post.visible == 5) {
+                // 粉丝可见
+                const res = await isFans(post.post_author);
+
+               const is_fans = res.data?.data;
+
+                if (!is_fans) {
+                    this.$message.warning("该宏设置为粉丝可见，如需查看请关注作者");
+                    return;
+                }
+            }
             this.drawer = true;
             this.drawer_title = author + "#" + m.name;
             this.drawer_content = m.macro;
