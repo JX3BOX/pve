@@ -2,7 +2,7 @@
     <div class="m-single-side">
         <PostTopic v-if="id" type="bps" :id="~~id" :post-banner="post.post_banner" />
         <PostDirectory id="directory" />
-        <PostVersion :post="post"></PostVersion>
+        <PostVersion :post="post" v-if="visible"></PostVersion>
         <PostCollection v-if="showSideCollection" :store="collection_data" />
     </div>
 </template>
@@ -38,6 +38,9 @@ export default {
         },
         post: function () {
             return this.$store.state.post;
+        },
+        visible: function () {
+            return !!this.post?._check;
         },
     },
 };

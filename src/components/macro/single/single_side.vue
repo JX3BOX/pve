@@ -14,7 +14,7 @@
             </div>
         </div>
         <PostDirectory id="directory" />
-        <PostVersion :post="post"></PostVersion>
+        <PostVersion :post="post" v-if="visible"></PostVersion>
         <PostCollection v-if="showSideCollection" :store="collection_data" />
     </div>
 </template>
@@ -59,6 +59,9 @@ export default {
         },
         author: function () {
             return this.$store.state.post?.author_info?.display_name || this.$store.state.post?.author;
+        },
+        visible: function () {
+            return !!this.post?._check;
         },
     },
 };

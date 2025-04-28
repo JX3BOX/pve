@@ -2,7 +2,7 @@
     <div class="m-single-side">
         <PostTopic v-if="id" type="fb" :id="~~id" />
         <PostDirectory id="directory" />
-        <PostVersion :post="post"></PostVersion>
+        <PostVersion :post="post" v-if="visible"></PostVersion>
         <PostCollection v-if="showSideCollection" :store="collection_data" />
     </div>
 </template>
@@ -35,6 +35,9 @@ export default {
         },
         collection_data: function () {
             return this.$store.state.extend?.collection_data;
+        },
+        visible: function () {
+            return !!this.post?._check;
         },
     },
 };
