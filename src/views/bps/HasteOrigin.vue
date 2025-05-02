@@ -74,7 +74,7 @@ export default {
                 skillTime: 1.5,
                 hitTimes: 1,
             },
-            hasteCof : (14.983 * 725).toFixed(6),
+            hasteCof : (12.486 * 725).toFixed(6),
             //基础加速系数
             tableHeader: [
                 {
