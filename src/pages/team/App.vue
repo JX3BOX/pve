@@ -9,19 +9,26 @@
             :adminEnable="false"
             :feedbackEnable="true"
             :crumbEnable="true"
+            v-if="!isCreateTeam"
         >
             <img slot="logo" :src="logo" />
         </Breadcrumb>
-        <LeftSidebar>
+        <LeftSidebar v-if="!isCreateTeam">
             <Nav />
         </LeftSidebar>
-        <Main :withoutRight="true">
+        <Main :withoutRight="true" v-if="!isCreateTeam">
             <div class="m-main" :style="{ minHeight: keepHeight }">
                 <router-view v-if="isPublic || isLogin" />
                 <el-alert v-else title="请先登录" type="warning" description="使用本功能请先登录" show-icon> </el-alert>
             </div>
             <Footer></Footer>
         </Main>
+        <template v-if="isCreateTeam">
+            <div class="m-create-team">
+                <router-view v-if="isPublic || isLogin" />
+                <el-alert v-else title="请先登录" type="warning" description="使用本功能请先登录" show-icon> </el-alert>
+            </div>
+        </template>
     </div>
 </template>
 
@@ -42,6 +49,9 @@ export default {
     computed: {
         isPublic: function () {
             return this.$route.meta.isPublic;
+        },
+        isCreateTeam: function () {
+            return this.$route.meta.isCreateTeam;
         },
     },
     methods: {},

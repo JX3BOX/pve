@@ -39,9 +39,10 @@ const ApplyList = () => import("@/views/team/apply/ApplyList.vue");
 const ApplySingle = () => import("@/views/team/apply/ApplySingle.vue");
 const Battle = () => import("@/views/team/battle/index.vue");
 const myBattle = () => import("@/views/team/battle/myBattle.vue");
+const CreateTeam = () => import("@/views/team/createTeam/index.vue");
 
 Vue.use(VueRouter);
-
+       
 const routes = [
     { name: "index", path: "/", meta: { isPublic: true }, component: ListOrg },
     { name: "manage_org", path: "/org/manage", meta: { isPublic: false }, component: ManageOrg },
@@ -85,6 +86,7 @@ const routes = [
 
     { name: "Battle", path: "/battle", meta: { isPublic: false }, component: Battle },
     { name: "myBattle", path: "/myBattle", meta: { isPublic: false }, component: myBattle },
+    { name: "create_team", path: "/qqbot", meta: { isPublic: false,isCreateTeam:true }, component: CreateTeam },
 ];
 
 const router = new VueRouter({
